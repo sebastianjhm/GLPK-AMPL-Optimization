@@ -1,0 +1,2809 @@
+Problem:    Caso1_Log
+Rows:       708
+Columns:    691 (200 integer, 84 binary)
+Non-zeros:  2738
+Status:     INTEGER OPTIMAL
+Objective:  FO = 1011429003 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 FO                1.01143e+09                             
+     2 res1              4.68338e+07   4.68338e+07             = 
+     3 res2                        0            -0             = 
+     4 res3                        0            -0             = 
+     5 res4                        0            -0             = 
+     6 res5                        0            -0             = 
+     7 res6                        0            -0             = 
+     8 res7                        0            -0             = 
+     9 res8[Disinter]
+                                   0            -0             = 
+    10 res8[Quimifast]
+                                   0            -0             = 
+    11 res8[Alcampo]
+                                   0            -0             = 
+    12 res8[Reprefarco]
+                                   0            -0             = 
+    13 res9[Disinter]
+                                   0            -0             = 
+    14 res9[Quimifast]
+                                   0            -0             = 
+    15 res9[Alcampo]
+                                   0            -0             = 
+    16 res9[Reprefarco]
+                                   0            -0             = 
+    17 res10[Disinter]
+                                   0            -0             = 
+    18 res10[Quimifast]
+                                   0            -0             = 
+    19 res10[Alcampo]
+                                   0            -0             = 
+    20 res10[Reprefarco]
+                                   0            -0             = 
+    21 res11[Disinter]
+                                   0            -0             = 
+    22 res11[Quimifast]
+                                   0            -0             = 
+    23 res11[Alcampo]
+                                   0            -0             = 
+    24 res11[Reprefarco]
+                                   0            -0             = 
+    25 res12[Disinter,Yumbo,Analgesicos]
+                                   0            -0             = 
+    26 res12[Disinter,Yumbo,Antibioticos]
+                                   0            -0             = 
+    27 res12[Disinter,Yumbo,Anestesicos]
+                                   0            -0             = 
+    28 res12[Disinter,Yumbo,Excipiente]
+                                   0            -0             = 
+    29 res12[Disinter,Cartago,Analgesicos]
+                                   0            -0             = 
+    30 res12[Disinter,Cartago,Antibioticos]
+                                   0            -0             = 
+    31 res12[Disinter,Cartago,Anestesicos]
+                                   0            -0             = 
+    32 res12[Disinter,Cartago,Excipiente]
+                                   0            -0             = 
+    33 res12[Disinter,Ibague,Analgesicos]
+                                   0            -0             = 
+    34 res12[Disinter,Ibague,Antibioticos]
+                                   0            -0             = 
+    35 res12[Disinter,Ibague,Anestesicos]
+                                   0            -0             = 
+    36 res12[Disinter,Ibague,Excipiente]
+                                   0            -0             = 
+    37 res12[Quimifast,Yumbo,Analgesicos]
+                                   0            -0             = 
+    38 res12[Quimifast,Yumbo,Antibioticos]
+                                   0            -0             = 
+    39 res12[Quimifast,Yumbo,Anestesicos]
+                                   0            -0             = 
+    40 res12[Quimifast,Yumbo,Excipiente]
+                                   0            -0             = 
+    41 res12[Quimifast,Cartago,Analgesicos]
+                                   0            -0             = 
+    42 res12[Quimifast,Cartago,Antibioticos]
+                                   0            -0             = 
+    43 res12[Quimifast,Cartago,Anestesicos]
+                                   0            -0             = 
+    44 res12[Quimifast,Cartago,Excipiente]
+                                   0            -0             = 
+    45 res12[Quimifast,Ibague,Analgesicos]
+                                   0            -0             = 
+    46 res12[Quimifast,Ibague,Antibioticos]
+                                   0            -0             = 
+    47 res12[Quimifast,Ibague,Anestesicos]
+                                   0            -0             = 
+    48 res12[Quimifast,Ibague,Excipiente]
+                                   0            -0             = 
+    49 res12[Alcampo,Yumbo,Analgesicos]
+                                   0            -0             = 
+    50 res12[Alcampo,Yumbo,Antibioticos]
+                                   0            -0             = 
+    51 res12[Alcampo,Yumbo,Anestesicos]
+                                   0            -0             = 
+    52 res12[Alcampo,Yumbo,Excipiente]
+                                   0            -0             = 
+    53 res12[Alcampo,Cartago,Analgesicos]
+                                   0            -0             = 
+    54 res12[Alcampo,Cartago,Antibioticos]
+                                   0            -0             = 
+    55 res12[Alcampo,Cartago,Anestesicos]
+                                   0            -0             = 
+    56 res12[Alcampo,Cartago,Excipiente]
+                                   0            -0             = 
+    57 res12[Alcampo,Ibague,Analgesicos]
+                                   0            -0             = 
+    58 res12[Alcampo,Ibague,Antibioticos]
+                                   0            -0             = 
+    59 res12[Alcampo,Ibague,Anestesicos]
+                                   0            -0             = 
+    60 res12[Alcampo,Ibague,Excipiente]
+                                   0            -0             = 
+    61 res12[Reprefarco,Yumbo,Analgesicos]
+                                   0            -0             = 
+    62 res12[Reprefarco,Yumbo,Antibioticos]
+                                   0            -0             = 
+    63 res12[Reprefarco,Yumbo,Anestesicos]
+                                   0            -0             = 
+    64 res12[Reprefarco,Yumbo,Excipiente]
+                                   0            -0             = 
+    65 res12[Reprefarco,Cartago,Analgesicos]
+                                   0            -0             = 
+    66 res12[Reprefarco,Cartago,Antibioticos]
+                                   0            -0             = 
+    67 res12[Reprefarco,Cartago,Anestesicos]
+                                   0            -0             = 
+    68 res12[Reprefarco,Cartago,Excipiente]
+                                   0            -0             = 
+    69 res12[Reprefarco,Ibague,Analgesicos]
+                                   0            -0             = 
+    70 res12[Reprefarco,Ibague,Antibioticos]
+                                   0            -0             = 
+    71 res12[Reprefarco,Ibague,Anestesicos]
+                                   0            -0             = 
+    72 res12[Reprefarco,Ibague,Excipiente]
+                                   0            -0             = 
+    73 res13                       3             1               
+    74 res14[Disinter]
+                                   1                           1 
+    75 res14[Quimifast]
+                                   1                           1 
+    76 res14[Alcampo]
+                                   0                           1 
+    77 res14[Reprefarco]
+                                   1                           1 
+    78 res15[Disinter]
+                                   0            -0             = 
+    79 res15[Quimifast]
+                                   0            -0             = 
+    80 res15[Alcampo]
+                                   0            -0             = 
+    81 res15[Reprefarco]
+                                   0            -0             = 
+    82 res16[Disinter,Envigado]
+                                   0            -0               
+    83 res16[Quimifast,Envigado]
+                            0.791667            -0               
+    84 res16[Alcampo,Envigado]
+                                   0            -0               
+    85 res16[Reprefarco,Envigado]
+                                   0            -0               
+    86 res17[Disinter,Yumbo]
+                                   0            -0               
+    87 res17[Disinter,Cartago]
+                                   0            -0               
+    88 res17[Disinter,Ibague]
+                          0.00833333            -0               
+    89 res17[Quimifast,Yumbo]
+                                   0            -0               
+    90 res17[Quimifast,Cartago]
+                            0.658333            -0               
+    91 res17[Quimifast,Ibague]
+                                   0            -0               
+    92 res17[Alcampo,Yumbo]
+                                   0            -0               
+    93 res17[Alcampo,Cartago]
+                                   0            -0               
+    94 res17[Alcampo,Ibague]
+                                   0            -0               
+    95 res17[Reprefarco,Yumbo]
+                              0.5625            -0               
+    96 res17[Reprefarco,Cartago]
+                                   0            -0               
+    97 res17[Reprefarco,Ibague]
+                                   0            -0               
+    98 res18[Disinter,Cartagena]
+                                   0            -0               
+    99 res18[Disinter,Buenaventura]
+                                   0            -0               
+   100 res18[Disinter,Disinter]
+                          0.00833333            -0               
+   101 res18[Disinter,Quimifast]
+                                   0            -0               
+   102 res18[Disinter,Alcampo]
+                                   0            -0               
+   103 res18[Disinter,Reprefarco]
+                                   0            -0               
+   104 res18[Quimifast,Cartagena]
+                                   0            -0               
+   105 res18[Quimifast,Buenaventura]
+                                   0            -0               
+   106 res18[Quimifast,Disinter]
+                                   0            -0               
+   107 res18[Quimifast,Quimifast]
+                                0.45            -0               
+   108 res18[Quimifast,Alcampo]
+                                   0            -0               
+   109 res18[Quimifast,Reprefarco]
+                                   0            -0               
+   110 res18[Alcampo,Cartagena]
+                                   0            -0               
+   111 res18[Alcampo,Buenaventura]
+                                   0            -0               
+   112 res18[Alcampo,Disinter]
+                                   0            -0               
+   113 res18[Alcampo,Quimifast]
+                                   0            -0               
+   114 res18[Alcampo,Alcampo]
+                                   0            -0               
+   115 res18[Alcampo,Reprefarco]
+                                   0            -0               
+   116 res18[Reprefarco,Cartagena]
+                                   0            -0               
+   117 res18[Reprefarco,Buenaventura]
+                              0.3125            -0               
+   118 res18[Reprefarco,Disinter]
+                                   0            -0               
+   119 res18[Reprefarco,Quimifast]
+                                   0            -0               
+   120 res18[Reprefarco,Alcampo]
+                                   0            -0               
+   121 res18[Reprefarco,Reprefarco]
+                                0.25            -0               
+   122 res19[Yumbo,Disinter]
+                                   0            -0               
+   123 res19[Yumbo,Quimifast]
+                                   0            -0               
+   124 res19[Yumbo,Alcampo]
+                                   0            -0               
+   125 res19[Yumbo,Reprefarco]
+                              0.5625            -0               
+   126 res19[Cartago,Disinter]
+                                   0            -0               
+   127 res19[Cartago,Quimifast]
+                            0.658333            -0               
+   128 res19[Cartago,Alcampo]
+                                   0            -0               
+   129 res19[Cartago,Reprefarco]
+                                   0            -0               
+   130 res19[Ibague,Disinter]
+                          0.00833333            -0               
+   131 res19[Ibague,Quimifast]
+                                   0            -0               
+   132 res19[Ibague,Alcampo]
+                                   0            -0               
+   133 res19[Ibague,Reprefarco]
+                                   0            -0               
+   134 res20[Disinter,San_Francisco]
+                                   0            -0               
+   135 res20[Disinter,San_Jose]
+                                   0            -0               
+   136 res20[Quimifast,San_Francisco]
+                                   0            -0               
+   137 res20[Quimifast,San_Jose]
+                                   0            -0               
+   138 res20[Alcampo,San_Francisco]
+                                   0            -0               
+   139 res20[Alcampo,San_Jose]
+                                   0            -0               
+   140 res20[Reprefarco,San_Francisco]
+                            0.116667            -0               
+   141 res20[Reprefarco,San_Jose]
+                               0.875            -0               
+   142 res21[Disinter,Salud_Vida]
+                                   0            -0               
+   143 res21[Disinter,Audifarma]
+                            0.183333            -0               
+   144 res21[Disinter,Cafam]
+                                   0            -0               
+   145 res21[Disinter,Disfarma]
+                                   0            -0               
+   146 res21[Disinter,Cruz_Verde]
+                               0.825            -0               
+   147 res21[Quimifast,Salud_Vida]
+                                   0            -0               
+   148 res21[Quimifast,Audifarma]
+                                   0            -0               
+   149 res21[Quimifast,Cafam]
+                            0.658333            -0               
+   150 res21[Quimifast,Disfarma]
+                                   0            -0               
+   151 res21[Quimifast,Cruz_Verde]
+                                   0            -0               
+   152 res21[Alcampo,Salud_Vida]
+                                   0            -0               
+   153 res21[Alcampo,Audifarma]
+                                   0            -0               
+   154 res21[Alcampo,Cafam]
+                                   0            -0               
+   155 res21[Alcampo,Disfarma]
+                                   0            -0               
+   156 res21[Alcampo,Cruz_Verde]
+                                   0            -0               
+   157 res21[Reprefarco,Salud_Vida]
+                              0.3125            -0               
+   158 res21[Reprefarco,Audifarma]
+                                   0            -0               
+   159 res21[Reprefarco,Cafam]
+                                   0            -0               
+   160 res21[Reprefarco,Disfarma]
+                            0.966667            -0               
+   161 res21[Reprefarco,Cruz_Verde]
+                                   0            -0               
+   162 res22[Disinter,San_Francisco]
+                                   0            -0               
+   163 res22[Disinter,San_Jose]
+                                   0            -0               
+   164 res22[Quimifast,San_Francisco]
+                                   0            -0               
+   165 res22[Quimifast,San_Jose]
+                                   0            -0               
+   166 res22[Alcampo,San_Francisco]
+                                   0            -0               
+   167 res22[Alcampo,San_Jose]
+                                   0            -0               
+   168 res22[Reprefarco,San_Francisco]
+                            0.666667            -0               
+   169 res22[Reprefarco,San_Jose]
+                            0.555556            -0               
+   170 res23[Disinter]
+                                   0            -0               
+   171 res23[Quimifast]
+                                   0            -0               
+   172 res23[Alcampo]
+                                   0            -0               
+   173 res23[Reprefarco]
+                            0.222222            -0               
+   174 res24[Salud_Vida,Disinter]
+                                   0            -0               
+   175 res24[Salud_Vida,Quimifast]
+                                   0            -0               
+   176 res24[Salud_Vida,Alcampo]
+                                   0            -0               
+   177 res24[Salud_Vida,Reprefarco]
+                              0.0325            -0               
+   178 res24[Audifarma,Disinter]
+                               0.346            -0               
+   179 res24[Audifarma,Quimifast]
+                                   0            -0               
+   180 res24[Audifarma,Alcampo]
+                                   0            -0               
+   181 res24[Audifarma,Reprefarco]
+                                   0            -0               
+   182 res24[Cafam,Disinter]
+                                   0            -0               
+   183 res24[Cafam,Quimifast]
+                               0.797            -0               
+   184 res24[Cafam,Alcampo]
+                                   0            -0               
+   185 res24[Cafam,Reprefarco]
+                                   0            -0               
+   186 res24[Disfarma,Disinter]
+                                   0            -0               
+   187 res24[Disfarma,Quimifast]
+                                   0            -0               
+   188 res24[Disfarma,Alcampo]
+                                   0            -0               
+   189 res24[Disfarma,Reprefarco]
+                               0.908            -0               
+   190 res24[Cruz_Verde,Disinter]
+                               0.497            -0               
+   191 res24[Cruz_Verde,Quimifast]
+                                   0            -0               
+   192 res24[Cruz_Verde,Alcampo]
+                                   0            -0               
+   193 res24[Cruz_Verde,Reprefarco]
+                                   0            -0               
+   194 res25[Disinter,Punto_Azul]
+                               0.843            -0               
+   195 res25[Quimifast,Punto_Azul]
+                               0.797            -0               
+   196 res25[Alcampo,Punto_Azul]
+                                   0            -0               
+   197 res25[Reprefarco,Punto_Azul]
+                              0.9405            -0               
+   198 res26[Disinter,Salud_Vida]
+                                  -1                          -0 
+   199 res26[Disinter,Audifarma]
+                                   0                          -0 
+   200 res26[Disinter,Cafam]
+                                  -1                          -0 
+   201 res26[Disinter,Disfarma]
+                                  -1                          -0 
+   202 res26[Disinter,Cruz_Verde]
+                                   0                          -0 
+   203 res26[Quimifast,Salud_Vida]
+                                  -1                          -0 
+   204 res26[Quimifast,Audifarma]
+                                  -1                          -0 
+   205 res26[Quimifast,Cafam]
+                                   0                          -0 
+   206 res26[Quimifast,Disfarma]
+                                  -1                          -0 
+   207 res26[Quimifast,Cruz_Verde]
+                                  -1                          -0 
+   208 res26[Alcampo,Salud_Vida]
+                                   0                          -0 
+   209 res26[Alcampo,Audifarma]
+                                   0                          -0 
+   210 res26[Alcampo,Cafam]
+                                   0                          -0 
+   211 res26[Alcampo,Disfarma]
+                                   0                          -0 
+   212 res26[Alcampo,Cruz_Verde]
+                                   0                          -0 
+   213 res26[Reprefarco,Salud_Vida]
+                                   0                          -0 
+   214 res26[Reprefarco,Audifarma]
+                                  -1                          -0 
+   215 res26[Reprefarco,Cafam]
+                                  -1                          -0 
+   216 res26[Reprefarco,Disfarma]
+                                   0                          -0 
+   217 res26[Reprefarco,Cruz_Verde]
+                                  -1                          -0 
+   218 res27[Disinter,Salud_Vida]
+                                   0                          -0 
+   219 res27[Disinter,Audifarma]
+                             -997820                          -0 
+   220 res27[Disinter,Cafam]
+                                   0                          -0 
+   221 res27[Disinter,Disfarma]
+                                   0                          -0 
+   222 res27[Disinter,Cruz_Verde]
+                             -994990                          -0 
+   223 res27[Quimifast,Salud_Vida]
+                                   0                          -0 
+   224 res27[Quimifast,Audifarma]
+                                   0                          -0 
+   225 res27[Quimifast,Cafam]
+                             -995990                          -0 
+   226 res27[Quimifast,Disfarma]
+                                   0                          -0 
+   227 res27[Quimifast,Cruz_Verde]
+                                   0                          -0 
+   228 res27[Alcampo,Salud_Vida]
+                                   0                          -0 
+   229 res27[Alcampo,Audifarma]
+                                   0                          -0 
+   230 res27[Alcampo,Cafam]
+                                   0                          -0 
+   231 res27[Alcampo,Disfarma]
+                                   0                          -0 
+   232 res27[Alcampo,Cruz_Verde]
+                                   0                          -0 
+   233 res27[Reprefarco,Salud_Vida]
+                             -996775                          -0 
+   234 res27[Reprefarco,Audifarma]
+                                   0                          -0 
+   235 res27[Reprefarco,Cafam]
+                                   0                          -0 
+   236 res27[Reprefarco,Disfarma]
+                             -996360                          -0 
+   237 res27[Reprefarco,Cruz_Verde]
+                                   0                          -0 
+   238 res28[Disinter,Salud_Vida]
+                                   0            -0             = 
+   239 res28[Disinter,Audifarma]
+                                   0            -0             = 
+   240 res28[Disinter,Cafam]
+                                   0            -0             = 
+   241 res28[Disinter,Disfarma]
+                                   0            -0             = 
+   242 res28[Disinter,Cruz_Verde]
+                                   0            -0             = 
+   243 res28[Quimifast,Salud_Vida]
+                                   0            -0             = 
+   244 res28[Quimifast,Audifarma]
+                                   0            -0             = 
+   245 res28[Quimifast,Cafam]
+                                   0            -0             = 
+   246 res28[Quimifast,Disfarma]
+                                   0            -0             = 
+   247 res28[Quimifast,Cruz_Verde]
+                                   0            -0             = 
+   248 res28[Alcampo,Salud_Vida]
+                                   0            -0             = 
+   249 res28[Alcampo,Audifarma]
+                                   0            -0             = 
+   250 res28[Alcampo,Cafam]
+                                   0            -0             = 
+   251 res28[Alcampo,Disfarma]
+                                   0            -0             = 
+   252 res28[Alcampo,Cruz_Verde]
+                                   0            -0             = 
+   253 res28[Reprefarco,Salud_Vida]
+                                   0            -0             = 
+   254 res28[Reprefarco,Audifarma]
+                                   0            -0             = 
+   255 res28[Reprefarco,Cafam]
+                                   0            -0             = 
+   256 res28[Reprefarco,Disfarma]
+                                   0            -0             = 
+   257 res28[Reprefarco,Cruz_Verde]
+                                   0            -0             = 
+   258 res29[Salud_Vida]
+                                   1             1             = 
+   259 res29[Audifarma]
+                                   1             1             = 
+   260 res29[Cafam]                1             1             = 
+   261 res29[Disfarma]
+                                   1             1             = 
+   262 res29[Cruz_Verde]
+                                   1             1             = 
+   263 res30[Comprimidos,Salud_Vida]
+                                2800          2800               
+   264 res30[Comprimidos,Audifarma]
+                                1850          1850               
+   265 res30[Comprimidos,Cafam]
+                                3200          3200               
+   266 res30[Comprimidos,Disfarma]
+                                2400          2400               
+   267 res30[Comprimidos,Cruz_Verde]
+                                3450          3450               
+   268 res30[Tabletas,Salud_Vida]
+                                 280           280               
+   269 res30[Tabletas,Audifarma]
+                                 150           150               
+   270 res30[Tabletas,Cafam]
+                                 640           640               
+   271 res30[Tabletas,Disfarma]
+                                 860           860               
+   272 res30[Tabletas,Cruz_Verde]
+                                1140          1140               
+   273 res30[Capsulas,Salud_Vida]
+                                 145           145               
+   274 res30[Capsulas,Audifarma]
+                                 180           180               
+   275 res30[Capsulas,Cafam]
+                                 170           170               
+   276 res30[Capsulas,Disfarma]
+                                 380           380               
+   277 res30[Capsulas,Cruz_Verde]
+                                 420           420               
+   278 res31[Disinter,Salud_Vida]
+                                   0            -0             = 
+   279 res31[Disinter,Audifarma]
+                                   0            -0             = 
+   280 res31[Disinter,Cafam]
+                                   0            -0             = 
+   281 res31[Disinter,Disfarma]
+                                   0            -0             = 
+   282 res31[Disinter,Cruz_Verde]
+                                   0            -0             = 
+   283 res31[Quimifast,Salud_Vida]
+                                   0            -0             = 
+   284 res31[Quimifast,Audifarma]
+                                   0            -0             = 
+   285 res31[Quimifast,Cafam]
+                                   0            -0             = 
+   286 res31[Quimifast,Disfarma]
+                                   0            -0             = 
+   287 res31[Quimifast,Cruz_Verde]
+                                   0            -0             = 
+   288 res31[Alcampo,Salud_Vida]
+                                   0            -0             = 
+   289 res31[Alcampo,Audifarma]
+                                   0            -0             = 
+   290 res31[Alcampo,Cafam]
+                                   0            -0             = 
+   291 res31[Alcampo,Disfarma]
+                                   0            -0             = 
+   292 res31[Alcampo,Cruz_Verde]
+                                   0            -0             = 
+   293 res31[Reprefarco,Salud_Vida]
+                                   0            -0             = 
+   294 res31[Reprefarco,Audifarma]
+                                   0            -0             = 
+   295 res31[Reprefarco,Cafam]
+                                   0            -0             = 
+   296 res31[Reprefarco,Disfarma]
+                                   0            -0             = 
+   297 res31[Reprefarco,Cruz_Verde]
+                                   0            -0             = 
+   298 res32[Disinter,Comprimidos,Tipo_1]
+                             -994700                          -0 
+   299 res32[Disinter,Comprimidos,Tipo_2]
+                                   0                          -0 
+   300 res32[Disinter,Tabletas,Tipo_1]
+                             -998710                          -0 
+   301 res32[Disinter,Tabletas,Tipo_2]
+                                   0                          -0 
+   302 res32[Disinter,Capsulas,Tipo_1]
+                             -999400                          -0 
+   303 res32[Disinter,Capsulas,Tipo_2]
+                                   0                          -0 
+   304 res32[Quimifast,Comprimidos,Tipo_1]
+                             -996800                          -0 
+   305 res32[Quimifast,Comprimidos,Tipo_2]
+                                   0                          -0 
+   306 res32[Quimifast,Tabletas,Tipo_1]
+                             -999360                          -0 
+   307 res32[Quimifast,Tabletas,Tipo_2]
+                                   0                          -0 
+   308 res32[Quimifast,Capsulas,Tipo_1]
+                             -999830                          -0 
+   309 res32[Quimifast,Capsulas,Tipo_2]
+                                   0                          -0 
+   310 res32[Alcampo,Comprimidos,Tipo_1]
+                                   0                          -0 
+   311 res32[Alcampo,Comprimidos,Tipo_2]
+                                   0                          -0 
+   312 res32[Alcampo,Tabletas,Tipo_1]
+                                   0                          -0 
+   313 res32[Alcampo,Tabletas,Tipo_2]
+                                   0                          -0 
+   314 res32[Alcampo,Capsulas,Tipo_1]
+                                   0                          -0 
+   315 res32[Alcampo,Capsulas,Tipo_2]
+                                   0                          -0 
+   316 res32[Reprefarco,Comprimidos,Tipo_1]
+                             -994800                          -0 
+   317 res32[Reprefarco,Comprimidos,Tipo_2]
+                                   0                          -0 
+   318 res32[Reprefarco,Tabletas,Tipo_1]
+                             -998860                          -0 
+   319 res32[Reprefarco,Tabletas,Tipo_2]
+                                   0                          -0 
+   320 res32[Reprefarco,Capsulas,Tipo_1]
+                             -999475                          -0 
+   321 res32[Reprefarco,Capsulas,Tipo_2]
+                                   0                          -0 
+   322 res33[Disinter,Comprimidos]
+                                   0            -0             = 
+   323 res33[Disinter,Tabletas]
+                                   0            -0             = 
+   324 res33[Disinter,Capsulas]
+                                   0            -0             = 
+   325 res33[Quimifast,Comprimidos]
+                                   0            -0             = 
+   326 res33[Quimifast,Tabletas]
+                                   0            -0             = 
+   327 res33[Quimifast,Capsulas]
+                                   0            -0             = 
+   328 res33[Alcampo,Comprimidos]
+                                   0            -0             = 
+   329 res33[Alcampo,Tabletas]
+                                   0            -0             = 
+   330 res33[Alcampo,Capsulas]
+                                   0            -0             = 
+   331 res33[Reprefarco,Comprimidos]
+                                   0            -0             = 
+   332 res33[Reprefarco,Tabletas]
+                                   0            -0             = 
+   333 res33[Reprefarco,Capsulas]
+                                   0            -0             = 
+   334 res34[Disinter,Yumbo]
+                                   0                          -0 
+   335 res34[Disinter,Cartago]
+                                   0                          -0 
+   336 res34[Disinter,Ibague]
+                                   0                          -0 
+   337 res34[Quimifast,Yumbo]
+                                  -1                          -0 
+   338 res34[Quimifast,Cartago]
+                                   0                          -0 
+   339 res34[Quimifast,Ibague]
+                                  -1                          -0 
+   340 res34[Alcampo,Yumbo]
+                                   0                          -0 
+   341 res34[Alcampo,Cartago]
+                                   0                          -0 
+   342 res34[Alcampo,Ibague]
+                                   0                          -0 
+   343 res34[Reprefarco,Yumbo]
+                                   0                          -0 
+   344 res34[Reprefarco,Cartago]
+                                  -1                          -0 
+   345 res34[Reprefarco,Ibague]
+                                  -1                          -0 
+   346 res35[Disinter,Yumbo]
+                              -1e+06                          -0 
+   347 res35[Disinter,Cartago]
+                              -1e+06                          -0 
+   348 res35[Disinter,Ibague]
+                             -992810                          -0 
+   349 res35[Quimifast,Yumbo]
+                                   0                          -0 
+   350 res35[Quimifast,Cartago]
+                             -995990                          -0 
+   351 res35[Quimifast,Ibague]
+                                   0                          -0 
+   352 res35[Alcampo,Yumbo]
+                                   0                          -0 
+   353 res35[Alcampo,Cartago]
+                                   0                          -0 
+   354 res35[Alcampo,Ibague]
+                                   0                          -0 
+   355 res35[Reprefarco,Yumbo]
+                             -988675                          -0 
+   356 res35[Reprefarco,Cartago]
+                                   0                          -0 
+   357 res35[Reprefarco,Ibague]
+                                   0                          -0 
+   358 res36[Yumbo]                2             1               
+   359 res36[Cartago]
+                                   2             1               
+   360 res36[Ibague]
+                                   1             1               
+   361 res37[Disinter,Yumbo]
+                                   0            -0             = 
+   362 res37[Disinter,Cartago]
+                                   0            -0             = 
+   363 res37[Disinter,Ibague]
+                                   0            -0             = 
+   364 res37[Quimifast,Yumbo]
+                                   0            -0             = 
+   365 res37[Quimifast,Cartago]
+                                   0            -0             = 
+   366 res37[Quimifast,Ibague]
+                                   0            -0             = 
+   367 res37[Alcampo,Yumbo]
+                                   0            -0             = 
+   368 res37[Alcampo,Cartago]
+                                   0            -0             = 
+   369 res37[Alcampo,Ibague]
+                                   0            -0             = 
+   370 res37[Reprefarco,Yumbo]
+                                   0            -0             = 
+   371 res37[Reprefarco,Cartago]
+                                   0            -0             = 
+   372 res37[Reprefarco,Ibague]
+                                   0            -0             = 
+   373 res38[Disinter,Yumbo]
+                                   0            -0             = 
+   374 res38[Disinter,Cartago]
+                                   0            -0             = 
+   375 res38[Disinter,Ibague]
+                                   0            -0             = 
+   376 res38[Quimifast,Yumbo]
+                                   0            -0             = 
+   377 res38[Quimifast,Cartago]
+                                   0            -0             = 
+   378 res38[Quimifast,Ibague]
+                                   0            -0             = 
+   379 res38[Alcampo,Yumbo]
+                                   0            -0             = 
+   380 res38[Alcampo,Cartago]
+                                   0            -0             = 
+   381 res38[Alcampo,Ibague]
+                                   0            -0             = 
+   382 res38[Reprefarco,Yumbo]
+                                   0            -0             = 
+   383 res38[Reprefarco,Cartago]
+                                   0            -0             = 
+   384 res38[Reprefarco,Ibague]
+                                   0            -0             = 
+   385 res39[Disinter,Yumbo,Comprimidos]
+                                   0                       1e+06 
+   386 res39[Disinter,Yumbo,Tabletas]
+                                   0                          -0 
+   387 res39[Disinter,Yumbo,Capsulas]
+                                   0                       1e+06 
+   388 res39[Disinter,Cartago,Comprimidos]
+                                   0                       1e+06 
+   389 res39[Disinter,Cartago,Tabletas]
+                                   0                       1e+06 
+   390 res39[Disinter,Cartago,Capsulas]
+                                   0                       1e+06 
+   391 res39[Disinter,Ibague,Comprimidos]
+                                   0                       1e+06 
+   392 res39[Disinter,Ibague,Tabletas]
+                                7190                       1e+06 
+   393 res39[Disinter,Ibague,Capsulas]
+                                   0                       1e+06 
+   394 res39[Quimifast,Yumbo,Comprimidos]
+                                   0                       1e+06 
+   395 res39[Quimifast,Yumbo,Tabletas]
+                                   0                          -0 
+   396 res39[Quimifast,Yumbo,Capsulas]
+                                   0                       1e+06 
+   397 res39[Quimifast,Cartago,Comprimidos]
+                                   0                       1e+06 
+   398 res39[Quimifast,Cartago,Tabletas]
+                                   0                       1e+06 
+   399 res39[Quimifast,Cartago,Capsulas]
+                                4010                       1e+06 
+   400 res39[Quimifast,Ibague,Comprimidos]
+                                   0                       1e+06 
+   401 res39[Quimifast,Ibague,Tabletas]
+                                   0                       1e+06 
+   402 res39[Quimifast,Ibague,Capsulas]
+                                   0                       1e+06 
+   403 res39[Alcampo,Yumbo,Comprimidos]
+                                   0                       1e+06 
+   404 res39[Alcampo,Yumbo,Tabletas]
+                                   0                          -0 
+   405 res39[Alcampo,Yumbo,Capsulas]
+                                   0                       1e+06 
+   406 res39[Alcampo,Cartago,Comprimidos]
+                                   0                       1e+06 
+   407 res39[Alcampo,Cartago,Tabletas]
+                                   0                       1e+06 
+   408 res39[Alcampo,Cartago,Capsulas]
+                                   0                       1e+06 
+   409 res39[Alcampo,Ibague,Comprimidos]
+                                   0                       1e+06 
+   410 res39[Alcampo,Ibague,Tabletas]
+                                   0                       1e+06 
+   411 res39[Alcampo,Ibague,Capsulas]
+                                   0                       1e+06 
+   412 res39[Reprefarco,Yumbo,Comprimidos]
+                                   0                       1e+06 
+   413 res39[Reprefarco,Yumbo,Tabletas]
+                                   0                          -0 
+   414 res39[Reprefarco,Yumbo,Capsulas]
+                               11325                       1e+06 
+   415 res39[Reprefarco,Cartago,Comprimidos]
+                                   0                       1e+06 
+   416 res39[Reprefarco,Cartago,Tabletas]
+                                   0                       1e+06 
+   417 res39[Reprefarco,Cartago,Capsulas]
+                                   0                       1e+06 
+   418 res39[Reprefarco,Ibague,Comprimidos]
+                                   0                       1e+06 
+   419 res39[Reprefarco,Ibague,Tabletas]
+                                   0                       1e+06 
+   420 res39[Reprefarco,Ibague,Capsulas]
+                                   0                       1e+06 
+   421 res40[Yumbo]            11325                       12000 
+   422 res40[Cartago]
+                                4010                       13000 
+   423 res40[Ibague]
+                                7190                       11000 
+   424 res[Disinter,Yumbo]
+                                   0            -0             = 
+   425 res[Disinter,Cartago]
+                                   0            -0             = 
+   426 res[Disinter,Ibague]
+                                   0            -0             = 
+   427 res[Quimifast,Yumbo]
+                                   0            -0             = 
+   428 res[Quimifast,Cartago]
+                                   0            -0             = 
+   429 res[Quimifast,Ibague]
+                                   0            -0             = 
+   430 res[Alcampo,Yumbo]
+                                   0            -0             = 
+   431 res[Alcampo,Cartago]
+                                   0            -0             = 
+   432 res[Alcampo,Ibague]
+                                   0            -0             = 
+   433 res[Reprefarco,Yumbo]
+                                   0            -0             = 
+   434 res[Reprefarco,Cartago]
+                                   0            -0             = 
+   435 res[Reprefarco,Ibague]
+                                   0            -0             = 
+   436 res41[Disinter,Envigado]
+                                  -1                          -0 
+   437 res41[Quimifast,Envigado]
+                                   0                          -0 
+   438 res41[Alcampo,Envigado]
+                                   0                          -0 
+   439 res41[Reprefarco,Envigado]
+                                  -1                          -0 
+   440 res42[Disinter,Envigado]
+                                   0                          -0 
+   441 res42[Quimifast,Envigado]
+                             -994950                          -0 
+   442 res42[Alcampo,Envigado]
+                                   0                          -0 
+   443 res42[Reprefarco,Envigado]
+                                   0                          -0 
+   444 res43[Disinter,Envigado]
+                                   0            -0             = 
+   445 res43[Quimifast,Envigado]
+                                   0            -0             = 
+   446 res43[Alcampo,Envigado]
+                                   0            -0             = 
+   447 res43[Reprefarco,Envigado]
+                                   0            -0             = 
+   448 res44[Envigado]
+                                   1             1             = 
+   449 res45[Analgesicos,Envigado]
+                                1300          1300               
+   450 res45[Antibioticos,Envigado]
+                                1250          1250               
+   451 res45[Anestesicos,Envigado]
+                                   0            -0               
+   452 res45[Excipiente,Envigado]
+                                2500          2500               
+   453 res46[Disinter,Analgesicos,Tipo_1]
+                              -1e+06                          -0 
+   454 res46[Disinter,Analgesicos,Tipo_2]
+                                   0                          -0 
+   455 res46[Disinter,Antibioticos,Tipo_1]
+                              -1e+06                          -0 
+   456 res46[Disinter,Antibioticos,Tipo_2]
+                                   0                          -0 
+   457 res46[Disinter,Anestesicos,Tipo_1]
+                              -1e+06                          -0 
+   458 res46[Disinter,Anestesicos,Tipo_2]
+                                   0                          -0 
+   459 res46[Disinter,Excipiente,Tipo_1]
+                              -1e+06                          -0 
+   460 res46[Disinter,Excipiente,Tipo_2]
+                                   0                          -0 
+   461 res46[Quimifast,Analgesicos,Tipo_1]
+                             -998700                          -0 
+   462 res46[Quimifast,Analgesicos,Tipo_2]
+                                   0                          -0 
+   463 res46[Quimifast,Antibioticos,Tipo_1]
+                             -998750                          -0 
+   464 res46[Quimifast,Antibioticos,Tipo_2]
+                                   0                          -0 
+   465 res46[Quimifast,Anestesicos,Tipo_1]
+                              -1e+06                          -0 
+   466 res46[Quimifast,Anestesicos,Tipo_2]
+                                   0                          -0 
+   467 res46[Quimifast,Excipiente,Tipo_1]
+                             -997500                          -0 
+   468 res46[Quimifast,Excipiente,Tipo_2]
+                                   0                          -0 
+   469 res46[Alcampo,Analgesicos,Tipo_1]
+                                   0                          -0 
+   470 res46[Alcampo,Analgesicos,Tipo_2]
+                                   0                          -0 
+   471 res46[Alcampo,Antibioticos,Tipo_1]
+                                   0                          -0 
+   472 res46[Alcampo,Antibioticos,Tipo_2]
+                                   0                          -0 
+   473 res46[Alcampo,Anestesicos,Tipo_1]
+                                   0                          -0 
+   474 res46[Alcampo,Anestesicos,Tipo_2]
+                                   0                          -0 
+   475 res46[Alcampo,Excipiente,Tipo_1]
+                                   0                          -0 
+   476 res46[Alcampo,Excipiente,Tipo_2]
+                                   0                          -0 
+   477 res46[Reprefarco,Analgesicos,Tipo_1]
+                              -1e+06                          -0 
+   478 res46[Reprefarco,Analgesicos,Tipo_2]
+                                   0                          -0 
+   479 res46[Reprefarco,Antibioticos,Tipo_1]
+                              -1e+06                          -0 
+   480 res46[Reprefarco,Antibioticos,Tipo_2]
+                                   0                          -0 
+   481 res46[Reprefarco,Anestesicos,Tipo_1]
+                              -1e+06                          -0 
+   482 res46[Reprefarco,Anestesicos,Tipo_2]
+                                   0                          -0 
+   483 res46[Reprefarco,Excipiente,Tipo_1]
+                              -1e+06                          -0 
+   484 res46[Reprefarco,Excipiente,Tipo_2]
+                                   0                          -0 
+   485 res47[Disinter,Analgesicos]
+                                   0            -0             = 
+   486 res47[Disinter,Antibioticos]
+                                   0            -0             = 
+   487 res47[Disinter,Anestesicos]
+                                   0            -0             = 
+   488 res47[Disinter,Excipiente]
+                                   0            -0             = 
+   489 res47[Quimifast,Analgesicos]
+                                   0            -0             = 
+   490 res47[Quimifast,Antibioticos]
+                                   0            -0             = 
+   491 res47[Quimifast,Anestesicos]
+                                   0            -0             = 
+   492 res47[Quimifast,Excipiente]
+                                   0            -0             = 
+   493 res47[Alcampo,Analgesicos]
+                                   0            -0             = 
+   494 res47[Alcampo,Antibioticos]
+                                   0            -0             = 
+   495 res47[Alcampo,Anestesicos]
+                                   0            -0             = 
+   496 res47[Alcampo,Excipiente]
+                                   0            -0             = 
+   497 res47[Reprefarco,Analgesicos]
+                                   0            -0             = 
+   498 res47[Reprefarco,Antibioticos]
+                                   0            -0             = 
+   499 res47[Reprefarco,Anestesicos]
+                                   0            -0             = 
+   500 res47[Reprefarco,Excipiente]
+                                   0            -0             = 
+   501 res48[Cartagena,Disinter]
+                                  -1                          -0 
+   502 res48[Cartagena,Quimifast]
+                                  -1                          -0 
+   503 res48[Cartagena,Alcampo]
+                                   0                          -0 
+   504 res48[Cartagena,Reprefarco]
+                                  -1                          -0 
+   505 res48[Buenaventura,Disinter]
+                                  -1                          -0 
+   506 res48[Buenaventura,Quimifast]
+                                  -1                          -0 
+   507 res48[Buenaventura,Alcampo]
+                                   0                          -0 
+   508 res48[Buenaventura,Reprefarco]
+                                   0                          -0 
+   509 res48[Disinter,Disinter]
+                                   0                          -0 
+   510 res48[Disinter,Quimifast]
+                                  -1                          -0 
+   511 res48[Disinter,Alcampo]
+                                   0                          -0 
+   512 res48[Disinter,Reprefarco]
+                                  -1                          -0 
+   513 res48[Quimifast,Disinter]
+                                  -1                          -0 
+   514 res48[Quimifast,Quimifast]
+                                   0                          -0 
+   515 res48[Quimifast,Alcampo]
+                                   0                          -0 
+   516 res48[Quimifast,Reprefarco]
+                                  -1                          -0 
+   517 res48[Alcampo,Disinter]
+                                  -1                          -0 
+   518 res48[Alcampo,Quimifast]
+                                   0                          -0 
+   519 res48[Alcampo,Alcampo]
+                                   0                          -0 
+   520 res48[Alcampo,Reprefarco]
+                                  -1                          -0 
+   521 res48[Reprefarco,Disinter]
+                                  -1                          -0 
+   522 res48[Reprefarco,Quimifast]
+                                  -1                          -0 
+   523 res48[Reprefarco,Alcampo]
+                                   0                          -0 
+   524 res48[Reprefarco,Reprefarco]
+                                   0                          -0 
+   525 res49[Cartagena,Disinter]
+                                   0                          -0 
+   526 res49[Cartagena,Quimifast]
+                                   0                          -0 
+   527 res49[Cartagena,Alcampo]
+                                   0                          -0 
+   528 res49[Cartagena,Reprefarco]
+                                   0                          -0 
+   529 res49[Buenaventura,Disinter]
+                                   0                          -0 
+   530 res49[Buenaventura,Quimifast]
+                                   0                          -0 
+   531 res49[Buenaventura,Alcampo]
+                                   0                          -0 
+   532 res49[Buenaventura,Reprefarco]
+                             -996775                          -0 
+   533 res49[Disinter,Disinter]
+                             -992810                          -0 
+   534 res49[Disinter,Quimifast]
+                                   0                          -0 
+   535 res49[Disinter,Alcampo]
+                                   0                          -0 
+   536 res49[Disinter,Reprefarco]
+                                   0                          -0 
+   537 res49[Quimifast,Disinter]
+                                   0                          -0 
+   538 res49[Quimifast,Quimifast]
+                             -990940                          -0 
+   539 res49[Quimifast,Alcampo]
+                                   0                          -0 
+   540 res49[Quimifast,Reprefarco]
+                                   0                          -0 
+   541 res49[Alcampo,Disinter]
+                                   0                          -0 
+   542 res49[Alcampo,Quimifast]
+                              -1e+06                          -0 
+   543 res49[Alcampo,Alcampo]
+                                   0                          -0 
+   544 res49[Alcampo,Reprefarco]
+                                   0                          -0 
+   545 res49[Reprefarco,Disinter]
+                                   0                          -0 
+   546 res49[Reprefarco,Quimifast]
+                                   0                          -0 
+   547 res49[Reprefarco,Alcampo]
+                                   0                          -0 
+   548 res49[Reprefarco,Reprefarco]
+                             -991900                          -0 
+   549 res50[Cartagena,Disinter]
+                                   0            -0             = 
+   550 res50[Cartagena,Quimifast]
+                                   0            -0             = 
+   551 res50[Cartagena,Alcampo]
+                                   0            -0             = 
+   552 res50[Cartagena,Reprefarco]
+                                   0            -0             = 
+   553 res50[Buenaventura,Disinter]
+                                   0            -0             = 
+   554 res50[Buenaventura,Quimifast]
+                                   0            -0             = 
+   555 res50[Buenaventura,Alcampo]
+                                   0            -0             = 
+   556 res50[Buenaventura,Reprefarco]
+                                   0            -0             = 
+   557 res50[Disinter,Disinter]
+                                   0            -0             = 
+   558 res50[Disinter,Quimifast]
+                                   0            -0             = 
+   559 res50[Disinter,Alcampo]
+                                   0            -0             = 
+   560 res50[Disinter,Reprefarco]
+                                   0            -0             = 
+   561 res50[Quimifast,Disinter]
+                                   0            -0             = 
+   562 res50[Quimifast,Quimifast]
+                                   0            -0             = 
+   563 res50[Quimifast,Alcampo]
+                                   0            -0             = 
+   564 res50[Quimifast,Reprefarco]
+                                   0            -0             = 
+   565 res50[Alcampo,Disinter]
+                                   0            -0             = 
+   566 res50[Alcampo,Quimifast]
+                                   0            -0             = 
+   567 res50[Alcampo,Alcampo]
+                                   0            -0             = 
+   568 res50[Alcampo,Reprefarco]
+                                   0            -0             = 
+   569 res50[Reprefarco,Disinter]
+                                   0            -0             = 
+   570 res50[Reprefarco,Quimifast]
+                                   0            -0             = 
+   571 res50[Reprefarco,Alcampo]
+                                   0            -0             = 
+   572 res50[Reprefarco,Reprefarco]
+                                   0            -0             = 
+   573 res51[Disinter]
+                                   1                           1 
+   574 res51[Quimifast]
+                                   1                           1 
+   575 res51[Alcampo]
+                                   1                           1 
+   576 res51[Reprefarco]
+                                   1                           1 
+   577 res52[Cartagena,Analgesicos]
+                                   0                        5600 
+   578 res52[Cartagena,Antibioticos]
+                                   0                        3200 
+   579 res52[Cartagena,Anestesicos]
+                                   0                          -0 
+   580 res52[Cartagena,Excipiente]
+                                   0                          -0 
+   581 res52[Buenaventura,Analgesicos]
+                                3225                        6500 
+   582 res52[Buenaventura,Antibioticos]
+                                   0                        3300 
+   583 res52[Buenaventura,Anestesicos]
+                                   0                          -0 
+   584 res52[Buenaventura,Excipiente]
+                                   0                          -0 
+   585 res52[Disinter,Analgesicos]
+                                4920                        4920 
+   586 res52[Disinter,Antibioticos]
+                                1170                        2160 
+   587 res52[Disinter,Anestesicos]
+                                1000                        1000 
+   588 res52[Disinter,Excipiente]
+                                 100                         100 
+   589 res52[Quimifast,Analgesicos]
+                                5928                        5928 
+   590 res52[Quimifast,Antibioticos]
+                                2102                        2280 
+   591 res52[Quimifast,Anestesicos]
+                                1030                        1030 
+   592 res52[Quimifast,Excipiente]
+                                   0                         120 
+   593 res52[Alcampo,Analgesicos]
+                                   0                        4524 
+   594 res52[Alcampo,Antibioticos]
+                                   0                        2520 
+   595 res52[Alcampo,Anestesicos]
+                                   0                        1200 
+   596 res52[Alcampo,Excipiente]
+                                   0                         150 
+   597 res52[Reprefarco,Analgesicos]
+                                3840                        3840 
+   598 res52[Reprefarco,Antibioticos]
+                                2760                        2760 
+   599 res52[Reprefarco,Anestesicos]
+                                1340                        1340 
+   600 res52[Reprefarco,Excipiente]
+                                 160                         160 
+   601 res53[Disinter,San_Francisco]
+                                  -1                          -0 
+   602 res53[Disinter,San_Jose]
+                                  -1                          -0 
+   603 res53[Quimifast,San_Francisco]
+                                  -1                          -0 
+   604 res53[Quimifast,San_Jose]
+                                  -1                          -0 
+   605 res53[Alcampo,San_Francisco]
+                                   0                          -0 
+   606 res53[Alcampo,San_Jose]
+                                   0                          -0 
+   607 res53[Reprefarco,San_Francisco]
+                                   0                          -0 
+   608 res53[Reprefarco,San_Jose]
+                                   0                          -0 
+   609 res54[Disinter,San_Francisco]
+                                   0                          -0 
+   610 res54[Disinter,San_Jose]
+                                   0                          -0 
+   611 res54[Quimifast,San_Francisco]
+                                   0                          -0 
+   612 res54[Quimifast,San_Jose]
+                                   0                          -0 
+   613 res54[Alcampo,San_Francisco]
+                                   0                          -0 
+   614 res54[Alcampo,San_Jose]
+                                   0                          -0 
+   615 res54[Reprefarco,San_Francisco]
+                             -997740                          -0 
+   616 res54[Reprefarco,San_Jose]
+                             -997450                          -0 
+   617 res55[Disinter,San_Francisco]
+                                   0            -0             = 
+   618 res55[Disinter,San_Jose]
+                                   0            -0             = 
+   619 res55[Quimifast,San_Francisco]
+                                   0            -0             = 
+   620 res55[Quimifast,San_Jose]
+                                   0            -0             = 
+   621 res55[Alcampo,San_Francisco]
+                                   0            -0             = 
+   622 res55[Alcampo,San_Jose]
+                                   0            -0             = 
+   623 res55[Reprefarco,San_Francisco]
+                                   0            -0             = 
+   624 res55[Reprefarco,San_Jose]
+                                   0            -0             = 
+   625 res56[San_Francisco]
+                                   1             1             = 
+   626 res56[San_Jose]
+                                   1             1             = 
+   627 res57[Comprimidos,San_Francisco]
+                                1100          1100               
+   628 res57[Comprimidos,San_Jose]
+                                1200          1200               
+   629 res57[Tabletas,San_Francisco]
+                                 410           410               
+   630 res57[Tabletas,San_Jose]
+                                 680           680               
+   631 res57[Capsulas,San_Francisco]
+                                 600           600               
+   632 res57[Capsulas,San_Jose]
+                                 470           470               
+   633 res57[Medi_biologico,San_Francisco]
+                                 150           150               
+   634 res57[Medi_biologico,San_Jose]
+                                 200           200               
+   635 res58[Disinter,Comprimidos,Tipo_1]
+                              -1e+06                          -0 
+   636 res58[Disinter,Comprimidos,Tipo_2]
+                                   0                          -0 
+   637 res58[Disinter,Tabletas,Tipo_1]
+                              -1e+06                          -0 
+   638 res58[Disinter,Tabletas,Tipo_2]
+                                   0                          -0 
+   639 res58[Disinter,Capsulas,Tipo_1]
+                              -1e+06                          -0 
+   640 res58[Disinter,Capsulas,Tipo_2]
+                                   0                          -0 
+   641 res58[Disinter,Medi_biologico,Tipo_1]
+                              -1e+06                          -0 
+   642 res58[Disinter,Medi_biologico,Tipo_2]
+                                   0                          -0 
+   643 res58[Quimifast,Comprimidos,Tipo_1]
+                              -1e+06                          -0 
+   644 res58[Quimifast,Comprimidos,Tipo_2]
+                                   0                          -0 
+   645 res58[Quimifast,Tabletas,Tipo_1]
+                              -1e+06                          -0 
+   646 res58[Quimifast,Tabletas,Tipo_2]
+                                   0                          -0 
+   647 res58[Quimifast,Capsulas,Tipo_1]
+                              -1e+06                          -0 
+   648 res58[Quimifast,Capsulas,Tipo_2]
+                                   0                          -0 
+   649 res58[Quimifast,Medi_biologico,Tipo_1]
+                              -1e+06                          -0 
+   650 res58[Quimifast,Medi_biologico,Tipo_2]
+                                   0                          -0 
+   651 res58[Alcampo,Comprimidos,Tipo_1]
+                                   0                          -0 
+   652 res58[Alcampo,Comprimidos,Tipo_2]
+                                   0                          -0 
+   653 res58[Alcampo,Tabletas,Tipo_1]
+                                   0                          -0 
+   654 res58[Alcampo,Tabletas,Tipo_2]
+                                   0                          -0 
+   655 res58[Alcampo,Capsulas,Tipo_1]
+                                   0                          -0 
+   656 res58[Alcampo,Capsulas,Tipo_2]
+                                   0                          -0 
+   657 res58[Alcampo,Medi_biologico,Tipo_1]
+                                   0                          -0 
+   658 res58[Alcampo,Medi_biologico,Tipo_2]
+                                   0                          -0 
+   659 res58[Reprefarco,Comprimidos,Tipo_1]
+                             -997700                          -0 
+   660 res58[Reprefarco,Comprimidos,Tipo_2]
+                                   0                          -0 
+   661 res58[Reprefarco,Tabletas,Tipo_1]
+                             -998910                          -0 
+   662 res58[Reprefarco,Tabletas,Tipo_2]
+                                   0                          -0 
+   663 res58[Reprefarco,Capsulas,Tipo_1]
+                             -998930                          -0 
+   664 res58[Reprefarco,Capsulas,Tipo_2]
+                                   0                          -0 
+   665 res58[Reprefarco,Medi_biologico,Tipo_1]
+                             -999650                          -0 
+   666 res58[Reprefarco,Medi_biologico,Tipo_2]
+                                   0                          -0 
+   667 res59[Disinter,Comprimidos]
+                                   0            -0             = 
+   668 res59[Disinter,Tabletas]
+                                   0            -0             = 
+   669 res59[Disinter,Capsulas]
+                                   0            -0             = 
+   670 res59[Disinter,Medi_biologico]
+                                   0            -0             = 
+   671 res59[Quimifast,Comprimidos]
+                                   0            -0             = 
+   672 res59[Quimifast,Tabletas]
+                                   0            -0             = 
+   673 res59[Quimifast,Capsulas]
+                                   0            -0             = 
+   674 res59[Quimifast,Medi_biologico]
+                                   0            -0             = 
+   675 res59[Alcampo,Comprimidos]
+                                   0            -0             = 
+   676 res59[Alcampo,Tabletas]
+                                   0            -0             = 
+   677 res59[Alcampo,Capsulas]
+                                   0            -0             = 
+   678 res59[Alcampo,Medi_biologico]
+                                   0            -0             = 
+   679 res59[Reprefarco,Comprimidos]
+                                   0            -0             = 
+   680 res59[Reprefarco,Tabletas]
+                                   0            -0             = 
+   681 res59[Reprefarco,Capsulas]
+                                   0            -0             = 
+   682 res59[Reprefarco,Medi_biologico]
+                                   0            -0             = 
+   683 res60                     350                        1200 
+   684 res61[Disinter,Punto_Azul]
+                                   0                          -0 
+   685 res61[Quimifast,Punto_Azul]
+                                   0                          -0 
+   686 res61[Alcampo,Punto_Azul]
+                                   0                          -0 
+   687 res61[Reprefarco,Punto_Azul]
+                                   0                          -0 
+   688 res62[Disinter,Punto_Azul]
+                             -999569                          -0 
+   689 res62[Quimifast,Punto_Azul]
+                             -999759                          -0 
+   690 res62[Alcampo,Punto_Azul]
+                                   0                          -0 
+   691 res62[Reprefarco,Punto_Azul]
+                             -999588                          -0 
+   692 res63[Disinter]
+                                   1                           1 
+   693 res63[Quimifast]
+                                   1                           1 
+   694 res63[Alcampo]
+                                   0                           1 
+   695 res63[Reprefarco]
+                                   1                           1 
+   696 res64[Punto_Azul]
+                              1083.9                        1500 
+   697 res65[Disinter]
+                               -7810                          -0 
+   698 res65[Quimifast]
+                               -5940                          -0 
+   699 res65[Alcampo]
+                                   0                          -0 
+   700 res65[Reprefarco]
+                               -3675                          -0 
+   701 res66[Disinter]
+                             -4378.6                          -0 
+   702 res66[Quimifast]
+                             -7749.4                          -0 
+   703 res66[Alcampo]
+                                   0                          -0 
+   704 res66[Reprefarco]
+                              -263.1                          -0 
+   705 res67[Disinter]
+                                -800                          -0 
+   706 res67[Quimifast]
+                                -800                          -0 
+   707 res67[Alcampo]
+                                   0                          -0 
+   708 res67[Reprefarco]
+                                -450                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Cant_T_Operadores[Disinter,Punto_Azul]
+                               431.4             0               
+     2 Cant_T_Operadores[Quimifast,Punto_Azul]
+                               240.6             0               
+     3 Cant_T_Operadores[Alcampo,Punto_Azul]
+                                   0             0               
+     4 Cant_T_Operadores[Reprefarco,Punto_Azul]
+                               411.9             0               
+     5 Si_envio_Operadores[Disinter,Punto_Azul]
+                    *              1             0             1 
+     6 Si_envio_Operadores[Quimifast,Punto_Azul]
+                    *              1             0             1 
+     7 Si_envio_Operadores[Alcampo,Punto_Azul]
+                    *              0             0             1 
+     8 Si_envio_Operadores[Reprefarco,Punto_Azul]
+                    *              1             0             1 
+     9 Num_Viajes_CM[Disinter,Envigado]
+                    *              0             0               
+    10 Num_Viajes_CM[Quimifast,Envigado]
+                    *              5             0               
+    11 Num_Viajes_CM[Alcampo,Envigado]
+                    *              0             0               
+    12 Num_Viajes_CM[Reprefarco,Envigado]
+                    *              0             0               
+    13 Num_Viajes_LAB[Disinter,Yumbo]
+                    *              0             0               
+    14 Num_Viajes_LAB[Disinter,Cartago]
+                    *              0             0               
+    15 Num_Viajes_LAB[Disinter,Ibague]
+                    *              6             0               
+    16 Num_Viajes_LAB[Quimifast,Yumbo]
+                    *              0             0               
+    17 Num_Viajes_LAB[Quimifast,Cartago]
+                    *              4             0               
+    18 Num_Viajes_LAB[Quimifast,Ibague]
+                    *              0             0               
+    19 Num_Viajes_LAB[Alcampo,Yumbo]
+                    *              0             0               
+    20 Num_Viajes_LAB[Alcampo,Cartago]
+                    *              0             0               
+    21 Num_Viajes_LAB[Alcampo,Ibague]
+                    *              0             0               
+    22 Num_Viajes_LAB[Reprefarco,Yumbo]
+                    *             10             0               
+    23 Num_Viajes_LAB[Reprefarco,Cartago]
+                    *              0             0               
+    24 Num_Viajes_LAB[Reprefarco,Ibague]
+                    *              0             0               
+    25 Num_Viajes_Proveedores_Internos[Cartagena,Disinter]
+                    *              0             0               
+    26 Num_Viajes_Proveedores_Internos[Buenaventura,Disinter]
+                    *              0             0               
+    27 Num_Viajes_Proveedores_Internos[Disinter,Disinter]
+                    *              6             0               
+    28 Num_Viajes_Proveedores_Internos[Quimifast,Disinter]
+                    *              0             0               
+    29 Num_Viajes_Proveedores_Internos[Alcampo,Disinter]
+                    *              0             0               
+    30 Num_Viajes_Proveedores_Internos[Reprefarco,Disinter]
+                    *              0             0               
+    31 Num_Viajes_Proveedores_Internos[Cartagena,Quimifast]
+                    *              0             0               
+    32 Num_Viajes_Proveedores_Internos[Buenaventura,Quimifast]
+                    *              0             0               
+    33 Num_Viajes_Proveedores_Internos[Disinter,Quimifast]
+                    *              0             0               
+    34 Num_Viajes_Proveedores_Internos[Quimifast,Quimifast]
+                    *              8             0               
+    35 Num_Viajes_Proveedores_Internos[Alcampo,Quimifast]
+                    *              0             0               
+    36 Num_Viajes_Proveedores_Internos[Reprefarco,Quimifast]
+                    *              0             0               
+    37 Num_Viajes_Proveedores_Internos[Cartagena,Alcampo]
+                    *              0             0               
+    38 Num_Viajes_Proveedores_Internos[Buenaventura,Alcampo]
+                    *              0             0               
+    39 Num_Viajes_Proveedores_Internos[Disinter,Alcampo]
+                    *              0             0               
+    40 Num_Viajes_Proveedores_Internos[Quimifast,Alcampo]
+                    *              0             0               
+    41 Num_Viajes_Proveedores_Internos[Alcampo,Alcampo]
+                    *              0             0               
+    42 Num_Viajes_Proveedores_Internos[Reprefarco,Alcampo]
+                    *              0             0               
+    43 Num_Viajes_Proveedores_Internos[Cartagena,Reprefarco]
+                    *              0             0               
+    44 Num_Viajes_Proveedores_Internos[Buenaventura,Reprefarco]
+                    *              3             0               
+    45 Num_Viajes_Proveedores_Internos[Disinter,Reprefarco]
+                    *              0             0               
+    46 Num_Viajes_Proveedores_Internos[Quimifast,Reprefarco]
+                    *              0             0               
+    47 Num_Viajes_Proveedores_Internos[Alcampo,Reprefarco]
+                    *              0             0               
+    48 Num_Viajes_Proveedores_Internos[Reprefarco,Reprefarco]
+                    *              7             0               
+    49 Num_Viajes_LAB_Proveedores_Internos[Yumbo,Disinter]
+                    *              0             0               
+    50 Num_Viajes_LAB_Proveedores_Internos[Cartago,Disinter]
+                    *              0             0               
+    51 Num_Viajes_LAB_Proveedores_Internos[Ibague,Disinter]
+                    *              6             0               
+    52 Num_Viajes_LAB_Proveedores_Internos[Yumbo,Quimifast]
+                    *              0             0               
+    53 Num_Viajes_LAB_Proveedores_Internos[Cartago,Quimifast]
+                    *              4             0               
+    54 Num_Viajes_LAB_Proveedores_Internos[Ibague,Quimifast]
+                    *              0             0               
+    55 Num_Viajes_LAB_Proveedores_Internos[Yumbo,Alcampo]
+                    *              0             0               
+    56 Num_Viajes_LAB_Proveedores_Internos[Cartago,Alcampo]
+                    *              0             0               
+    57 Num_Viajes_LAB_Proveedores_Internos[Ibague,Alcampo]
+                    *              0             0               
+    58 Num_Viajes_LAB_Proveedores_Internos[Yumbo,Reprefarco]
+                    *             10             0               
+    59 Num_Viajes_LAB_Proveedores_Internos[Cartago,Reprefarco]
+                    *              0             0               
+    60 Num_Viajes_LAB_Proveedores_Internos[Ibague,Reprefarco]
+                    *              0             0               
+    61 Num_Viajes_H[Disinter,San_Francisco]
+                    *              0             0               
+    62 Num_Viajes_H[Disinter,San_Jose]
+                    *              0             0               
+    63 Num_Viajes_H[Quimifast,San_Francisco]
+                    *              0             0               
+    64 Num_Viajes_H[Quimifast,San_Jose]
+                    *              0             0               
+    65 Num_Viajes_H[Alcampo,San_Francisco]
+                    *              0             0               
+    66 Num_Viajes_H[Alcampo,San_Jose]
+                    *              0             0               
+    67 Num_Viajes_H[Reprefarco,San_Francisco]
+                    *              2             0               
+    68 Num_Viajes_H[Reprefarco,San_Jose]
+                    *              3             0               
+    69 Num_Viajes_ECF[Disinter,Salud_Vida]
+                    *              0             0               
+    70 Num_Viajes_ECF[Disinter,Audifarma]
+                    *              2             0               
+    71 Num_Viajes_ECF[Disinter,Cafam]
+                    *              0             0               
+    72 Num_Viajes_ECF[Disinter,Disfarma]
+                    *              0             0               
+    73 Num_Viajes_ECF[Disinter,Cruz_Verde]
+                    *              5             0               
+    74 Num_Viajes_ECF[Quimifast,Salud_Vida]
+                    *              0             0               
+    75 Num_Viajes_ECF[Quimifast,Audifarma]
+                    *              0             0               
+    76 Num_Viajes_ECF[Quimifast,Cafam]
+                    *              4             0               
+    77 Num_Viajes_ECF[Quimifast,Disfarma]
+                    *              0             0               
+    78 Num_Viajes_ECF[Quimifast,Cruz_Verde]
+                    *              0             0               
+    79 Num_Viajes_ECF[Alcampo,Salud_Vida]
+                    *              0             0               
+    80 Num_Viajes_ECF[Alcampo,Audifarma]
+                    *              0             0               
+    81 Num_Viajes_ECF[Alcampo,Cafam]
+                    *              0             0               
+    82 Num_Viajes_ECF[Alcampo,Disfarma]
+                    *              0             0               
+    83 Num_Viajes_ECF[Alcampo,Cruz_Verde]
+                    *              0             0               
+    84 Num_Viajes_ECF[Reprefarco,Salud_Vida]
+                    *              3             0               
+    85 Num_Viajes_ECF[Reprefarco,Audifarma]
+                    *              0             0               
+    86 Num_Viajes_ECF[Reprefarco,Cafam]
+                    *              0             0               
+    87 Num_Viajes_ECF[Reprefarco,Disfarma]
+                    *              4             0               
+    88 Num_Viajes_ECF[Reprefarco,Cruz_Verde]
+                    *              0             0               
+    89 Num_Viajes_MedBio[Disinter,San_Francisco]
+                    *              0             0               
+    90 Num_Viajes_MedBio[Disinter,San_Jose]
+                    *              0             0               
+    91 Num_Viajes_MedBio[Quimifast,San_Francisco]
+                    *              0             0               
+    92 Num_Viajes_MedBio[Quimifast,San_Jose]
+                    *              0             0               
+    93 Num_Viajes_MedBio[Alcampo,San_Francisco]
+                    *              0             0               
+    94 Num_Viajes_MedBio[Alcampo,San_Jose]
+                    *              0             0               
+    95 Num_Viajes_MedBio[Reprefarco,San_Francisco]
+                    *              1             0               
+    96 Num_Viajes_MedBio[Reprefarco,San_Jose]
+                    *              1             0               
+    97 Num_Viajes_Aer[Disinter]
+                    *              0             0               
+    98 Num_Viajes_Aer[Quimifast]
+                    *              0             0               
+    99 Num_Viajes_Aer[Alcampo]
+                    *              0             0               
+   100 Num_Viajes_Aer[Reprefarco]
+                    *              1             0               
+   101 Num_Viajes_EPSyFARM[Salud_Vida,Disinter]
+                    *              0             0               
+   102 Num_Viajes_EPSyFARM[Audifarma,Disinter]
+                    *              1             0               
+   103 Num_Viajes_EPSyFARM[Cafam,Disinter]
+                    *              0             0               
+   104 Num_Viajes_EPSyFARM[Disfarma,Disinter]
+                    *              0             0               
+   105 Num_Viajes_EPSyFARM[Cruz_Verde,Disinter]
+                    *              2             0               
+   106 Num_Viajes_EPSyFARM[Salud_Vida,Quimifast]
+                    *              0             0               
+   107 Num_Viajes_EPSyFARM[Audifarma,Quimifast]
+                    *              0             0               
+   108 Num_Viajes_EPSyFARM[Cafam,Quimifast]
+                    *              2             0               
+   109 Num_Viajes_EPSyFARM[Disfarma,Quimifast]
+                    *              0             0               
+   110 Num_Viajes_EPSyFARM[Cruz_Verde,Quimifast]
+                    *              0             0               
+   111 Num_Viajes_EPSyFARM[Salud_Vida,Alcampo]
+                    *              0             0               
+   112 Num_Viajes_EPSyFARM[Audifarma,Alcampo]
+                    *              0             0               
+   113 Num_Viajes_EPSyFARM[Cafam,Alcampo]
+                    *              0             0               
+   114 Num_Viajes_EPSyFARM[Disfarma,Alcampo]
+                    *              0             0               
+   115 Num_Viajes_EPSyFARM[Cruz_Verde,Alcampo]
+                    *              0             0               
+   116 Num_Viajes_EPSyFARM[Salud_Vida,Reprefarco]
+                    *              1             0               
+   117 Num_Viajes_EPSyFARM[Audifarma,Reprefarco]
+                    *              0             0               
+   118 Num_Viajes_EPSyFARM[Cafam,Reprefarco]
+                    *              0             0               
+   119 Num_Viajes_EPSyFARM[Disfarma,Reprefarco]
+                    *              2             0               
+   120 Num_Viajes_EPSyFARM[Cruz_Verde,Reprefarco]
+                    *              0             0               
+   121 Num_Viajes_OP[Disinter,Punto_Azul]
+                    *              3             0               
+   122 Num_Viajes_OP[Quimifast,Punto_Azul]
+                    *              2             0               
+   123 Num_Viajes_OP[Alcampo,Punto_Azul]
+                    *              0             0               
+   124 Num_Viajes_OP[Reprefarco,Punto_Azul]
+                    *              3             0               
+   125 ABRIR[Tipo_1,Disinter]
+                    *              1             0             1 
+   126 ABRIR[Tipo_2,Disinter]
+                    *              0             0             1 
+   127 ABRIR[Tipo_1,Quimifast]
+                    *              1             0             1 
+   128 ABRIR[Tipo_2,Quimifast]
+                    *              0             0             1 
+   129 ABRIR[Tipo_1,Alcampo]
+                    *              0             0             1 
+   130 ABRIR[Tipo_2,Alcampo]
+                    *              0             0             1 
+   131 ABRIR[Tipo_1,Reprefarco]
+                    *              1             0             1 
+   132 ABRIR[Tipo_2,Reprefarco]
+                    *              0             0             1 
+   133 SI_ABRO[Disinter]
+                    *              1             0             1 
+   134 SI_ABRO[Quimifast]
+                    *              1             0             1 
+   135 SI_ABRO[Alcampo]
+                    *              0             0             1 
+   136 SI_ABRO[Reprefarco]
+                    *              1             0             1 
+   137 Cant_T_EPSyFARM[Disinter,Salud_Vida]
+                                   0             0               
+   138 Cant_T_EPSyFARM[Disinter,Audifarma]
+                                2180             0               
+   139 Cant_T_EPSyFARM[Disinter,Cafam]
+                                   0             0               
+   140 Cant_T_EPSyFARM[Disinter,Disfarma]
+                                   0             0               
+   141 Cant_T_EPSyFARM[Disinter,Cruz_Verde]
+                                5010             0               
+   142 Cant_T_EPSyFARM[Quimifast,Salud_Vida]
+                                   0             0               
+   143 Cant_T_EPSyFARM[Quimifast,Audifarma]
+                                   0             0               
+   144 Cant_T_EPSyFARM[Quimifast,Cafam]
+                                4010             0               
+   145 Cant_T_EPSyFARM[Quimifast,Disfarma]
+                                   0             0               
+   146 Cant_T_EPSyFARM[Quimifast,Cruz_Verde]
+                                   0             0               
+   147 Cant_T_EPSyFARM[Alcampo,Salud_Vida]
+                                   0             0               
+   148 Cant_T_EPSyFARM[Alcampo,Audifarma]
+                                   0             0               
+   149 Cant_T_EPSyFARM[Alcampo,Cafam]
+                                   0             0               
+   150 Cant_T_EPSyFARM[Alcampo,Disfarma]
+                                   0             0               
+   151 Cant_T_EPSyFARM[Alcampo,Cruz_Verde]
+                                   0             0               
+   152 Cant_T_EPSyFARM[Reprefarco,Salud_Vida]
+                                3225             0               
+   153 Cant_T_EPSyFARM[Reprefarco,Audifarma]
+                                   0             0               
+   154 Cant_T_EPSyFARM[Reprefarco,Cafam]
+                                   0             0               
+   155 Cant_T_EPSyFARM[Reprefarco,Disfarma]
+                                3640             0               
+   156 Cant_T_EPSyFARM[Reprefarco,Cruz_Verde]
+                                   0             0               
+   157 Cant_Aux_EPSyFARM[Disinter,Comprimidos,Tipo_1]
+                                5300             0               
+   158 Cant_Aux_EPSyFARM[Disinter,Comprimidos,Tipo_2]
+                                   0             0               
+   159 Cant_Aux_EPSyFARM[Disinter,Tabletas,Tipo_1]
+                                1290             0               
+   160 Cant_Aux_EPSyFARM[Disinter,Tabletas,Tipo_2]
+                                   0             0               
+   161 Cant_Aux_EPSyFARM[Disinter,Capsulas,Tipo_1]
+                                 600             0               
+   162 Cant_Aux_EPSyFARM[Disinter,Capsulas,Tipo_2]
+                                   0             0               
+   163 Cant_Aux_EPSyFARM[Quimifast,Comprimidos,Tipo_1]
+                                3200             0               
+   164 Cant_Aux_EPSyFARM[Quimifast,Comprimidos,Tipo_2]
+                                   0             0               
+   165 Cant_Aux_EPSyFARM[Quimifast,Tabletas,Tipo_1]
+                                 640             0               
+   166 Cant_Aux_EPSyFARM[Quimifast,Tabletas,Tipo_2]
+                                   0             0               
+   167 Cant_Aux_EPSyFARM[Quimifast,Capsulas,Tipo_1]
+                                 170             0               
+   168 Cant_Aux_EPSyFARM[Quimifast,Capsulas,Tipo_2]
+                                   0             0               
+   169 Cant_Aux_EPSyFARM[Alcampo,Comprimidos,Tipo_1]
+                                   0             0               
+   170 Cant_Aux_EPSyFARM[Alcampo,Comprimidos,Tipo_2]
+                                   0             0               
+   171 Cant_Aux_EPSyFARM[Alcampo,Tabletas,Tipo_1]
+                                   0             0               
+   172 Cant_Aux_EPSyFARM[Alcampo,Tabletas,Tipo_2]
+                                   0             0               
+   173 Cant_Aux_EPSyFARM[Alcampo,Capsulas,Tipo_1]
+                                   0             0               
+   174 Cant_Aux_EPSyFARM[Alcampo,Capsulas,Tipo_2]
+                                   0             0               
+   175 Cant_Aux_EPSyFARM[Reprefarco,Comprimidos,Tipo_1]
+                                5200             0               
+   176 Cant_Aux_EPSyFARM[Reprefarco,Comprimidos,Tipo_2]
+                                   0             0               
+   177 Cant_Aux_EPSyFARM[Reprefarco,Tabletas,Tipo_1]
+                                1140             0               
+   178 Cant_Aux_EPSyFARM[Reprefarco,Tabletas,Tipo_2]
+                                   0             0               
+   179 Cant_Aux_EPSyFARM[Reprefarco,Capsulas,Tipo_1]
+                                 525             0               
+   180 Cant_Aux_EPSyFARM[Reprefarco,Capsulas,Tipo_2]
+                                   0             0               
+   181 Si_envio_EPSyFARM[Disinter,Salud_Vida]
+                    *              0             0             1 
+   182 Si_envio_EPSyFARM[Disinter,Audifarma]
+                    *              1             0             1 
+   183 Si_envio_EPSyFARM[Disinter,Cafam]
+                    *              0             0             1 
+   184 Si_envio_EPSyFARM[Disinter,Disfarma]
+                    *              0             0             1 
+   185 Si_envio_EPSyFARM[Disinter,Cruz_Verde]
+                    *              1             0             1 
+   186 Si_envio_EPSyFARM[Quimifast,Salud_Vida]
+                    *              0             0             1 
+   187 Si_envio_EPSyFARM[Quimifast,Audifarma]
+                    *              0             0             1 
+   188 Si_envio_EPSyFARM[Quimifast,Cafam]
+                    *              1             0             1 
+   189 Si_envio_EPSyFARM[Quimifast,Disfarma]
+                    *              0             0             1 
+   190 Si_envio_EPSyFARM[Quimifast,Cruz_Verde]
+                    *              0             0             1 
+   191 Si_envio_EPSyFARM[Alcampo,Salud_Vida]
+                    *              0             0             1 
+   192 Si_envio_EPSyFARM[Alcampo,Audifarma]
+                    *              0             0             1 
+   193 Si_envio_EPSyFARM[Alcampo,Cafam]
+                    *              0             0             1 
+   194 Si_envio_EPSyFARM[Alcampo,Disfarma]
+                    *              0             0             1 
+   195 Si_envio_EPSyFARM[Alcampo,Cruz_Verde]
+                    *              0             0             1 
+   196 Si_envio_EPSyFARM[Reprefarco,Salud_Vida]
+                    *              1             0             1 
+   197 Si_envio_EPSyFARM[Reprefarco,Audifarma]
+                    *              0             0             1 
+   198 Si_envio_EPSyFARM[Reprefarco,Cafam]
+                    *              0             0             1 
+   199 Si_envio_EPSyFARM[Reprefarco,Disfarma]
+                    *              1             0             1 
+   200 Si_envio_EPSyFARM[Reprefarco,Cruz_Verde]
+                    *              0             0             1 
+   201 Cant_EPSyFARM[Disinter,Salud_Vida,Comprimidos]
+                                   0             0               
+   202 Cant_EPSyFARM[Disinter,Audifarma,Comprimidos]
+                                1850             0               
+   203 Cant_EPSyFARM[Disinter,Cafam,Comprimidos]
+                                   0             0               
+   204 Cant_EPSyFARM[Disinter,Disfarma,Comprimidos]
+                                   0             0               
+   205 Cant_EPSyFARM[Disinter,Cruz_Verde,Comprimidos]
+                                3450             0               
+   206 Cant_EPSyFARM[Disinter,Salud_Vida,Tabletas]
+                                   0             0               
+   207 Cant_EPSyFARM[Disinter,Audifarma,Tabletas]
+                                 150             0               
+   208 Cant_EPSyFARM[Disinter,Cafam,Tabletas]
+                                   0             0               
+   209 Cant_EPSyFARM[Disinter,Disfarma,Tabletas]
+                                   0             0               
+   210 Cant_EPSyFARM[Disinter,Cruz_Verde,Tabletas]
+                                1140             0               
+   211 Cant_EPSyFARM[Disinter,Salud_Vida,Capsulas]
+                                   0             0               
+   212 Cant_EPSyFARM[Disinter,Audifarma,Capsulas]
+                                 180             0               
+   213 Cant_EPSyFARM[Disinter,Cafam,Capsulas]
+                                   0             0               
+   214 Cant_EPSyFARM[Disinter,Disfarma,Capsulas]
+                                   0             0               
+   215 Cant_EPSyFARM[Disinter,Cruz_Verde,Capsulas]
+                                 420             0               
+   216 Cant_EPSyFARM[Quimifast,Salud_Vida,Comprimidos]
+                                   0             0               
+   217 Cant_EPSyFARM[Quimifast,Audifarma,Comprimidos]
+                                   0             0               
+   218 Cant_EPSyFARM[Quimifast,Cafam,Comprimidos]
+                                3200             0               
+   219 Cant_EPSyFARM[Quimifast,Disfarma,Comprimidos]
+                                   0             0               
+   220 Cant_EPSyFARM[Quimifast,Cruz_Verde,Comprimidos]
+                                   0             0               
+   221 Cant_EPSyFARM[Quimifast,Salud_Vida,Tabletas]
+                                   0             0               
+   222 Cant_EPSyFARM[Quimifast,Audifarma,Tabletas]
+                                   0             0               
+   223 Cant_EPSyFARM[Quimifast,Cafam,Tabletas]
+                                 640             0               
+   224 Cant_EPSyFARM[Quimifast,Disfarma,Tabletas]
+                                   0             0               
+   225 Cant_EPSyFARM[Quimifast,Cruz_Verde,Tabletas]
+                                   0             0               
+   226 Cant_EPSyFARM[Quimifast,Salud_Vida,Capsulas]
+                                   0             0               
+   227 Cant_EPSyFARM[Quimifast,Audifarma,Capsulas]
+                                   0             0               
+   228 Cant_EPSyFARM[Quimifast,Cafam,Capsulas]
+                                 170             0               
+   229 Cant_EPSyFARM[Quimifast,Disfarma,Capsulas]
+                                   0             0               
+   230 Cant_EPSyFARM[Quimifast,Cruz_Verde,Capsulas]
+                                   0             0               
+   231 Cant_EPSyFARM[Alcampo,Salud_Vida,Comprimidos]
+                                   0             0               
+   232 Cant_EPSyFARM[Alcampo,Audifarma,Comprimidos]
+                                   0             0               
+   233 Cant_EPSyFARM[Alcampo,Cafam,Comprimidos]
+                                   0             0               
+   234 Cant_EPSyFARM[Alcampo,Disfarma,Comprimidos]
+                                   0             0               
+   235 Cant_EPSyFARM[Alcampo,Cruz_Verde,Comprimidos]
+                                   0             0               
+   236 Cant_EPSyFARM[Alcampo,Salud_Vida,Tabletas]
+                                   0             0               
+   237 Cant_EPSyFARM[Alcampo,Audifarma,Tabletas]
+                                   0             0               
+   238 Cant_EPSyFARM[Alcampo,Cafam,Tabletas]
+                                   0             0               
+   239 Cant_EPSyFARM[Alcampo,Disfarma,Tabletas]
+                                   0             0               
+   240 Cant_EPSyFARM[Alcampo,Cruz_Verde,Tabletas]
+                                   0             0               
+   241 Cant_EPSyFARM[Alcampo,Salud_Vida,Capsulas]
+                                   0             0               
+   242 Cant_EPSyFARM[Alcampo,Audifarma,Capsulas]
+                                   0             0               
+   243 Cant_EPSyFARM[Alcampo,Cafam,Capsulas]
+                                   0             0               
+   244 Cant_EPSyFARM[Alcampo,Disfarma,Capsulas]
+                                   0             0               
+   245 Cant_EPSyFARM[Alcampo,Cruz_Verde,Capsulas]
+                                   0             0               
+   246 Cant_EPSyFARM[Reprefarco,Salud_Vida,Comprimidos]
+                                2800             0               
+   247 Cant_EPSyFARM[Reprefarco,Audifarma,Comprimidos]
+                                   0             0               
+   248 Cant_EPSyFARM[Reprefarco,Cafam,Comprimidos]
+                                   0             0               
+   249 Cant_EPSyFARM[Reprefarco,Disfarma,Comprimidos]
+                                2400             0               
+   250 Cant_EPSyFARM[Reprefarco,Cruz_Verde,Comprimidos]
+                                   0             0               
+   251 Cant_EPSyFARM[Reprefarco,Salud_Vida,Tabletas]
+                                 280             0               
+   252 Cant_EPSyFARM[Reprefarco,Audifarma,Tabletas]
+                                   0             0               
+   253 Cant_EPSyFARM[Reprefarco,Cafam,Tabletas]
+                                   0             0               
+   254 Cant_EPSyFARM[Reprefarco,Disfarma,Tabletas]
+                                 860             0               
+   255 Cant_EPSyFARM[Reprefarco,Cruz_Verde,Tabletas]
+                                   0             0               
+   256 Cant_EPSyFARM[Reprefarco,Salud_Vida,Capsulas]
+                                 145             0               
+   257 Cant_EPSyFARM[Reprefarco,Audifarma,Capsulas]
+                                   0             0               
+   258 Cant_EPSyFARM[Reprefarco,Cafam,Capsulas]
+                                   0             0               
+   259 Cant_EPSyFARM[Reprefarco,Disfarma,Capsulas]
+                                 380             0               
+   260 Cant_EPSyFARM[Reprefarco,Cruz_Verde,Capsulas]
+                                   0             0               
+   261 Cant_dev_EPSyFARM[Salud_Vida,Disinter]
+                                   0             0               
+   262 Cant_dev_EPSyFARM[Audifarma,Disinter]
+                               130.8             0               
+   263 Cant_dev_EPSyFARM[Cafam,Disinter]
+                                   0             0               
+   264 Cant_dev_EPSyFARM[Disfarma,Disinter]
+                                   0             0               
+   265 Cant_dev_EPSyFARM[Cruz_Verde,Disinter]
+                               300.6             0               
+   266 Cant_dev_EPSyFARM[Salud_Vida,Quimifast]
+                                   0             0               
+   267 Cant_dev_EPSyFARM[Audifarma,Quimifast]
+                                   0             0               
+   268 Cant_dev_EPSyFARM[Cafam,Quimifast]
+                               240.6             0               
+   269 Cant_dev_EPSyFARM[Disfarma,Quimifast]
+                                   0             0               
+   270 Cant_dev_EPSyFARM[Cruz_Verde,Quimifast]
+                                   0             0               
+   271 Cant_dev_EPSyFARM[Salud_Vida,Alcampo]
+                                   0             0               
+   272 Cant_dev_EPSyFARM[Audifarma,Alcampo]
+                                   0             0               
+   273 Cant_dev_EPSyFARM[Cafam,Alcampo]
+                                   0             0               
+   274 Cant_dev_EPSyFARM[Disfarma,Alcampo]
+                                   0             0               
+   275 Cant_dev_EPSyFARM[Cruz_Verde,Alcampo]
+                                   0             0               
+   276 Cant_dev_EPSyFARM[Salud_Vida,Reprefarco]
+                               193.5             0               
+   277 Cant_dev_EPSyFARM[Audifarma,Reprefarco]
+                                   0             0               
+   278 Cant_dev_EPSyFARM[Cafam,Reprefarco]
+                                   0             0               
+   279 Cant_dev_EPSyFARM[Disfarma,Reprefarco]
+                               218.4             0               
+   280 Cant_dev_EPSyFARM[Cruz_Verde,Reprefarco]
+                                   0             0               
+   281 Cant_T_Laboratorios[Disinter,Yumbo]
+                                   0             0               
+   282 Cant_T_Laboratorios[Disinter,Cartago]
+                                   0             0               
+   283 Cant_T_Laboratorios[Disinter,Ibague]
+                                7190             0               
+   284 Cant_T_Laboratorios[Quimifast,Yumbo]
+                                   0             0               
+   285 Cant_T_Laboratorios[Quimifast,Cartago]
+                                4010             0               
+   286 Cant_T_Laboratorios[Quimifast,Ibague]
+                                   0             0               
+   287 Cant_T_Laboratorios[Alcampo,Yumbo]
+                                   0             0               
+   288 Cant_T_Laboratorios[Alcampo,Cartago]
+                                   0             0               
+   289 Cant_T_Laboratorios[Alcampo,Ibague]
+                                   0             0               
+   290 Cant_T_Laboratorios[Reprefarco,Yumbo]
+                               11325             0               
+   291 Cant_T_Laboratorios[Reprefarco,Cartago]
+                                   0             0               
+   292 Cant_T_Laboratorios[Reprefarco,Ibague]
+                                   0             0               
+   293 Si_envio_Laboratorios[Disinter,Yumbo]
+                    *              1             0             1 
+   294 Si_envio_Laboratorios[Disinter,Cartago]
+                    *              1             0             1 
+   295 Si_envio_Laboratorios[Disinter,Ibague]
+                    *              1             0             1 
+   296 Si_envio_Laboratorios[Quimifast,Yumbo]
+                    *              0             0             1 
+   297 Si_envio_Laboratorios[Quimifast,Cartago]
+                    *              1             0             1 
+   298 Si_envio_Laboratorios[Quimifast,Ibague]
+                    *              0             0             1 
+   299 Si_envio_Laboratorios[Alcampo,Yumbo]
+                    *              0             0             1 
+   300 Si_envio_Laboratorios[Alcampo,Cartago]
+                    *              0             0             1 
+   301 Si_envio_Laboratorios[Alcampo,Ibague]
+                    *              0             0             1 
+   302 Si_envio_Laboratorios[Reprefarco,Yumbo]
+                    *              1             0             1 
+   303 Si_envio_Laboratorios[Reprefarco,Cartago]
+                    *              0             0             1 
+   304 Si_envio_Laboratorios[Reprefarco,Ibague]
+                    *              0             0             1 
+   305 Cant_Laboratorios[Disinter,Yumbo,Analgesicos]
+                                   0             0               
+   306 Cant_Laboratorios[Disinter,Cartago,Analgesicos]
+                                   0             0               
+   307 Cant_Laboratorios[Disinter,Ibague,Analgesicos]
+                                2157             0               
+   308 Cant_Laboratorios[Disinter,Yumbo,Antibioticos]
+                                   0             0               
+   309 Cant_Laboratorios[Disinter,Cartago,Antibioticos]
+                                   0             0               
+   310 Cant_Laboratorios[Disinter,Ibague,Antibioticos]
+                                 719             0               
+   311 Cant_Laboratorios[Disinter,Yumbo,Anestesicos]
+                                   0             0               
+   312 Cant_Laboratorios[Disinter,Cartago,Anestesicos]
+                                   0             0               
+   313 Cant_Laboratorios[Disinter,Ibague,Anestesicos]
+                                   0             0               
+   314 Cant_Laboratorios[Disinter,Yumbo,Excipiente]
+                                   0             0               
+   315 Cant_Laboratorios[Disinter,Cartago,Excipiente]
+                                   0             0               
+   316 Cant_Laboratorios[Disinter,Ibague,Excipiente]
+                                4314             0               
+   317 Cant_Laboratorios[Quimifast,Yumbo,Analgesicos]
+                                   0             0               
+   318 Cant_Laboratorios[Quimifast,Cartago,Analgesicos]
+                                   0             0               
+   319 Cant_Laboratorios[Quimifast,Ibague,Analgesicos]
+                                   0             0               
+   320 Cant_Laboratorios[Quimifast,Yumbo,Antibioticos]
+                                   0             0               
+   321 Cant_Laboratorios[Quimifast,Cartago,Antibioticos]
+                                1203             0               
+   322 Cant_Laboratorios[Quimifast,Ibague,Antibioticos]
+                                   0             0               
+   323 Cant_Laboratorios[Quimifast,Yumbo,Anestesicos]
+                                   0             0               
+   324 Cant_Laboratorios[Quimifast,Cartago,Anestesicos]
+                                 401             0               
+   325 Cant_Laboratorios[Quimifast,Ibague,Anestesicos]
+                                   0             0               
+   326 Cant_Laboratorios[Quimifast,Yumbo,Excipiente]
+                                   0             0               
+   327 Cant_Laboratorios[Quimifast,Cartago,Excipiente]
+                                2406             0               
+   328 Cant_Laboratorios[Quimifast,Ibague,Excipiente]
+                                   0             0               
+   329 Cant_Laboratorios[Alcampo,Yumbo,Analgesicos]
+                                   0             0               
+   330 Cant_Laboratorios[Alcampo,Cartago,Analgesicos]
+                                   0             0               
+   331 Cant_Laboratorios[Alcampo,Ibague,Analgesicos]
+                                   0             0               
+   332 Cant_Laboratorios[Alcampo,Yumbo,Antibioticos]
+                                   0             0               
+   333 Cant_Laboratorios[Alcampo,Cartago,Antibioticos]
+                                   0             0               
+   334 Cant_Laboratorios[Alcampo,Ibague,Antibioticos]
+                                   0             0               
+   335 Cant_Laboratorios[Alcampo,Yumbo,Anestesicos]
+                                   0             0               
+   336 Cant_Laboratorios[Alcampo,Cartago,Anestesicos]
+                                   0             0               
+   337 Cant_Laboratorios[Alcampo,Ibague,Anestesicos]
+                                   0             0               
+   338 Cant_Laboratorios[Alcampo,Yumbo,Excipiente]
+                                   0             0               
+   339 Cant_Laboratorios[Alcampo,Cartago,Excipiente]
+                                   0             0               
+   340 Cant_Laboratorios[Alcampo,Ibague,Excipiente]
+                                   0             0               
+   341 Cant_Laboratorios[Reprefarco,Yumbo,Analgesicos]
+                                   0             0               
+   342 Cant_Laboratorios[Reprefarco,Cartago,Analgesicos]
+                                   0             0               
+   343 Cant_Laboratorios[Reprefarco,Ibague,Analgesicos]
+                                   0             0               
+   344 Cant_Laboratorios[Reprefarco,Yumbo,Antibioticos]
+                             2831.25             0               
+   345 Cant_Laboratorios[Reprefarco,Cartago,Antibioticos]
+                                   0             0               
+   346 Cant_Laboratorios[Reprefarco,Ibague,Antibioticos]
+                                   0             0               
+   347 Cant_Laboratorios[Reprefarco,Yumbo,Anestesicos]
+                             1698.75             0               
+   348 Cant_Laboratorios[Reprefarco,Cartago,Anestesicos]
+                                   0             0               
+   349 Cant_Laboratorios[Reprefarco,Ibague,Anestesicos]
+                                   0             0               
+   350 Cant_Laboratorios[Reprefarco,Yumbo,Excipiente]
+                                6795             0               
+   351 Cant_Laboratorios[Reprefarco,Cartago,Excipiente]
+                                   0             0               
+   352 Cant_Laboratorios[Reprefarco,Ibague,Excipiente]
+                                   0             0               
+   353 Cant_dev_Laboratorios[Yumbo,Disinter,Comprimidos]
+                                   0             0               
+   354 Cant_dev_Laboratorios[Cartago,Disinter,Comprimidos]
+                                   0             0               
+   355 Cant_dev_Laboratorios[Ibague,Disinter,Comprimidos]
+                                   0             0               
+   356 Cant_dev_Laboratorios[Yumbo,Disinter,Tabletas]
+                                   0             0               
+   357 Cant_dev_Laboratorios[Cartago,Disinter,Tabletas]
+                                   0             0               
+   358 Cant_dev_Laboratorios[Ibague,Disinter,Tabletas]
+                                7190             0               
+   359 Cant_dev_Laboratorios[Yumbo,Disinter,Capsulas]
+                                   0             0               
+   360 Cant_dev_Laboratorios[Cartago,Disinter,Capsulas]
+                                   0             0               
+   361 Cant_dev_Laboratorios[Ibague,Disinter,Capsulas]
+                                   0             0               
+   362 Cant_dev_Laboratorios[Yumbo,Quimifast,Comprimidos]
+                                   0             0               
+   363 Cant_dev_Laboratorios[Cartago,Quimifast,Comprimidos]
+                                   0             0               
+   364 Cant_dev_Laboratorios[Ibague,Quimifast,Comprimidos]
+                                   0             0               
+   365 Cant_dev_Laboratorios[Yumbo,Quimifast,Tabletas]
+                                   0             0               
+   366 Cant_dev_Laboratorios[Cartago,Quimifast,Tabletas]
+                                   0             0               
+   367 Cant_dev_Laboratorios[Ibague,Quimifast,Tabletas]
+                                   0             0               
+   368 Cant_dev_Laboratorios[Yumbo,Quimifast,Capsulas]
+                                   0             0               
+   369 Cant_dev_Laboratorios[Cartago,Quimifast,Capsulas]
+                                4010             0               
+   370 Cant_dev_Laboratorios[Ibague,Quimifast,Capsulas]
+                                   0             0               
+   371 Cant_dev_Laboratorios[Yumbo,Alcampo,Comprimidos]
+                                   0             0               
+   372 Cant_dev_Laboratorios[Cartago,Alcampo,Comprimidos]
+                                   0             0               
+   373 Cant_dev_Laboratorios[Ibague,Alcampo,Comprimidos]
+                                   0             0               
+   374 Cant_dev_Laboratorios[Yumbo,Alcampo,Tabletas]
+                                   0             0               
+   375 Cant_dev_Laboratorios[Cartago,Alcampo,Tabletas]
+                                   0             0               
+   376 Cant_dev_Laboratorios[Ibague,Alcampo,Tabletas]
+                                   0             0               
+   377 Cant_dev_Laboratorios[Yumbo,Alcampo,Capsulas]
+                                   0             0               
+   378 Cant_dev_Laboratorios[Cartago,Alcampo,Capsulas]
+                                   0             0               
+   379 Cant_dev_Laboratorios[Ibague,Alcampo,Capsulas]
+                                   0             0               
+   380 Cant_dev_Laboratorios[Yumbo,Reprefarco,Comprimidos]
+                                   0             0               
+   381 Cant_dev_Laboratorios[Cartago,Reprefarco,Comprimidos]
+                                   0             0               
+   382 Cant_dev_Laboratorios[Ibague,Reprefarco,Comprimidos]
+                                   0             0               
+   383 Cant_dev_Laboratorios[Yumbo,Reprefarco,Tabletas]
+                                   0             0               
+   384 Cant_dev_Laboratorios[Cartago,Reprefarco,Tabletas]
+                                   0             0               
+   385 Cant_dev_Laboratorios[Ibague,Reprefarco,Tabletas]
+                                   0             0               
+   386 Cant_dev_Laboratorios[Yumbo,Reprefarco,Capsulas]
+                               11325             0               
+   387 Cant_dev_Laboratorios[Cartago,Reprefarco,Capsulas]
+                                   0             0               
+   388 Cant_dev_Laboratorios[Ibague,Reprefarco,Capsulas]
+                                   0             0               
+   389 Cant_dev_T_Laboratorios[Yumbo,Disinter]
+                                   0             0               
+   390 Cant_dev_T_Laboratorios[Cartago,Disinter]
+                                   0             0               
+   391 Cant_dev_T_Laboratorios[Ibague,Disinter]
+                                7190             0               
+   392 Cant_dev_T_Laboratorios[Yumbo,Quimifast]
+                                   0             0               
+   393 Cant_dev_T_Laboratorios[Cartago,Quimifast]
+                                4010             0               
+   394 Cant_dev_T_Laboratorios[Ibague,Quimifast]
+                                   0             0               
+   395 Cant_dev_T_Laboratorios[Yumbo,Alcampo]
+                                   0             0               
+   396 Cant_dev_T_Laboratorios[Cartago,Alcampo]
+                                   0             0               
+   397 Cant_dev_T_Laboratorios[Ibague,Alcampo]
+                                   0             0               
+   398 Cant_dev_T_Laboratorios[Yumbo,Reprefarco]
+                               11325             0               
+   399 Cant_dev_T_Laboratorios[Cartago,Reprefarco]
+                                   0             0               
+   400 Cant_dev_T_Laboratorios[Ibague,Reprefarco]
+                                   0             0               
+   401 Cant_T_CentralesMezcla[Disinter,Envigado]
+                                   0             0               
+   402 Cant_T_CentralesMezcla[Quimifast,Envigado]
+                                5050             0               
+   403 Cant_T_CentralesMezcla[Alcampo,Envigado]
+                                   0             0               
+   404 Cant_T_CentralesMezcla[Reprefarco,Envigado]
+                                   0             0               
+   405 Cant_Aux_CentralesMezcla[Disinter,Analgesicos,Tipo_1]
+                                   0             0               
+   406 Cant_Aux_CentralesMezcla[Disinter,Analgesicos,Tipo_2]
+                                   0             0               
+   407 Cant_Aux_CentralesMezcla[Disinter,Antibioticos,Tipo_1]
+                                   0             0               
+   408 Cant_Aux_CentralesMezcla[Disinter,Antibioticos,Tipo_2]
+                                   0             0               
+   409 Cant_Aux_CentralesMezcla[Disinter,Anestesicos,Tipo_1]
+                                   0             0               
+   410 Cant_Aux_CentralesMezcla[Disinter,Anestesicos,Tipo_2]
+                                   0             0               
+   411 Cant_Aux_CentralesMezcla[Disinter,Excipiente,Tipo_1]
+                                   0             0               
+   412 Cant_Aux_CentralesMezcla[Disinter,Excipiente,Tipo_2]
+                                   0             0               
+   413 Cant_Aux_CentralesMezcla[Quimifast,Analgesicos,Tipo_1]
+                                1300             0               
+   414 Cant_Aux_CentralesMezcla[Quimifast,Analgesicos,Tipo_2]
+                                   0             0               
+   415 Cant_Aux_CentralesMezcla[Quimifast,Antibioticos,Tipo_1]
+                                1250             0               
+   416 Cant_Aux_CentralesMezcla[Quimifast,Antibioticos,Tipo_2]
+                                   0             0               
+   417 Cant_Aux_CentralesMezcla[Quimifast,Anestesicos,Tipo_1]
+                                   0             0               
+   418 Cant_Aux_CentralesMezcla[Quimifast,Anestesicos,Tipo_2]
+                                   0             0               
+   419 Cant_Aux_CentralesMezcla[Quimifast,Excipiente,Tipo_1]
+                                2500             0               
+   420 Cant_Aux_CentralesMezcla[Quimifast,Excipiente,Tipo_2]
+                                   0             0               
+   421 Cant_Aux_CentralesMezcla[Alcampo,Analgesicos,Tipo_1]
+                                   0             0               
+   422 Cant_Aux_CentralesMezcla[Alcampo,Analgesicos,Tipo_2]
+                                   0             0               
+   423 Cant_Aux_CentralesMezcla[Alcampo,Antibioticos,Tipo_1]
+                                   0             0               
+   424 Cant_Aux_CentralesMezcla[Alcampo,Antibioticos,Tipo_2]
+                                   0             0               
+   425 Cant_Aux_CentralesMezcla[Alcampo,Anestesicos,Tipo_1]
+                                   0             0               
+   426 Cant_Aux_CentralesMezcla[Alcampo,Anestesicos,Tipo_2]
+                                   0             0               
+   427 Cant_Aux_CentralesMezcla[Alcampo,Excipiente,Tipo_1]
+                                   0             0               
+   428 Cant_Aux_CentralesMezcla[Alcampo,Excipiente,Tipo_2]
+                                   0             0               
+   429 Cant_Aux_CentralesMezcla[Reprefarco,Analgesicos,Tipo_1]
+                                   0             0               
+   430 Cant_Aux_CentralesMezcla[Reprefarco,Analgesicos,Tipo_2]
+                                   0             0               
+   431 Cant_Aux_CentralesMezcla[Reprefarco,Antibioticos,Tipo_1]
+                                   0             0               
+   432 Cant_Aux_CentralesMezcla[Reprefarco,Antibioticos,Tipo_2]
+                                   0             0               
+   433 Cant_Aux_CentralesMezcla[Reprefarco,Anestesicos,Tipo_1]
+                                   0             0               
+   434 Cant_Aux_CentralesMezcla[Reprefarco,Anestesicos,Tipo_2]
+                                   0             0               
+   435 Cant_Aux_CentralesMezcla[Reprefarco,Excipiente,Tipo_1]
+                                   0             0               
+   436 Cant_Aux_CentralesMezcla[Reprefarco,Excipiente,Tipo_2]
+                                   0             0               
+   437 Si_envio_CentralesMezcla[Disinter,Envigado]
+                    *              0             0             1 
+   438 Si_envio_CentralesMezcla[Quimifast,Envigado]
+                    *              1             0             1 
+   439 Si_envio_CentralesMezcla[Alcampo,Envigado]
+                    *              0             0             1 
+   440 Si_envio_CentralesMezcla[Reprefarco,Envigado]
+                    *              0             0             1 
+   441 Cant_CentralesMezcla[Disinter,Envigado,Analgesicos]
+                                   0             0               
+   442 Cant_CentralesMezcla[Disinter,Envigado,Antibioticos]
+                                   0             0               
+   443 Cant_CentralesMezcla[Disinter,Envigado,Anestesicos]
+                                   0             0               
+   444 Cant_CentralesMezcla[Disinter,Envigado,Excipiente]
+                                   0             0               
+   445 Cant_CentralesMezcla[Quimifast,Envigado,Analgesicos]
+                                1300             0               
+   446 Cant_CentralesMezcla[Quimifast,Envigado,Antibioticos]
+                                1250             0               
+   447 Cant_CentralesMezcla[Quimifast,Envigado,Anestesicos]
+                                   0             0               
+   448 Cant_CentralesMezcla[Quimifast,Envigado,Excipiente]
+                                2500             0               
+   449 Cant_CentralesMezcla[Alcampo,Envigado,Analgesicos]
+                                   0             0               
+   450 Cant_CentralesMezcla[Alcampo,Envigado,Antibioticos]
+                                   0             0               
+   451 Cant_CentralesMezcla[Alcampo,Envigado,Anestesicos]
+                                   0             0               
+   452 Cant_CentralesMezcla[Alcampo,Envigado,Excipiente]
+                                   0             0               
+   453 Cant_CentralesMezcla[Reprefarco,Envigado,Analgesicos]
+                                   0             0               
+   454 Cant_CentralesMezcla[Reprefarco,Envigado,Antibioticos]
+                                   0             0               
+   455 Cant_CentralesMezcla[Reprefarco,Envigado,Anestesicos]
+                                   0             0               
+   456 Cant_CentralesMezcla[Reprefarco,Envigado,Excipiente]
+                                   0             0               
+   457 Cant_T_Proveedores[Cartagena,Disinter]
+                                   0             0               
+   458 Cant_T_Proveedores[Buenaventura,Disinter]
+                                   0             0               
+   459 Cant_T_Proveedores[Disinter,Disinter]
+                                7190             0               
+   460 Cant_T_Proveedores[Quimifast,Disinter]
+                                   0             0               
+   461 Cant_T_Proveedores[Alcampo,Disinter]
+                                   0             0               
+   462 Cant_T_Proveedores[Reprefarco,Disinter]
+                                   0             0               
+   463 Cant_T_Proveedores[Cartagena,Quimifast]
+                                   0             0               
+   464 Cant_T_Proveedores[Buenaventura,Quimifast]
+                                   0             0               
+   465 Cant_T_Proveedores[Disinter,Quimifast]
+                                   0             0               
+   466 Cant_T_Proveedores[Quimifast,Quimifast]
+                                9060             0               
+   467 Cant_T_Proveedores[Alcampo,Quimifast]
+                                   0             0               
+   468 Cant_T_Proveedores[Reprefarco,Quimifast]
+                                   0             0               
+   469 Cant_T_Proveedores[Cartagena,Alcampo]
+                                   0             0               
+   470 Cant_T_Proveedores[Buenaventura,Alcampo]
+                                   0             0               
+   471 Cant_T_Proveedores[Disinter,Alcampo]
+                                   0             0               
+   472 Cant_T_Proveedores[Quimifast,Alcampo]
+                                   0             0               
+   473 Cant_T_Proveedores[Alcampo,Alcampo]
+                                   0             0               
+   474 Cant_T_Proveedores[Reprefarco,Alcampo]
+                                   0             0               
+   475 Cant_T_Proveedores[Cartagena,Reprefarco]
+                                   0             0               
+   476 Cant_T_Proveedores[Buenaventura,Reprefarco]
+                                3225             0               
+   477 Cant_T_Proveedores[Disinter,Reprefarco]
+                                   0             0               
+   478 Cant_T_Proveedores[Quimifast,Reprefarco]
+                                   0             0               
+   479 Cant_T_Proveedores[Alcampo,Reprefarco]
+                                   0             0               
+   480 Cant_T_Proveedores[Reprefarco,Reprefarco]
+                                8100             0               
+   481 Si_envio_Proveedores[Cartagena,Disinter]
+                    *              0             0             1 
+   482 Si_envio_Proveedores[Cartagena,Quimifast]
+                    *              0             0             1 
+   483 Si_envio_Proveedores[Cartagena,Alcampo]
+                    *              0             0             1 
+   484 Si_envio_Proveedores[Cartagena,Reprefarco]
+                    *              0             0             1 
+   485 Si_envio_Proveedores[Buenaventura,Disinter]
+                    *              0             0             1 
+   486 Si_envio_Proveedores[Buenaventura,Quimifast]
+                    *              0             0             1 
+   487 Si_envio_Proveedores[Buenaventura,Alcampo]
+                    *              0             0             1 
+   488 Si_envio_Proveedores[Buenaventura,Reprefarco]
+                    *              1             0             1 
+   489 Si_envio_Proveedores[Disinter,Disinter]
+                    *              1             0             1 
+   490 Si_envio_Proveedores[Disinter,Quimifast]
+                    *              0             0             1 
+   491 Si_envio_Proveedores[Disinter,Alcampo]
+                    *              0             0             1 
+   492 Si_envio_Proveedores[Disinter,Reprefarco]
+                    *              0             0             1 
+   493 Si_envio_Proveedores[Quimifast,Disinter]
+                    *              0             0             1 
+   494 Si_envio_Proveedores[Quimifast,Quimifast]
+                    *              1             0             1 
+   495 Si_envio_Proveedores[Quimifast,Alcampo]
+                    *              0             0             1 
+   496 Si_envio_Proveedores[Quimifast,Reprefarco]
+                    *              0             0             1 
+   497 Si_envio_Proveedores[Alcampo,Disinter]
+                    *              0             0             1 
+   498 Si_envio_Proveedores[Alcampo,Quimifast]
+                    *              1             0             1 
+   499 Si_envio_Proveedores[Alcampo,Alcampo]
+                    *              0             0             1 
+   500 Si_envio_Proveedores[Alcampo,Reprefarco]
+                    *              0             0             1 
+   501 Si_envio_Proveedores[Reprefarco,Disinter]
+                    *              0             0             1 
+   502 Si_envio_Proveedores[Reprefarco,Quimifast]
+                    *              0             0             1 
+   503 Si_envio_Proveedores[Reprefarco,Alcampo]
+                    *              0             0             1 
+   504 Si_envio_Proveedores[Reprefarco,Reprefarco]
+                    *              1             0             1 
+   505 Cant_Proveedores[Cartagena,Disinter,Analgesicos]
+                                   0             0               
+   506 Cant_Proveedores[Cartagena,Disinter,Antibioticos]
+                                   0             0               
+   507 Cant_Proveedores[Cartagena,Disinter,Anestesicos]
+                                   0             0               
+   508 Cant_Proveedores[Cartagena,Disinter,Excipiente]
+                                   0             0               
+   509 Cant_Proveedores[Buenaventura,Disinter,Analgesicos]
+                                   0             0               
+   510 Cant_Proveedores[Buenaventura,Disinter,Antibioticos]
+                                   0             0               
+   511 Cant_Proveedores[Buenaventura,Disinter,Anestesicos]
+                                   0             0               
+   512 Cant_Proveedores[Buenaventura,Disinter,Excipiente]
+                                   0             0               
+   513 Cant_Proveedores[Disinter,Disinter,Analgesicos]
+                                4920             0               
+   514 Cant_Proveedores[Disinter,Disinter,Antibioticos]
+                                1170             0               
+   515 Cant_Proveedores[Disinter,Disinter,Anestesicos]
+                                1000             0               
+   516 Cant_Proveedores[Disinter,Disinter,Excipiente]
+                                 100             0               
+   517 Cant_Proveedores[Quimifast,Disinter,Analgesicos]
+                                   0             0               
+   518 Cant_Proveedores[Quimifast,Disinter,Antibioticos]
+                                   0             0               
+   519 Cant_Proveedores[Quimifast,Disinter,Anestesicos]
+                                   0             0               
+   520 Cant_Proveedores[Quimifast,Disinter,Excipiente]
+                                   0             0               
+   521 Cant_Proveedores[Alcampo,Disinter,Analgesicos]
+                                   0             0               
+   522 Cant_Proveedores[Alcampo,Disinter,Antibioticos]
+                                   0             0               
+   523 Cant_Proveedores[Alcampo,Disinter,Anestesicos]
+                                   0             0               
+   524 Cant_Proveedores[Alcampo,Disinter,Excipiente]
+                                   0             0               
+   525 Cant_Proveedores[Reprefarco,Disinter,Analgesicos]
+                                   0             0               
+   526 Cant_Proveedores[Reprefarco,Disinter,Antibioticos]
+                                   0             0               
+   527 Cant_Proveedores[Reprefarco,Disinter,Anestesicos]
+                                   0             0               
+   528 Cant_Proveedores[Reprefarco,Disinter,Excipiente]
+                                   0             0               
+   529 Cant_Proveedores[Cartagena,Quimifast,Analgesicos]
+                                   0             0               
+   530 Cant_Proveedores[Cartagena,Quimifast,Antibioticos]
+                                   0             0               
+   531 Cant_Proveedores[Cartagena,Quimifast,Anestesicos]
+                                   0             0               
+   532 Cant_Proveedores[Cartagena,Quimifast,Excipiente]
+                                   0             0               
+   533 Cant_Proveedores[Buenaventura,Quimifast,Analgesicos]
+                                   0             0               
+   534 Cant_Proveedores[Buenaventura,Quimifast,Antibioticos]
+                                   0             0               
+   535 Cant_Proveedores[Buenaventura,Quimifast,Anestesicos]
+                                   0             0               
+   536 Cant_Proveedores[Buenaventura,Quimifast,Excipiente]
+                                   0             0               
+   537 Cant_Proveedores[Disinter,Quimifast,Analgesicos]
+                                   0             0               
+   538 Cant_Proveedores[Disinter,Quimifast,Antibioticos]
+                                   0             0               
+   539 Cant_Proveedores[Disinter,Quimifast,Anestesicos]
+                                   0             0               
+   540 Cant_Proveedores[Disinter,Quimifast,Excipiente]
+                                   0             0               
+   541 Cant_Proveedores[Quimifast,Quimifast,Analgesicos]
+                                5928             0               
+   542 Cant_Proveedores[Quimifast,Quimifast,Antibioticos]
+                                2102             0               
+   543 Cant_Proveedores[Quimifast,Quimifast,Anestesicos]
+                                1030             0               
+   544 Cant_Proveedores[Quimifast,Quimifast,Excipiente]
+                                   0             0               
+   545 Cant_Proveedores[Alcampo,Quimifast,Analgesicos]
+                                   0             0               
+   546 Cant_Proveedores[Alcampo,Quimifast,Antibioticos]
+                                   0             0               
+   547 Cant_Proveedores[Alcampo,Quimifast,Anestesicos]
+                                   0             0               
+   548 Cant_Proveedores[Alcampo,Quimifast,Excipiente]
+                                   0             0               
+   549 Cant_Proveedores[Reprefarco,Quimifast,Analgesicos]
+                                   0             0               
+   550 Cant_Proveedores[Reprefarco,Quimifast,Antibioticos]
+                                   0             0               
+   551 Cant_Proveedores[Reprefarco,Quimifast,Anestesicos]
+                                   0             0               
+   552 Cant_Proveedores[Reprefarco,Quimifast,Excipiente]
+                                   0             0               
+   553 Cant_Proveedores[Cartagena,Alcampo,Analgesicos]
+                                   0             0               
+   554 Cant_Proveedores[Cartagena,Alcampo,Antibioticos]
+                                   0             0               
+   555 Cant_Proveedores[Cartagena,Alcampo,Anestesicos]
+                                   0             0               
+   556 Cant_Proveedores[Cartagena,Alcampo,Excipiente]
+                                   0             0               
+   557 Cant_Proveedores[Buenaventura,Alcampo,Analgesicos]
+                                   0             0               
+   558 Cant_Proveedores[Buenaventura,Alcampo,Antibioticos]
+                                   0             0               
+   559 Cant_Proveedores[Buenaventura,Alcampo,Anestesicos]
+                                   0             0               
+   560 Cant_Proveedores[Buenaventura,Alcampo,Excipiente]
+                                   0             0               
+   561 Cant_Proveedores[Disinter,Alcampo,Analgesicos]
+                                   0             0               
+   562 Cant_Proveedores[Disinter,Alcampo,Antibioticos]
+                                   0             0               
+   563 Cant_Proveedores[Disinter,Alcampo,Anestesicos]
+                                   0             0               
+   564 Cant_Proveedores[Disinter,Alcampo,Excipiente]
+                                   0             0               
+   565 Cant_Proveedores[Quimifast,Alcampo,Analgesicos]
+                                   0             0               
+   566 Cant_Proveedores[Quimifast,Alcampo,Antibioticos]
+                                   0             0               
+   567 Cant_Proveedores[Quimifast,Alcampo,Anestesicos]
+                                   0             0               
+   568 Cant_Proveedores[Quimifast,Alcampo,Excipiente]
+                                   0             0               
+   569 Cant_Proveedores[Alcampo,Alcampo,Analgesicos]
+                                   0             0               
+   570 Cant_Proveedores[Alcampo,Alcampo,Antibioticos]
+                                   0             0               
+   571 Cant_Proveedores[Alcampo,Alcampo,Anestesicos]
+                                   0             0               
+   572 Cant_Proveedores[Alcampo,Alcampo,Excipiente]
+                                   0             0               
+   573 Cant_Proveedores[Reprefarco,Alcampo,Analgesicos]
+                                   0             0               
+   574 Cant_Proveedores[Reprefarco,Alcampo,Antibioticos]
+                                   0             0               
+   575 Cant_Proveedores[Reprefarco,Alcampo,Anestesicos]
+                                   0             0               
+   576 Cant_Proveedores[Reprefarco,Alcampo,Excipiente]
+                                   0             0               
+   577 Cant_Proveedores[Cartagena,Reprefarco,Analgesicos]
+                                   0             0               
+   578 Cant_Proveedores[Cartagena,Reprefarco,Antibioticos]
+                                   0             0               
+   579 Cant_Proveedores[Cartagena,Reprefarco,Anestesicos]
+                                   0             0               
+   580 Cant_Proveedores[Cartagena,Reprefarco,Excipiente]
+                                   0             0               
+   581 Cant_Proveedores[Buenaventura,Reprefarco,Analgesicos]
+                                3225             0               
+   582 Cant_Proveedores[Buenaventura,Reprefarco,Antibioticos]
+                                   0             0               
+   583 Cant_Proveedores[Buenaventura,Reprefarco,Anestesicos]
+                                   0             0               
+   584 Cant_Proveedores[Buenaventura,Reprefarco,Excipiente]
+                                   0             0               
+   585 Cant_Proveedores[Disinter,Reprefarco,Analgesicos]
+                                   0             0               
+   586 Cant_Proveedores[Disinter,Reprefarco,Antibioticos]
+                                   0             0               
+   587 Cant_Proveedores[Disinter,Reprefarco,Anestesicos]
+                                   0             0               
+   588 Cant_Proveedores[Disinter,Reprefarco,Excipiente]
+                                   0             0               
+   589 Cant_Proveedores[Quimifast,Reprefarco,Analgesicos]
+                                   0             0               
+   590 Cant_Proveedores[Quimifast,Reprefarco,Antibioticos]
+                                   0             0               
+   591 Cant_Proveedores[Quimifast,Reprefarco,Anestesicos]
+                                   0             0               
+   592 Cant_Proveedores[Quimifast,Reprefarco,Excipiente]
+                                   0             0               
+   593 Cant_Proveedores[Alcampo,Reprefarco,Analgesicos]
+                                   0             0               
+   594 Cant_Proveedores[Alcampo,Reprefarco,Antibioticos]
+                                   0             0               
+   595 Cant_Proveedores[Alcampo,Reprefarco,Anestesicos]
+                                   0             0               
+   596 Cant_Proveedores[Alcampo,Reprefarco,Excipiente]
+                                   0             0               
+   597 Cant_Proveedores[Reprefarco,Reprefarco,Analgesicos]
+                                3840             0               
+   598 Cant_Proveedores[Reprefarco,Reprefarco,Antibioticos]
+                                2760             0               
+   599 Cant_Proveedores[Reprefarco,Reprefarco,Anestesicos]
+                                1340             0               
+   600 Cant_Proveedores[Reprefarco,Reprefarco,Excipiente]
+                                 160             0               
+   601 Cant_Aeropuerto[Disinter]
+                                   0             0               
+   602 Cant_Aeropuerto[Quimifast]
+                                   0             0               
+   603 Cant_Aeropuerto[Alcampo]
+                                   0             0               
+   604 Cant_Aeropuerto[Reprefarco]
+                                 350             0               
+   605 Cant_T_Hospitales[Disinter,San_Francisco]
+                                   0             0               
+   606 Cant_T_Hospitales[Disinter,San_Jose]
+                                   0             0               
+   607 Cant_T_Hospitales[Quimifast,San_Francisco]
+                                   0             0               
+   608 Cant_T_Hospitales[Quimifast,San_Jose]
+                                   0             0               
+   609 Cant_T_Hospitales[Alcampo,San_Francisco]
+                                   0             0               
+   610 Cant_T_Hospitales[Alcampo,San_Jose]
+                                   0             0               
+   611 Cant_T_Hospitales[Reprefarco,San_Francisco]
+                                2260             0               
+   612 Cant_T_Hospitales[Reprefarco,San_Jose]
+                                2550             0               
+   613 Cant_aux_Hospitales[Disinter,Comprimidos,Tipo_1]
+                                   0             0               
+   614 Cant_aux_Hospitales[Disinter,Comprimidos,Tipo_2]
+                                   0             0               
+   615 Cant_aux_Hospitales[Disinter,Tabletas,Tipo_1]
+                                   0             0               
+   616 Cant_aux_Hospitales[Disinter,Tabletas,Tipo_2]
+                                   0             0               
+   617 Cant_aux_Hospitales[Disinter,Capsulas,Tipo_1]
+                                   0             0               
+   618 Cant_aux_Hospitales[Disinter,Capsulas,Tipo_2]
+                                   0             0               
+   619 Cant_aux_Hospitales[Disinter,Medi_biologico,Tipo_1]
+                                   0             0               
+   620 Cant_aux_Hospitales[Disinter,Medi_biologico,Tipo_2]
+                                   0             0               
+   621 Cant_aux_Hospitales[Quimifast,Comprimidos,Tipo_1]
+                                   0             0               
+   622 Cant_aux_Hospitales[Quimifast,Comprimidos,Tipo_2]
+                                   0             0               
+   623 Cant_aux_Hospitales[Quimifast,Tabletas,Tipo_1]
+                                   0             0               
+   624 Cant_aux_Hospitales[Quimifast,Tabletas,Tipo_2]
+                                   0             0               
+   625 Cant_aux_Hospitales[Quimifast,Capsulas,Tipo_1]
+                                   0             0               
+   626 Cant_aux_Hospitales[Quimifast,Capsulas,Tipo_2]
+                                   0             0               
+   627 Cant_aux_Hospitales[Quimifast,Medi_biologico,Tipo_1]
+                                   0             0               
+   628 Cant_aux_Hospitales[Quimifast,Medi_biologico,Tipo_2]
+                                   0             0               
+   629 Cant_aux_Hospitales[Alcampo,Comprimidos,Tipo_1]
+                                   0             0               
+   630 Cant_aux_Hospitales[Alcampo,Comprimidos,Tipo_2]
+                                   0             0               
+   631 Cant_aux_Hospitales[Alcampo,Tabletas,Tipo_1]
+                                   0             0               
+   632 Cant_aux_Hospitales[Alcampo,Tabletas,Tipo_2]
+                                   0             0               
+   633 Cant_aux_Hospitales[Alcampo,Capsulas,Tipo_1]
+                                   0             0               
+   634 Cant_aux_Hospitales[Alcampo,Capsulas,Tipo_2]
+                                   0             0               
+   635 Cant_aux_Hospitales[Alcampo,Medi_biologico,Tipo_1]
+                                   0             0               
+   636 Cant_aux_Hospitales[Alcampo,Medi_biologico,Tipo_2]
+                                   0             0               
+   637 Cant_aux_Hospitales[Reprefarco,Comprimidos,Tipo_1]
+                                2300             0               
+   638 Cant_aux_Hospitales[Reprefarco,Comprimidos,Tipo_2]
+                                   0             0               
+   639 Cant_aux_Hospitales[Reprefarco,Tabletas,Tipo_1]
+                                1090             0               
+   640 Cant_aux_Hospitales[Reprefarco,Tabletas,Tipo_2]
+                                   0             0               
+   641 Cant_aux_Hospitales[Reprefarco,Capsulas,Tipo_1]
+                                1070             0               
+   642 Cant_aux_Hospitales[Reprefarco,Capsulas,Tipo_2]
+                                   0             0               
+   643 Cant_aux_Hospitales[Reprefarco,Medi_biologico,Tipo_1]
+                                 350             0               
+   644 Cant_aux_Hospitales[Reprefarco,Medi_biologico,Tipo_2]
+                                   0             0               
+   645 Si_envio_Hospitales[Disinter,San_Francisco]
+                    *              0             0             1 
+   646 Si_envio_Hospitales[Disinter,San_Jose]
+                    *              0             0             1 
+   647 Si_envio_Hospitales[Quimifast,San_Francisco]
+                    *              0             0             1 
+   648 Si_envio_Hospitales[Quimifast,San_Jose]
+                    *              0             0             1 
+   649 Si_envio_Hospitales[Alcampo,San_Francisco]
+                    *              0             0             1 
+   650 Si_envio_Hospitales[Alcampo,San_Jose]
+                    *              0             0             1 
+   651 Si_envio_Hospitales[Reprefarco,San_Francisco]
+                    *              1             0             1 
+   652 Si_envio_Hospitales[Reprefarco,San_Jose]
+                    *              1             0             1 
+   653 Cant_Hospitales[Disinter,San_Francisco,Medi_biologico]
+                                   0             0               
+   654 Cant_Hospitales[Disinter,San_Jose,Medi_biologico]
+                                   0             0               
+   655 Cant_Hospitales[Quimifast,San_Francisco,Medi_biologico]
+                                   0             0               
+   656 Cant_Hospitales[Quimifast,San_Jose,Medi_biologico]
+                                   0             0               
+   657 Cant_Hospitales[Alcampo,San_Francisco,Medi_biologico]
+                                   0             0               
+   658 Cant_Hospitales[Alcampo,San_Jose,Medi_biologico]
+                                   0             0               
+   659 Cant_Hospitales[Reprefarco,San_Francisco,Medi_biologico]
+                                 150             0               
+   660 Cant_Hospitales[Reprefarco,San_Jose,Medi_biologico]
+                                 200             0               
+   661 Cant_Hospitales[Disinter,San_Francisco,Comprimidos]
+                                   0             0               
+   662 Cant_Hospitales[Disinter,San_Francisco,Tabletas]
+                                   0             0               
+   663 Cant_Hospitales[Disinter,San_Francisco,Capsulas]
+                                   0             0               
+   664 Cant_Hospitales[Disinter,San_Jose,Comprimidos]
+                                   0             0               
+   665 Cant_Hospitales[Disinter,San_Jose,Tabletas]
+                                   0             0               
+   666 Cant_Hospitales[Disinter,San_Jose,Capsulas]
+                                   0             0               
+   667 Cant_Hospitales[Quimifast,San_Francisco,Comprimidos]
+                                   0             0               
+   668 Cant_Hospitales[Quimifast,San_Francisco,Tabletas]
+                                   0             0               
+   669 Cant_Hospitales[Quimifast,San_Francisco,Capsulas]
+                                   0             0               
+   670 Cant_Hospitales[Quimifast,San_Jose,Comprimidos]
+                                   0             0               
+   671 Cant_Hospitales[Quimifast,San_Jose,Tabletas]
+                                   0             0               
+   672 Cant_Hospitales[Quimifast,San_Jose,Capsulas]
+                                   0             0               
+   673 Cant_Hospitales[Alcampo,San_Francisco,Comprimidos]
+                                   0             0               
+   674 Cant_Hospitales[Alcampo,San_Francisco,Tabletas]
+                                   0             0               
+   675 Cant_Hospitales[Alcampo,San_Francisco,Capsulas]
+                                   0             0               
+   676 Cant_Hospitales[Alcampo,San_Jose,Comprimidos]
+                                   0             0               
+   677 Cant_Hospitales[Alcampo,San_Jose,Tabletas]
+                                   0             0               
+   678 Cant_Hospitales[Alcampo,San_Jose,Capsulas]
+                                   0             0               
+   679 Cant_Hospitales[Reprefarco,San_Francisco,Comprimidos]
+                                1100             0               
+   680 Cant_Hospitales[Reprefarco,San_Francisco,Tabletas]
+                                 410             0               
+   681 Cant_Hospitales[Reprefarco,San_Francisco,Capsulas]
+                                 600             0               
+   682 Cant_Hospitales[Reprefarco,San_Jose,Comprimidos]
+                                1200             0               
+   683 Cant_Hospitales[Reprefarco,San_Jose,Tabletas]
+                                 680             0               
+   684 Cant_Hospitales[Reprefarco,San_Jose,Capsulas]
+                                 470             0               
+   685 Costo_Total_Penalizacion
+                         1.22427e+07             0               
+   686 Costo_Total_Operacion
+                         3.68452e+08             0               
+   687 Costo_Total_Produccion
+                         1.52439e+07             0               
+   688 Costo_Total_Empaquetamiento
+                         6.69215e+06             0               
+   689 Costo_Total_Destruccion
+                         2.49297e+06             0               
+   690 Costo_Total_de_Transporte
+                         6.05551e+08             0               
+   691 Costo_Total_de_Viaje
+                              754269             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 5.68e-14 on row 21
+        max.rel.err = 5.68e-14 on row 21
+        High quality
+
+End of output

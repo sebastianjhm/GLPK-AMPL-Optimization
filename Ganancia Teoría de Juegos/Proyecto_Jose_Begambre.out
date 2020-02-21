@@ -1,0 +1,41 @@
+Problem:    Proyecto_Jose_Begambre
+Rows:       5
+Columns:    4
+Non-zeros:  16
+Status:     OPTIMAL
+Objective:  Z = -0.9082568807 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Z            B      -0.908257                             
+     2 res1         NU             0                          -0      0.321101 
+     3 res2         NU             0                          -0     0.0825688 
+     4 res3         NU             0                          -0       0.59633 
+     5 res4         NS             1             1             =     -0.908257 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x1           B       0.394495             0               
+     2 x2           B       0.311927             0               
+     3 x3           B       0.293578             0               
+     4 v            B      -0.908257                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 4.44e-16 on row 4
+        max.rel.err = 1.11e-16 on row 4
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-16 on column 2
+        max.rel.err = 6.39e-17 on column 2
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

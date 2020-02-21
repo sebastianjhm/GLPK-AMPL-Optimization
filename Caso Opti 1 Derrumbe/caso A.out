@@ -1,0 +1,107 @@
+Problem:    caso
+Rows:       19
+Columns:    24
+Non-zeros:  96
+Status:     OPTIMAL
+Objective:  Z = 391150 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Z            B         391150                             
+     2 dispo_maxfab[MA]
+                    B            350                        1000 
+     3 dispo_maxfab[MB]
+                    B           1050                        2000 
+     4 proporcion1[Buc]
+                    NS             0            -0             =             4 
+     5 proporcion1[Tun]
+                    NS             0            -0             =             4 
+     6 proporcion2[Buc]
+                    NS             0            -0             =             4 
+     7 proporcion2[Tun]
+                    NS             0            -0             =             4 
+     8 dispo_maxac[Buc]
+                    NU           700                         700           -15 
+     9 dispo_maxac[Tun]
+                    B            700                        1500 
+    10 demanda[AC,Bog]
+                    NL           400           400                         285 
+    11 demanda[AC,Cali]
+                    NL           200           200                         315 
+    12 demanda[AC,Barq]
+                    NL           200           200                         305 
+    13 demanda[AC,Med]
+                    NL           150           150                         255 
+    14 demanda[BC,Bog]
+                    NL           200           200                         270 
+    15 demanda[BC,Cali]
+                    NL           100           100                         300 
+    16 demanda[BC,Barq]
+                    NL           100           100                         290 
+    17 demanda[BC,Med]
+                    NL            50            50                         248 
+    18 balance[Buc] NS             0            -0             =           128 
+    19 balance[Tun] NS             0            -0             =           131 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[MA,Buc,AC] NL             0             0                           4 
+     2 x[MA,Buc,BC] B            175             0               
+     3 x[MA,Tun,AC] NL             0             0                           4 
+     4 x[MA,Tun,BC] B            175             0               
+     5 x[MB,Buc,AC] B              0             0               
+     6 x[MB,Buc,BC] B            525             0               
+     7 x[MB,Tun,AC] B              0             0               
+     8 x[MB,Tun,BC] B            525             0               
+     9 y[AC,Buc,Bog]
+                    B             50             0               
+    10 y[AC,Buc,Cali]
+                    B            200             0               
+    11 y[AC,Buc,Barq]
+                    NL             0             0                       < eps
+    12 y[AC,Buc,Med]
+                    B            150             0               
+    13 y[AC,Tun,Bog]
+                    B            350             0               
+    14 y[AC,Tun,Cali]
+                    NL             0             0                           5 
+    15 y[AC,Tun,Barq]
+                    B            200             0               
+    16 y[AC,Tun,Med]
+                    NL             0             0                           5 
+    17 y[BC,Buc,Bog]
+                    B            200             0               
+    18 y[BC,Buc,Cali]
+                    B            100             0               
+    19 y[BC,Buc,Barq]
+                    NL             0             0                           5 
+    20 y[BC,Buc,Med]
+                    NL             0             0                           2 
+    21 y[BC,Tun,Bog]
+                    NL             0             0                           3 
+    22 y[BC,Tun,Cali]
+                    NL             0             0                           8 
+    23 y[BC,Tun,Barq]
+                    B            100             0               
+    24 y[BC,Tun,Med]
+                    B             50             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

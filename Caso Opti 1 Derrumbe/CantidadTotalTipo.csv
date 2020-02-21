@@ -1,0 +1,17 @@
+TipoAcero,Aceria,Ciudad,CantidadTipoAcero,CostoTotalProduccion
+"AC","Buc","Bog",50,1600
+"AC","Buc","Cali",200,6400
+"AC","Buc","Barq",0,0
+"AC","Buc","Med",150,4800
+"AC","Tun","Bog",350,13650
+"AC","Tun","Cali",0,0
+"AC","Tun","Barq",200,7800
+"AC","Tun","Med",0,0
+"BC","Buc","Bog",200,5400
+"BC","Buc","Cali",100,2700
+"BC","Buc","Barq",0,0
+"BC","Buc","Med",0,0
+"BC","Tun","Bog",0,0
+"BC","Tun","Cali",0,0
+"BC","Tun","Barq",100,3200
+"BC","Tun","Med",50,1600

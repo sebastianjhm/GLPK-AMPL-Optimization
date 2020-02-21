@@ -1,0 +1,249 @@
+Problem:    C2_logistica
+Rows:       52
+Columns:    100 (99 integer, 99 binary)
+Non-zeros:  801
+Status:     INTEGER OPTIMAL
+Objective:  Z = 33 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Z                          33                             
+     2 res1[Disin,Com]
+                               740.1                         777 
+     3 res1[Disin,Tab]
+                                 731                         750 
+     4 res1[Disin,Cap]
+                               848.5                         873 
+     5 res1[Quimi,Com]
+                               771.2                         773 
+     6 res1[Quimi,Tab]
+                                 872                         905 
+     7 res1[Quimi,Cap]
+                               830.6                         833 
+     8 res1[Phar,Com]
+                               893.1                         918 
+     9 res1[Phar,Tab]
+                               882.7                         896 
+    10 res1[Phar,Cap]
+                               884.6                         903 
+    11 res2[Disin,Com]
+                                 777           777               
+    12 res2[Disin,Tab]
+                               767.9           750               
+    13 res2[Disin,Cap]
+                               885.4           873               
+    14 res2[Quimi,Com]
+                               808.1           773               
+    15 res2[Quimi,Tab]
+                               908.9           905               
+    16 res2[Quimi,Cap]
+                               867.5           833               
+    17 res2[Phar,Com]
+                                 930           918               
+    18 res2[Phar,Tab]
+                               919.6           896               
+    19 res2[Phar,Cap]
+                               921.5           903               
+    20 res3[CV1]                   1                           1 
+    21 res3[CV2]                   1                           1 
+    22 res3[CV3]                   1                           1 
+    23 res3[Oli1]                  1                           1 
+    24 res3[Oli2]                  1                           1 
+    25 res3[Oli3]                  1                           1 
+    26 res3[Disf]                  1                           1 
+    27 res3[Audi]                  1                           1 
+    28 res3[Caf1]                  1                           1 
+    29 res3[Caf2]                  1                           1 
+    30 res3[Caf3]                  1                           1 
+    31 res3[Col1]                  1                           1 
+    32 res3[Col2]                  1                           1 
+    33 res3[Col3]                  1                           1 
+    34 res3[Comp1]                 1                           1 
+    35 res3[Comp2]                 1                           1 
+    36 res3[Comp3]                 1                           1 
+    37 res3[Sura1]                 1                           1 
+    38 res3[Sura2]                 1                           1 
+    39 res3[San1]                  1                           1 
+    40 res3[San2]                  1                           1 
+    41 res3[SV1]                   1                           1 
+    42 res3[SV2]                   1                           1 
+    43 res3[SV3]                   1                           1 
+    44 res3[San_F]                 1                           1 
+    45 res3[San_J]                 1                           1 
+    46 res3[JMH]                   1                           1 
+    47 res3[Duit]                  1                           1 
+    48 res3[Nar]                   1                           1 
+    49 res3[Ller]                  1                           1 
+    50 res3[Urib]                  1                           1 
+    51 res3[Med]                   1                           1 
+    52 res3[Padu]                  1                           1 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[Disin,CV1] *              1             0             1 
+     2 x[Disin,CV2] *              0             0             1 
+     3 x[Disin,CV3] *              0             0             1 
+     4 x[Disin,Oli1]
+                    *              0             0             1 
+     5 x[Disin,Oli2]
+                    *              1             0             1 
+     6 x[Disin,Oli3]
+                    *              1             0             1 
+     7 x[Disin,Disf]
+                    *              1             0             1 
+     8 x[Disin,Audi]
+                    *              1             0             1 
+     9 x[Disin,Caf1]
+                    *              0             0             1 
+    10 x[Disin,Caf2]
+                    *              1             0             1 
+    11 x[Disin,Caf3]
+                    *              1             0             1 
+    12 x[Disin,Col1]
+                    *              0             0             1 
+    13 x[Disin,Col2]
+                    *              0             0             1 
+    14 x[Disin,Col3]
+                    *              0             0             1 
+    15 x[Disin,Comp1]
+                    *              0             0             1 
+    16 x[Disin,Comp2]
+                    *              1             0             1 
+    17 x[Disin,Comp3]
+                    *              0             0             1 
+    18 x[Disin,Sura1]
+                    *              0             0             1 
+    19 x[Disin,Sura2]
+                    *              0             0             1 
+    20 x[Disin,San1]
+                    *              0             0             1 
+    21 x[Disin,San2]
+                    *              1             0             1 
+    22 x[Disin,SV1] *              0             0             1 
+    23 x[Disin,SV2] *              1             0             1 
+    24 x[Disin,SV3] *              0             0             1 
+    25 x[Disin,San_F]
+                    *              0             0             1 
+    26 x[Disin,San_J]
+                    *              0             0             1 
+    27 x[Disin,JMH] *              0             0             1 
+    28 x[Disin,Duit]
+                    *              0             0             1 
+    29 x[Disin,Nar] *              0             0             1 
+    30 x[Disin,Ller]
+                    *              0             0             1 
+    31 x[Disin,Urib]
+                    *              0             0             1 
+    32 x[Disin,Med] *              0             0             1 
+    33 x[Disin,Padu]
+                    *              0             0             1 
+    34 x[Quimi,CV1] *              0             0             1 
+    35 x[Quimi,CV2] *              1             0             1 
+    36 x[Quimi,CV3] *              1             0             1 
+    37 x[Quimi,Oli1]
+                    *              1             0             1 
+    38 x[Quimi,Oli2]
+                    *              0             0             1 
+    39 x[Quimi,Oli3]
+                    *              0             0             1 
+    40 x[Quimi,Disf]
+                    *              0             0             1 
+    41 x[Quimi,Audi]
+                    *              0             0             1 
+    42 x[Quimi,Caf1]
+                    *              0             0             1 
+    43 x[Quimi,Caf2]
+                    *              0             0             1 
+    44 x[Quimi,Caf3]
+                    *              0             0             1 
+    45 x[Quimi,Col1]
+                    *              0             0             1 
+    46 x[Quimi,Col2]
+                    *              1             0             1 
+    47 x[Quimi,Col3]
+                    *              1             0             1 
+    48 x[Quimi,Comp1]
+                    *              1             0             1 
+    49 x[Quimi,Comp2]
+                    *              0             0             1 
+    50 x[Quimi,Comp3]
+                    *              1             0             1 
+    51 x[Quimi,Sura1]
+                    *              1             0             1 
+    52 x[Quimi,Sura2]
+                    *              1             0             1 
+    53 x[Quimi,San1]
+                    *              1             0             1 
+    54 x[Quimi,San2]
+                    *              0             0             1 
+    55 x[Quimi,SV1] *              0             0             1 
+    56 x[Quimi,SV2] *              0             0             1 
+    57 x[Quimi,SV3] *              0             0             1 
+    58 x[Quimi,San_F]
+                    *              0             0             1 
+    59 x[Quimi,San_J]
+                    *              0             0             1 
+    60 x[Quimi,JMH] *              0             0             1 
+    61 x[Quimi,Duit]
+                    *              0             0             1 
+    62 x[Quimi,Nar] *              1             0             1 
+    63 x[Quimi,Ller]
+                    *              0             0             1 
+    64 x[Quimi,Urib]
+                    *              0             0             1 
+    65 x[Quimi,Med] *              0             0             1 
+    66 x[Quimi,Padu]
+                    *              0             0             1 
+    67 x[Phar,CV1]  *              0             0             1 
+    68 x[Phar,CV2]  *              0             0             1 
+    69 x[Phar,CV3]  *              0             0             1 
+    70 x[Phar,Oli1] *              0             0             1 
+    71 x[Phar,Oli2] *              0             0             1 
+    72 x[Phar,Oli3] *              0             0             1 
+    73 x[Phar,Disf] *              0             0             1 
+    74 x[Phar,Audi] *              0             0             1 
+    75 x[Phar,Caf1] *              1             0             1 
+    76 x[Phar,Caf2] *              0             0             1 
+    77 x[Phar,Caf3] *              0             0             1 
+    78 x[Phar,Col1] *              1             0             1 
+    79 x[Phar,Col2] *              0             0             1 
+    80 x[Phar,Col3] *              0             0             1 
+    81 x[Phar,Comp1]
+                    *              0             0             1 
+    82 x[Phar,Comp2]
+                    *              0             0             1 
+    83 x[Phar,Comp3]
+                    *              0             0             1 
+    84 x[Phar,Sura1]
+                    *              0             0             1 
+    85 x[Phar,Sura2]
+                    *              0             0             1 
+    86 x[Phar,San1] *              0             0             1 
+    87 x[Phar,San2] *              0             0             1 
+    88 x[Phar,SV1]  *              1             0             1 
+    89 x[Phar,SV2]  *              0             0             1 
+    90 x[Phar,SV3]  *              1             0             1 
+    91 x[Phar,San_F]
+                    *              1             0             1 
+    92 x[Phar,San_J]
+                    *              1             0             1 
+    93 x[Phar,JMH]  *              1             0             1 
+    94 x[Phar,Duit] *              1             0             1 
+    95 x[Phar,Nar]  *              0             0             1 
+    96 x[Phar,Ller] *              1             0             1 
+    97 x[Phar,Urib] *              1             0             1 
+    98 x[Phar,Med]  *              1             0             1 
+    99 x[Phar,Padu] *              1             0             1 
+   100 w                        36.9                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.14e-13 on row 11
+        max.rel.err = 1.46e-16 on row 11
+        High quality
+
+End of output

@@ -1,0 +1,17 @@
+TipoAcero,Aceria,Ciudad,CostoTrans
+AC,Buc,Bog,110
+AC,Tun,Bog,115
+BC,Buc,Bog,100
+BC,Tun,Bog,110
+AC,Buc,Cali,140
+AC,Tun,Cali,150
+BC,Buc,Cali,130
+BC,Tun,Cali,145
+AC,Buc,Barq,130
+AC,Tun,Barq,135
+BC,Buc,Barq,125
+BC,Tun,Barq,127
+AC,Buc,Med,80
+AC,Tun,Med,90
+BC,Buc,Med,80
+BC,Tun,Med,85

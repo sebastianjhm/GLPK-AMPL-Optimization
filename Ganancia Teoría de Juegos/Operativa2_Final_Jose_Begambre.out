@@ -1,0 +1,48 @@
+Problem:    Operativa2_Final_Jose_Begambre
+Rows:       5
+Columns:    11
+Non-zeros:  39
+Status:     OPTIMAL
+Objective:  Z = 0.2222222222 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Z            B       0.222222                             
+     2 res1         NU             0                          -0      0.444444 
+     3 res2         NU             0                          -0      0.555556 
+     4 res3         B              0                          -0 
+     5 res4         NS             1             1             =      0.222222 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x1           NL             0             0                    -3.77778 
+     2 x2           NL             0             0                          -1 
+     3 x3           NL             0             0                    -1.88889 
+     4 x4           NL             0             0                    -7.88889 
+     5 x5           B       0.444444             0               
+     6 x6           B       0.555556             0               
+     7 x7           NL             0             0                   -0.333333 
+     8 x8           NL             0             0                    -9.11111 
+     9 x9           NL             0             0                   -0.777778 
+    10 x10          NL             0             0                    -3.55556 
+    11 v            B       0.222222                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 4.44e-16 on row 3
+        max.rel.err = 1.38e-16 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 4.72e-16 on row 4
+        max.rel.err = 4.72e-16 on row 4
+        High quality
+
+KKT.DE: max.abs.err = 1.78e-15 on column 5
+        max.rel.err = 4.84e-16 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,225 @@
+Problem:    Caso_RogriguezM_GalindoM
+Rows:       81
+Columns:    32
+Non-zeros:  236
+Status:     OPTIMAL
+Objective:  Z = 129743600 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Z            B    1.29744e+08                             
+     2 restriccion1[1,1]
+                    B            200                         600 
+     3 restriccion1[1,2]
+                    B            150                         600 
+     4 restriccion1[1,3]
+                    B            120                         600 
+     5 restriccion1[1,4]
+                    B            200                         600 
+     6 restriccion1[2,1]
+                    B            200                         700 
+     7 restriccion1[2,2]
+                    B            150                         700 
+     8 restriccion1[2,3]
+                    B            100                         700 
+     9 restriccion1[2,4]
+                    B            200                         700 
+    10 restriccion1[3,1]
+                    B            100                         550 
+    11 restriccion1[3,2]
+                    B             50                         550 
+    12 restriccion1[3,3]
+                    B             60                         550 
+    13 restriccion1[3,4]
+                    B             80                         550 
+    14 restriccion1[4,1]
+                    B            100                         800 
+    15 restriccion1[4,2]
+                    B            110                         800 
+    16 restriccion1[4,3]
+                    B             90                         800 
+    17 restriccion1[4,4]
+                    B            120                         800 
+    18 restriccion2[1,1]
+                    B            600                        9850 
+    19 restriccion2[1,2]
+                    B            460                        9850 
+    20 restriccion2[1,3]
+                    B            370                        9850 
+    21 restriccion2[1,4]
+                    B            600                        9850 
+    22 restriccion2[2,1]
+                    B            600                       60150 
+    23 restriccion2[2,2]
+                    B            460                       60150 
+    24 restriccion2[2,3]
+                    B            370                       60150 
+    25 restriccion2[2,4]
+                    B            600                       60150 
+    26 restriccion2[3,1]
+                    B           1200                        9500 
+    27 restriccion2[3,2]
+                    B            910                        9500 
+    28 restriccion2[3,3]
+                    B            690                        9500 
+    29 restriccion2[3,4]
+                    B           1200                        9500 
+    30 restriccion2[4,1]
+                    B            600                        7600 
+    31 restriccion2[4,2]
+                    B            460                        7600 
+    32 restriccion2[4,3]
+                    B            370                        7600 
+    33 restriccion2[4,4]
+                    B            600                        7600 
+    34 restriccion2[5,1]
+                    B            600                        9500 
+    35 restriccion2[5,2]
+                    B            460                        9500 
+    36 restriccion2[5,3]
+                    B            370                        9500 
+    37 restriccion2[5,4]
+                    B            600                        9500 
+    38 restriccion2[6,1]
+                    B            600                        2000 
+    39 restriccion2[6,2]
+                    B            460                        2000 
+    40 restriccion2[6,3]
+                    B            370                        2000 
+    41 restriccion2[6,4]
+                    B            600                        2000 
+    42 restriccion2[7,1]
+                    B            600                        3000 
+    43 restriccion2[7,2]
+                    B            460                        3000 
+    44 restriccion2[7,3]
+                    B            370                        3000 
+    45 restriccion2[7,4]
+                    B            600                        3000 
+    46 restriccion3[1,1]
+                    NL           200           200                       41120 
+    47 restriccion3[1,2]
+                    NL           150           150                       39120 
+    48 restriccion3[1,3]
+                    NL           120           120                       37120 
+    49 restriccion3[1,4]
+                    NL           200           200                       35120 
+    50 restriccion3[2,1]
+                    NL           200           200                       47120 
+    51 restriccion3[2,2]
+                    NL           150           150                       44120 
+    52 restriccion3[2,3]
+                    NL           100           100                       41120 
+    53 restriccion3[2,4]
+                    NL           200           200                       38120 
+    54 restriccion3[3,1]
+                    NL           100           100                       46120 
+    55 restriccion3[3,2]
+                    NL            50            50                       44120 
+    56 restriccion3[3,3]
+                    NL            60            60                       42120 
+    57 restriccion3[3,4]
+                    NL            80            80                       40120 
+    58 restriccion3[4,1]
+                    NL           100           100                       61120 
+    59 restriccion3[4,2]
+                    NL           110           110                       56120 
+    60 restriccion3[4,3]
+                    NL            90            90                       51120 
+    61 restriccion3[4,4]
+                    NL           120           120                       46120 
+    62 restriccion4[1]
+                    NS           800           800             =          8000 
+    63 restriccion4[2]
+                    NS           300           300             =         12000 
+    64 restriccion4[3]
+                    NS          2200          2200             =          8000 
+    65 restriccion4[4]
+                    NS          1100          1100             =         20000 
+    66 restriccion5[1,2]
+                    NS          -150          -150             =          6000 
+    67 restriccion5[1,3]
+                    NS          -120          -120             =          4000 
+    68 restriccion5[1,4]
+                    NS          -200          -200             =          2000 
+    69 restriccion5[2,2]
+                    NS          -150          -150             =          9000 
+    70 restriccion5[2,3]
+                    NS          -100          -100             =          6000 
+    71 restriccion5[2,4]
+                    NS          -200          -200             =          3000 
+    72 restriccion5[3,2]
+                    NS           -50           -50             =          6000 
+    73 restriccion5[3,3]
+                    NS           -60           -60             =          4000 
+    74 restriccion5[3,4]
+                    NS           -80           -80             =          2000 
+    75 restriccion5[4,2]
+                    NS          -110          -110             =         15000 
+    76 restriccion5[4,3]
+                    NS           -90           -90             =         10000 
+    77 restriccion5[4,4]
+                    NS          -120          -120             =          5000 
+    78 restriccion7[1]
+                    B            256                       20000 
+    79 restriccion7[2]
+                    B            256                       20000 
+    80 restriccion7[3]
+                    B            256                       20000 
+    81 restriccion7[4]
+                    B            256                       20000 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       B            200             0               
+     2 x[1,2]       B            150             0               
+     3 x[1,3]       B            120             0               
+     4 x[1,4]       B            200             0               
+     5 x[2,1]       B            200             0               
+     6 x[2,2]       B            150             0               
+     7 x[2,3]       B            100             0               
+     8 x[2,4]       B            200             0               
+     9 x[3,1]       B            100             0               
+    10 x[3,2]       B             50             0               
+    11 x[3,3]       B             60             0               
+    12 x[3,4]       B             80             0               
+    13 x[4,1]       B            100             0               
+    14 x[4,2]       B            110             0               
+    15 x[4,3]       B             90             0               
+    16 x[4,4]       B            120             0               
+    17 y[1,1]       B           1000             0               
+    18 y[1,2]       B           1000             0               
+    19 y[1,3]       B           1000             0               
+    20 y[1,4]       B           1000             0               
+    21 y[2,1]       B            500             0               
+    22 y[2,2]       B            500             0               
+    23 y[2,3]       B            500             0               
+    24 y[2,4]       B            500             0               
+    25 y[3,1]       B           2300             0               
+    26 y[3,2]       B           2300             0               
+    27 y[3,3]       B           2300             0               
+    28 y[3,4]       B           2300             0               
+    29 y[4,1]       B           1200             0               
+    30 y[4,2]       B           1200             0               
+    31 y[4,3]       B           1200             0               
+    32 y[4,4]       B           1200             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.82e-12 on column 22
+        max.rel.err = 1.01e-16 on column 22
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

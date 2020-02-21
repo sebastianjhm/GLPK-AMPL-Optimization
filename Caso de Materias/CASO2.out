@@ -1,0 +1,2928 @@
+Problem:    CASO2
+Rows:       1155
+Columns:    691 (690 integer, 690 binary)
+Non-zeros:  9701
+Status:     INTEGER OPTIMAL
+Objective:  Z = 11 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Z                          11                             
+     2 materia1[1]                 1             1             = 
+     3 materia1[2]                 1             1             = 
+     4 materia1[3]                 1             1             = 
+     5 materia1[4]                 1             1             = 
+     6 materia1[5]                 1             1             = 
+     7 materia1[6]                 1             1             = 
+     8 materia1[7]                 1             1             = 
+     9 materia1[8]                 1             1             = 
+    10 materia1[9]                 1             1             = 
+    11 materia1[10]                1             1             = 
+    12 materia1[11]                1             1             = 
+    13 materia1[12]                1             1             = 
+    14 materia1[13]                1             1             = 
+    15 materia1[14]                1             1             = 
+    16 materia1[15]                1             1             = 
+    17 materia1[16]                1             1             = 
+    18 materia1[17]                1             1             = 
+    19 materia1[18]                1             1             = 
+    20 materia1[19]                1             1             = 
+    21 materia1[20]                1             1             = 
+    22 materia1[21]                1             1             = 
+    23 materia1[22]                1             1             = 
+    24 materia1[23]                1             1             = 
+    25 materia1[24]                1             1             = 
+    26 materia1[25]                1             1             = 
+    27 materia1[26]                1             1             = 
+    28 materia1[27]                1             1             = 
+    29 materia1[28]                1             1             = 
+    30 materia1[29]                1             1             = 
+    31 materia1[30]                1             1             = 
+    32 materia1[31]                1             1             = 
+    33 materia1[32]                1             1             = 
+    34 materia1[33]                1             1             = 
+    35 relacionvari1[6]
+                                0.95            -0               
+    36 relacionvari1[7]
+                                0.95            -0               
+    37 relacionvari1[8]
+                                0.97            -0               
+    38 relacionvari1[9]
+                                0.94            -0               
+    39 relacionvari1[10]
+                                0.93            -0               
+    40 relacionvari1[11]
+                                0.93            -0               
+    41 relacionvari1[12]
+                                   0            -0               
+    42 relacionvari1[13]
+                                   0            -0               
+    43 relacionvari1[14]
+                                   0            -0               
+    44 relacionvari1[15]
+                                   0            -0               
+    45 relacionvari0[6]
+                                  -4                          -0 
+    46 relacionvari0[7]
+                                  -4                          -0 
+    47 relacionvari0[8]
+                                  -2                          -0 
+    48 relacionvari0[9]
+                                  -5                          -0 
+    49 relacionvari0[10]
+                                  -6                          -0 
+    50 relacionvari0[11]
+                                  -6                          -0 
+    51 relacionvari0[12]
+                                   0                          -0 
+    52 relacionvari0[13]
+                                   0                          -0 
+    53 relacionvari0[14]
+                                   0                          -0 
+    54 relacionvari0[15]
+                                   0                          -0 
+    55 eticayfe0[6]                0                    0.658333 
+    56 eticayfe0[7]           -0.125                    0.658333 
+    57 eticayfe0[8]        -0.258333                    0.658333 
+    58 eticayfe0[9]        -0.333333                    0.658333 
+    59 eticayfe0[10]
+                            0.508333                    0.658333 
+    60 eticayfe0[11]
+                            0.333333                    0.658333 
+    61 eticayfe0[12]
+                            0.166667                    0.658333 
+    62 eticayfe0[13]
+                            0.166667                    0.658333 
+    63 eticayfe0[14]
+                            0.166667                    0.658333 
+    64 eticayfe0[15]
+                            0.166667                    0.658333 
+    65 eticayfe1[6]                0           -41               
+    66 eticayfe1[7]              -15           -41               
+    67 eticayfe1[8]              -31           -41               
+    68 eticayfe1[9]              -40           -41               
+    69 eticayfe1[10]
+                                 821           -41               
+    70 eticayfe1[11]
+                                 800           -41               
+    71 eticayfe1[12]
+                                 780           -41               
+    72 eticayfe1[13]
+                                 780           -41               
+    73 eticayfe1[14]
+                                 780           -41               
+    74 eticayfe1[15]
+                                 780           -41               
+    75 requicitos1[6,1]
+                                   0                          -0 
+    76 requicitos1[6,2]
+                                   0                          -0 
+    77 requicitos1[6,3]
+                                   0                          -0 
+    78 requicitos1[6,4]
+                                   0                          -0 
+    79 requicitos1[6,5]
+                                   0                          -0 
+    80 requicitos1[6,6]
+                                   0                          -0 
+    81 requicitos1[6,7]
+                                   0                          -0 
+    82 requicitos1[6,8]
+                                   0                          -0 
+    83 requicitos1[6,9]
+                                   0                          -0 
+    84 requicitos1[6,10]
+                                   0                          -0 
+    85 requicitos1[6,11]
+                                   0                          -0 
+    86 requicitos1[6,12]
+                                   0                          -0 
+    87 requicitos1[6,13]
+                                   0                          -0 
+    88 requicitos1[6,14]
+                                   0                          -0 
+    89 requicitos1[6,15]
+                                   0                          -0 
+    90 requicitos1[6,16]
+                                   0                          -0 
+    91 requicitos1[6,17]
+                                   0                          -0 
+    92 requicitos1[6,18]
+                                   0                          -0 
+    93 requicitos1[6,19]
+                                   0                          -0 
+    94 requicitos1[6,20]
+                                   0                          -0 
+    95 requicitos1[6,21]
+                                   0                          -0 
+    96 requicitos1[6,22]
+                                   0                          -0 
+    97 requicitos1[6,23]
+                                   0                          -0 
+    98 requicitos1[6,24]
+                                   0                          -0 
+    99 requicitos1[6,25]
+                                   0                          -0 
+   100 requicitos1[6,26]
+                                   0                          -0 
+   101 requicitos1[6,27]
+                                   0                          -0 
+   102 requicitos1[6,28]
+                                   0                          -0 
+   103 requicitos1[6,29]
+                                   0                          -0 
+   104 requicitos1[6,30]
+                                   0                          -0 
+   105 requicitos1[6,31]
+                                   0                          -0 
+   106 requicitos1[6,32]
+                                   0                          -0 
+   107 requicitos1[6,33]
+                                   0                          -0 
+   108 requicitos1[7,1]
+                                   0                          -0 
+   109 requicitos1[7,2]
+                                   0                          -0 
+   110 requicitos1[7,3]
+                                   0                          -0 
+   111 requicitos1[7,4]
+                                   0                          -0 
+   112 requicitos1[7,5]
+                                   0                          -0 
+   113 requicitos1[7,6]
+                                   0                          -0 
+   114 requicitos1[7,7]
+                                  -1                          -0 
+   115 requicitos1[7,8]
+                                  -1                          -0 
+   116 requicitos1[7,9]
+                                   0                          -0 
+   117 requicitos1[7,10]
+                                   0                          -0 
+   118 requicitos1[7,11]
+                                   0                          -0 
+   119 requicitos1[7,12]
+                                  -1                          -0 
+   120 requicitos1[7,13]
+                                   0                          -0 
+   121 requicitos1[7,14]
+                                   0                          -0 
+   122 requicitos1[7,15]
+                                   0                          -0 
+   123 requicitos1[7,16]
+                                   0                          -0 
+   124 requicitos1[7,17]
+                                   0                          -0 
+   125 requicitos1[7,18]
+                                   0                          -0 
+   126 requicitos1[7,19]
+                                  -1                          -0 
+   127 requicitos1[7,20]
+                                   0                          -0 
+   128 requicitos1[7,21]
+                                   0                          -0 
+   129 requicitos1[7,22]
+                                  -1                          -0 
+   130 requicitos1[7,23]
+                                   0                          -0 
+   131 requicitos1[7,24]
+                                   0                          -0 
+   132 requicitos1[7,25]
+                                   0                          -0 
+   133 requicitos1[7,26]
+                                   0                          -0 
+   134 requicitos1[7,27]
+                                  -1                          -0 
+   135 requicitos1[7,28]
+                                   0                          -0 
+   136 requicitos1[7,29]
+                                   0                          -0 
+   137 requicitos1[7,30]
+                                   0                          -0 
+   138 requicitos1[7,31]
+                                   0                          -0 
+   139 requicitos1[7,32]
+                                   0                          -0 
+   140 requicitos1[7,33]
+                                   0                          -0 
+   141 requicitos1[8,1]
+                                   0                          -0 
+   142 requicitos1[8,2]
+                                   0                          -0 
+   143 requicitos1[8,3]
+                                   0                          -0 
+   144 requicitos1[8,4]
+                                   0                          -0 
+   145 requicitos1[8,5]
+                                   0                          -0 
+   146 requicitos1[8,6]
+                                   0                          -0 
+   147 requicitos1[8,7]
+                                  -1                          -0 
+   148 requicitos1[8,8]
+                                  -1                          -0 
+   149 requicitos1[8,9]
+                                   0                          -0 
+   150 requicitos1[8,10]
+                                   0                          -0 
+   151 requicitos1[8,11]
+                                   0                          -0 
+   152 requicitos1[8,12]
+                                  -1                          -0 
+   153 requicitos1[8,13]
+                                   0                          -0 
+   154 requicitos1[8,14]
+                                   0                          -0 
+   155 requicitos1[8,15]
+                                   0                          -0 
+   156 requicitos1[8,16]
+                                   0                          -0 
+   157 requicitos1[8,17]
+                                   0                          -0 
+   158 requicitos1[8,18]
+                                  -1                          -0 
+   159 requicitos1[8,19]
+                                  -3                          -0 
+   160 requicitos1[8,20]
+                                   0                          -0 
+   161 requicitos1[8,21]
+                                   0                          -0 
+   162 requicitos1[8,22]
+                                  -2                          -0 
+   163 requicitos1[8,23]
+                                   0                          -0 
+   164 requicitos1[8,24]
+                                   0                          -0 
+   165 requicitos1[8,25]
+                                   0                          -0 
+   166 requicitos1[8,26]
+                                   0                          -0 
+   167 requicitos1[8,27]
+                                   0                          -0 
+   168 requicitos1[8,28]
+                                   0                          -0 
+   169 requicitos1[8,29]
+                                   0                          -0 
+   170 requicitos1[8,30]
+                                   0                          -0 
+   171 requicitos1[8,31]
+                                  -1                          -0 
+   172 requicitos1[8,32]
+                                   0                          -0 
+   173 requicitos1[8,33]
+                                   0                          -0 
+   174 requicitos1[9,1]
+                                   0                          -0 
+   175 requicitos1[9,2]
+                                   0                          -0 
+   176 requicitos1[9,3]
+                                   0                          -0 
+   177 requicitos1[9,4]
+                                   0                          -0 
+   178 requicitos1[9,5]
+                                   0                          -0 
+   179 requicitos1[9,6]
+                                   0                          -0 
+   180 requicitos1[9,7]
+                                   0                          -0 
+   181 requicitos1[9,8]
+                                   0                          -0 
+   182 requicitos1[9,9]
+                                   0                          -0 
+   183 requicitos1[9,10]
+                                   0                          -0 
+   184 requicitos1[9,11]
+                                   0                          -0 
+   185 requicitos1[9,12]
+                                   0                          -0 
+   186 requicitos1[9,13]
+                                   0                          -0 
+   187 requicitos1[9,14]
+                                   0                          -0 
+   188 requicitos1[9,15]
+                                   0                          -0 
+   189 requicitos1[9,16]
+                                   0                          -0 
+   190 requicitos1[9,17]
+                                   0                          -0 
+   191 requicitos1[9,18]
+                                  -1                          -0 
+   192 requicitos1[9,19]
+                                  -3                          -0 
+   193 requicitos1[9,20]
+                                   0                          -0 
+   194 requicitos1[9,21]
+                                   0                          -0 
+   195 requicitos1[9,22]
+                                  -2                          -0 
+   196 requicitos1[9,23]
+                                   0                          -0 
+   197 requicitos1[9,24]
+                                   0                          -0 
+   198 requicitos1[9,25]
+                                   0                          -0 
+   199 requicitos1[9,26]
+                                   0                          -0 
+   200 requicitos1[9,27]
+                                   0                          -0 
+   201 requicitos1[9,28]
+                                   0                          -0 
+   202 requicitos1[9,29]
+                                   0                          -0 
+   203 requicitos1[9,30]
+                                   0                          -0 
+   204 requicitos1[9,31]
+                                  -1                          -0 
+   205 requicitos1[9,32]
+                                   0                          -0 
+   206 requicitos1[9,33]
+                                   0                          -0 
+   207 requicitos1[10,1]
+                                   0                          -0 
+   208 requicitos1[10,2]
+                                   0                          -0 
+   209 requicitos1[10,3]
+                                   0                          -0 
+   210 requicitos1[10,4]
+                                   0                          -0 
+   211 requicitos1[10,5]
+                                   0                          -0 
+   212 requicitos1[10,6]
+                                   0                          -0 
+   213 requicitos1[10,7]
+                                   0                          -0 
+   214 requicitos1[10,8]
+                                   0                          -0 
+   215 requicitos1[10,9]
+                                   0                          -0 
+   216 requicitos1[10,10]
+                                   0                          -0 
+   217 requicitos1[10,11]
+                                   0                          -0 
+   218 requicitos1[10,12]
+                                   0                          -0 
+   219 requicitos1[10,13]
+                                   0                          -0 
+   220 requicitos1[10,14]
+                                   0                          -0 
+   221 requicitos1[10,15]
+                                   0                          -0 
+   222 requicitos1[10,16]
+                                   0                          -0 
+   223 requicitos1[10,17]
+                                   0                          -0 
+   224 requicitos1[10,18]
+                                   0                          -0 
+   225 requicitos1[10,19]
+                                  -4                          -0 
+   226 requicitos1[10,20]
+                                   0                          -0 
+   227 requicitos1[10,21]
+                                   0                          -0 
+   228 requicitos1[10,22]
+                                  -2                          -0 
+   229 requicitos1[10,23]
+                                   0                          -0 
+   230 requicitos1[10,24]
+                                   0                          -0 
+   231 requicitos1[10,25]
+                                   0                          -0 
+   232 requicitos1[10,26]
+                                   0                          -0 
+   233 requicitos1[10,27]
+                                   0                          -0 
+   234 requicitos1[10,28]
+                                   0                          -0 
+   235 requicitos1[10,29]
+                                   0                          -0 
+   236 requicitos1[10,30]
+                                   0                          -0 
+   237 requicitos1[10,31]
+                                   0                          -0 
+   238 requicitos1[10,32]
+                                   0                          -0 
+   239 requicitos1[10,33]
+                                   0                          -0 
+   240 requicitos1[11,1]
+                                   0                          -0 
+   241 requicitos1[11,2]
+                                   0                          -0 
+   242 requicitos1[11,3]
+                                   0                          -0 
+   243 requicitos1[11,4]
+                                   0                          -0 
+   244 requicitos1[11,5]
+                                   0                          -0 
+   245 requicitos1[11,6]
+                                   0                          -0 
+   246 requicitos1[11,7]
+                                   0                          -0 
+   247 requicitos1[11,8]
+                                   0                          -0 
+   248 requicitos1[11,9]
+                                   0                          -0 
+   249 requicitos1[11,10]
+                                   0                          -0 
+   250 requicitos1[11,11]
+                                   0                          -0 
+   251 requicitos1[11,12]
+                                   0                          -0 
+   252 requicitos1[11,13]
+                                   0                          -0 
+   253 requicitos1[11,14]
+                                   0                          -0 
+   254 requicitos1[11,15]
+                                   0                          -0 
+   255 requicitos1[11,16]
+                                   0                          -0 
+   256 requicitos1[11,17]
+                                   0                          -0 
+   257 requicitos1[11,18]
+                                   0                          -0 
+   258 requicitos1[11,19]
+                                   0                          -0 
+   259 requicitos1[11,20]
+                                   0                          -0 
+   260 requicitos1[11,21]
+                                   0                          -0 
+   261 requicitos1[11,22]
+                                   0                          -0 
+   262 requicitos1[11,23]
+                                   0                          -0 
+   263 requicitos1[11,24]
+                                   0                          -0 
+   264 requicitos1[11,25]
+                                   0                          -0 
+   265 requicitos1[11,26]
+                                   0                          -0 
+   266 requicitos1[11,27]
+                                   0                          -0 
+   267 requicitos1[11,28]
+                                   0                          -0 
+   268 requicitos1[11,29]
+                                   0                          -0 
+   269 requicitos1[11,30]
+                                   0                          -0 
+   270 requicitos1[11,31]
+                                   0                          -0 
+   271 requicitos1[11,32]
+                                   0                          -0 
+   272 requicitos1[11,33]
+                                   0                          -0 
+   273 requicitos1[12,1]
+                                   0                          -0 
+   274 requicitos1[12,2]
+                                   0                          -0 
+   275 requicitos1[12,3]
+                                   0                          -0 
+   276 requicitos1[12,4]
+                                   0                          -0 
+   277 requicitos1[12,5]
+                                   0                          -0 
+   278 requicitos1[12,6]
+                                   0                          -0 
+   279 requicitos1[12,7]
+                                   0                          -0 
+   280 requicitos1[12,8]
+                                   0                          -0 
+   281 requicitos1[12,9]
+                                   0                          -0 
+   282 requicitos1[12,10]
+                                   0                          -0 
+   283 requicitos1[12,11]
+                                   0                          -0 
+   284 requicitos1[12,12]
+                                   0                          -0 
+   285 requicitos1[12,13]
+                                   0                          -0 
+   286 requicitos1[12,14]
+                                   0                          -0 
+   287 requicitos1[12,15]
+                                   0                          -0 
+   288 requicitos1[12,16]
+                                   0                          -0 
+   289 requicitos1[12,17]
+                                   0                          -0 
+   290 requicitos1[12,18]
+                                   0                          -0 
+   291 requicitos1[12,19]
+                                   0                          -0 
+   292 requicitos1[12,20]
+                                   0                          -0 
+   293 requicitos1[12,21]
+                                   0                          -0 
+   294 requicitos1[12,22]
+                                   0                          -0 
+   295 requicitos1[12,23]
+                                   0                          -0 
+   296 requicitos1[12,24]
+                                   0                          -0 
+   297 requicitos1[12,25]
+                                   0                          -0 
+   298 requicitos1[12,26]
+                                   0                          -0 
+   299 requicitos1[12,27]
+                                   0                          -0 
+   300 requicitos1[12,28]
+                                   0                          -0 
+   301 requicitos1[12,29]
+                                   0                          -0 
+   302 requicitos1[12,30]
+                                   0                          -0 
+   303 requicitos1[12,31]
+                                   0                          -0 
+   304 requicitos1[12,32]
+                                   0                          -0 
+   305 requicitos1[12,33]
+                                   0                          -0 
+   306 requicitos1[13,1]
+                                   0                          -0 
+   307 requicitos1[13,2]
+                                   0                          -0 
+   308 requicitos1[13,3]
+                                   0                          -0 
+   309 requicitos1[13,4]
+                                   0                          -0 
+   310 requicitos1[13,5]
+                                   0                          -0 
+   311 requicitos1[13,6]
+                                   0                          -0 
+   312 requicitos1[13,7]
+                                   0                          -0 
+   313 requicitos1[13,8]
+                                   0                          -0 
+   314 requicitos1[13,9]
+                                   0                          -0 
+   315 requicitos1[13,10]
+                                   0                          -0 
+   316 requicitos1[13,11]
+                                   0                          -0 
+   317 requicitos1[13,12]
+                                   0                          -0 
+   318 requicitos1[13,13]
+                                   0                          -0 
+   319 requicitos1[13,14]
+                                   0                          -0 
+   320 requicitos1[13,15]
+                                   0                          -0 
+   321 requicitos1[13,16]
+                                   0                          -0 
+   322 requicitos1[13,17]
+                                   0                          -0 
+   323 requicitos1[13,18]
+                                   0                          -0 
+   324 requicitos1[13,19]
+                                   0                          -0 
+   325 requicitos1[13,20]
+                                   0                          -0 
+   326 requicitos1[13,21]
+                                   0                          -0 
+   327 requicitos1[13,22]
+                                   0                          -0 
+   328 requicitos1[13,23]
+                                   0                          -0 
+   329 requicitos1[13,24]
+                                   0                          -0 
+   330 requicitos1[13,25]
+                                   0                          -0 
+   331 requicitos1[13,26]
+                                   0                          -0 
+   332 requicitos1[13,27]
+                                   0                          -0 
+   333 requicitos1[13,28]
+                                   0                          -0 
+   334 requicitos1[13,29]
+                                   0                          -0 
+   335 requicitos1[13,30]
+                                   0                          -0 
+   336 requicitos1[13,31]
+                                   0                          -0 
+   337 requicitos1[13,32]
+                                   0                          -0 
+   338 requicitos1[13,33]
+                                   0                          -0 
+   339 requicitos1[14,1]
+                                   0                          -0 
+   340 requicitos1[14,2]
+                                   0                          -0 
+   341 requicitos1[14,3]
+                                   0                          -0 
+   342 requicitos1[14,4]
+                                   0                          -0 
+   343 requicitos1[14,5]
+                                   0                          -0 
+   344 requicitos1[14,6]
+                                   0                          -0 
+   345 requicitos1[14,7]
+                                   0                          -0 
+   346 requicitos1[14,8]
+                                   0                          -0 
+   347 requicitos1[14,9]
+                                   0                          -0 
+   348 requicitos1[14,10]
+                                   0                          -0 
+   349 requicitos1[14,11]
+                                   0                          -0 
+   350 requicitos1[14,12]
+                                   0                          -0 
+   351 requicitos1[14,13]
+                                   0                          -0 
+   352 requicitos1[14,14]
+                                   0                          -0 
+   353 requicitos1[14,15]
+                                   0                          -0 
+   354 requicitos1[14,16]
+                                   0                          -0 
+   355 requicitos1[14,17]
+                                   0                          -0 
+   356 requicitos1[14,18]
+                                   0                          -0 
+   357 requicitos1[14,19]
+                                   0                          -0 
+   358 requicitos1[14,20]
+                                   0                          -0 
+   359 requicitos1[14,21]
+                                   0                          -0 
+   360 requicitos1[14,22]
+                                   0                          -0 
+   361 requicitos1[14,23]
+                                   0                          -0 
+   362 requicitos1[14,24]
+                                   0                          -0 
+   363 requicitos1[14,25]
+                                   0                          -0 
+   364 requicitos1[14,26]
+                                   0                          -0 
+   365 requicitos1[14,27]
+                                   0                          -0 
+   366 requicitos1[14,28]
+                                   0                          -0 
+   367 requicitos1[14,29]
+                                   0                          -0 
+   368 requicitos1[14,30]
+                                   0                          -0 
+   369 requicitos1[14,31]
+                                   0                          -0 
+   370 requicitos1[14,32]
+                                   0                          -0 
+   371 requicitos1[14,33]
+                                   0                          -0 
+   372 requicitos1[15,1]
+                                   0                          -0 
+   373 requicitos1[15,2]
+                                   0                          -0 
+   374 requicitos1[15,3]
+                                   0                          -0 
+   375 requicitos1[15,4]
+                                   0                          -0 
+   376 requicitos1[15,5]
+                                   0                          -0 
+   377 requicitos1[15,6]
+                                   0                          -0 
+   378 requicitos1[15,7]
+                                   0                          -0 
+   379 requicitos1[15,8]
+                                   0                          -0 
+   380 requicitos1[15,9]
+                                   0                          -0 
+   381 requicitos1[15,10]
+                                   0                          -0 
+   382 requicitos1[15,11]
+                                   0                          -0 
+   383 requicitos1[15,12]
+                                   0                          -0 
+   384 requicitos1[15,13]
+                                   0                          -0 
+   385 requicitos1[15,14]
+                                   0                          -0 
+   386 requicitos1[15,15]
+                                   0                          -0 
+   387 requicitos1[15,16]
+                                   0                          -0 
+   388 requicitos1[15,17]
+                                   0                          -0 
+   389 requicitos1[15,18]
+                                   0                          -0 
+   390 requicitos1[15,19]
+                                   0                          -0 
+   391 requicitos1[15,20]
+                                   0                          -0 
+   392 requicitos1[15,21]
+                                   0                          -0 
+   393 requicitos1[15,22]
+                                   0                          -0 
+   394 requicitos1[15,23]
+                                   0                          -0 
+   395 requicitos1[15,24]
+                                   0                          -0 
+   396 requicitos1[15,25]
+                                   0                          -0 
+   397 requicitos1[15,26]
+                                   0                          -0 
+   398 requicitos1[15,27]
+                                   0                          -0 
+   399 requicitos1[15,28]
+                                   0                          -0 
+   400 requicitos1[15,29]
+                                   0                          -0 
+   401 requicitos1[15,30]
+                                   0                          -0 
+   402 requicitos1[15,31]
+                                   0                          -0 
+   403 requicitos1[15,32]
+                                   0                          -0 
+   404 requicitos1[15,33]
+                                   0                          -0 
+   405 requicitos0[6,1]
+                                1001             1               
+   406 requicitos0[6,2]
+                                1001             1               
+   407 requicitos0[6,3]
+                                   0            -0               
+   408 requicitos0[6,4]
+                                   0            -0               
+   409 requicitos0[6,5]
+                                   0            -0               
+   410 requicitos0[6,6]
+                                1001             1               
+   411 requicitos0[6,7]
+                                   0            -1               
+   412 requicitos0[6,8]
+                                   0            -1               
+   413 requicitos0[6,9]
+                                   0            -0               
+   414 requicitos0[6,10]
+                                1001             1               
+   415 requicitos0[6,11]
+                                1001             1               
+   416 requicitos0[6,12]
+                                   0            -1               
+   417 requicitos0[6,13]
+                                   0            -0               
+   418 requicitos0[6,14]
+                                1001             1               
+   419 requicitos0[6,15]
+                                1001             1               
+   420 requicitos0[6,16]
+                                   0            -1               
+   421 requicitos0[6,17]
+                                   0            -1               
+   422 requicitos0[6,18]
+                                   0            -1               
+   423 requicitos0[6,19]
+                                   0            -4               
+   424 requicitos0[6,20]
+                                1001             1               
+   425 requicitos0[6,21]
+                                   0            -0               
+   426 requicitos0[6,22]
+                                   0            -2               
+   427 requicitos0[6,23]
+                                   0            -0               
+   428 requicitos0[6,24]
+                                   0            -0               
+   429 requicitos0[6,25]
+                                   0            -0               
+   430 requicitos0[6,26]
+                                   0            -0               
+   431 requicitos0[6,27]
+                                   0            -1               
+   432 requicitos0[6,28]
+                                   0            -0               
+   433 requicitos0[6,29]
+                                1001             1               
+   434 requicitos0[6,30]
+                                1001             1               
+   435 requicitos0[6,31]
+                                   0            -1               
+   436 requicitos0[6,32]
+                                   0            -0               
+   437 requicitos0[6,33]
+                                   0            -0               
+   438 requicitos0[7,1]
+                                1001             1               
+   439 requicitos0[7,2]
+                                1001             1               
+   440 requicitos0[7,3]
+                                 999            -0               
+   441 requicitos0[7,4]
+                                 999            -0               
+   442 requicitos0[7,5]
+                                   0            -0               
+   443 requicitos0[7,6]
+                                1001             1               
+   444 requicitos0[7,7]
+                                  -1            -1               
+   445 requicitos0[7,8]
+                                  -1            -1               
+   446 requicitos0[7,9]
+                                   0            -0               
+   447 requicitos0[7,10]
+                                1001             1               
+   448 requicitos0[7,11]
+                                1001             1               
+   449 requicitos0[7,12]
+                                  -1            -1               
+   450 requicitos0[7,13]
+                                 999            -0               
+   451 requicitos0[7,14]
+                                1001             1               
+   452 requicitos0[7,15]
+                                1001             1               
+   453 requicitos0[7,16]
+                                 997            -1               
+   454 requicitos0[7,17]
+                                   0            -1               
+   455 requicitos0[7,18]
+                                   0            -1               
+   456 requicitos0[7,19]
+                                  -1            -4               
+   457 requicitos0[7,20]
+                                1001             1               
+   458 requicitos0[7,21]
+                                   0            -0               
+   459 requicitos0[7,22]
+                                  -1            -2               
+   460 requicitos0[7,23]
+                                 999            -0               
+   461 requicitos0[7,24]
+                                   0            -0               
+   462 requicitos0[7,25]
+                                   0            -0               
+   463 requicitos0[7,26]
+                                   0            -0               
+   464 requicitos0[7,27]
+                                  -1            -1               
+   465 requicitos0[7,28]
+                                 999            -0               
+   466 requicitos0[7,29]
+                                1001             1               
+   467 requicitos0[7,30]
+                                1001             1               
+   468 requicitos0[7,31]
+                                   0            -1               
+   469 requicitos0[7,32]
+                                   0            -0               
+   470 requicitos0[7,33]
+                                   0            -0               
+   471 requicitos0[8,1]
+                                1001             1               
+   472 requicitos0[8,2]
+                                1001             1               
+   473 requicitos0[8,3]
+                                 999            -0               
+   474 requicitos0[8,4]
+                                 999            -0               
+   475 requicitos0[8,5]
+                                   0            -0               
+   476 requicitos0[8,6]
+                                1001             1               
+   477 requicitos0[8,7]
+                                  -1            -1               
+   478 requicitos0[8,8]
+                                  -1            -1               
+   479 requicitos0[8,9]
+                                 999            -0               
+   480 requicitos0[8,10]
+                                1001             1               
+   481 requicitos0[8,11]
+                                1001             1               
+   482 requicitos0[8,12]
+                                  -1            -1               
+   483 requicitos0[8,13]
+                                 999            -0               
+   484 requicitos0[8,14]
+                                1001             1               
+   485 requicitos0[8,15]
+                                1001             1               
+   486 requicitos0[8,16]
+                                 997            -1               
+   487 requicitos0[8,17]
+                                 997            -1               
+   488 requicitos0[8,18]
+                                  -1            -1               
+   489 requicitos0[8,19]
+                                  -3            -4               
+   490 requicitos0[8,20]
+                                1001             1               
+   491 requicitos0[8,21]
+                                   0            -0               
+   492 requicitos0[8,22]
+                                  -2            -2               
+   493 requicitos0[8,23]
+                                 999            -0               
+   494 requicitos0[8,24]
+                                   0            -0               
+   495 requicitos0[8,25]
+                                   0            -0               
+   496 requicitos0[8,26]
+                                   0            -0               
+   497 requicitos0[8,27]
+                                 997            -1               
+   498 requicitos0[8,28]
+                                 999            -0               
+   499 requicitos0[8,29]
+                                1001             1               
+   500 requicitos0[8,30]
+                                1001             1               
+   501 requicitos0[8,31]
+                                  -1            -1               
+   502 requicitos0[8,32]
+                                   0            -0               
+   503 requicitos0[8,33]
+                                   0            -0               
+   504 requicitos0[9,1]
+                                1001             1               
+   505 requicitos0[9,2]
+                                1001             1               
+   506 requicitos0[9,3]
+                                 999            -0               
+   507 requicitos0[9,4]
+                                 999            -0               
+   508 requicitos0[9,5]
+                                 999            -0               
+   509 requicitos0[9,6]
+                                1001             1               
+   510 requicitos0[9,7]
+                                 997            -1               
+   511 requicitos0[9,8]
+                                 997            -1               
+   512 requicitos0[9,9]
+                                 999            -0               
+   513 requicitos0[9,10]
+                                1001             1               
+   514 requicitos0[9,11]
+                                1001             1               
+   515 requicitos0[9,12]
+                                 997            -1               
+   516 requicitos0[9,13]
+                                 999            -0               
+   517 requicitos0[9,14]
+                                1001             1               
+   518 requicitos0[9,15]
+                                1001             1               
+   519 requicitos0[9,16]
+                                 997            -1               
+   520 requicitos0[9,17]
+                                 997            -1               
+   521 requicitos0[9,18]
+                                  -1            -1               
+   522 requicitos0[9,19]
+                                  -3            -4               
+   523 requicitos0[9,20]
+                                1001             1               
+   524 requicitos0[9,21]
+                                 999            -0               
+   525 requicitos0[9,22]
+                                  -2            -2               
+   526 requicitos0[9,23]
+                                 999            -0               
+   527 requicitos0[9,24]
+                                 999            -0               
+   528 requicitos0[9,25]
+                                 999            -0               
+   529 requicitos0[9,26]
+                                 999            -0               
+   530 requicitos0[9,27]
+                                 997            -1               
+   531 requicitos0[9,28]
+                                 999            -0               
+   532 requicitos0[9,29]
+                                1001             1               
+   533 requicitos0[9,30]
+                                1001             1               
+   534 requicitos0[9,31]
+                                  -1            -1               
+   535 requicitos0[9,32]
+                                   0            -0               
+   536 requicitos0[9,33]
+                                   0            -0               
+   537 requicitos0[10,1]
+                                1001             1               
+   538 requicitos0[10,2]
+                                1001             1               
+   539 requicitos0[10,3]
+                                 999            -0               
+   540 requicitos0[10,4]
+                                 999            -0               
+   541 requicitos0[10,5]
+                                 999            -0               
+   542 requicitos0[10,6]
+                                1001             1               
+   543 requicitos0[10,7]
+                                 997            -1               
+   544 requicitos0[10,8]
+                                 997            -1               
+   545 requicitos0[10,9]
+                                 999            -0               
+   546 requicitos0[10,10]
+                                1001             1               
+   547 requicitos0[10,11]
+                                1001             1               
+   548 requicitos0[10,12]
+                                 997            -1               
+   549 requicitos0[10,13]
+                                 999            -0               
+   550 requicitos0[10,14]
+                                1001             1               
+   551 requicitos0[10,15]
+                                1001             1               
+   552 requicitos0[10,16]
+                                 997            -1               
+   553 requicitos0[10,17]
+                                 997            -1               
+   554 requicitos0[10,18]
+                                 997            -1               
+   555 requicitos0[10,19]
+                                  -4            -4               
+   556 requicitos0[10,20]
+                                1001             1               
+   557 requicitos0[10,21]
+                                 999            -0               
+   558 requicitos0[10,22]
+                                  -2            -2               
+   559 requicitos0[10,23]
+                                 999            -0               
+   560 requicitos0[10,24]
+                                 999            -0               
+   561 requicitos0[10,25]
+                                 999            -0               
+   562 requicitos0[10,26]
+                                 999            -0               
+   563 requicitos0[10,27]
+                                 997            -1               
+   564 requicitos0[10,28]
+                                 999            -0               
+   565 requicitos0[10,29]
+                                1001             1               
+   566 requicitos0[10,30]
+                                1001             1               
+   567 requicitos0[10,31]
+                                 997            -1               
+   568 requicitos0[10,32]
+                                   0            -0               
+   569 requicitos0[10,33]
+                                 999            -0               
+   570 requicitos0[11,1]
+                                1001             1               
+   571 requicitos0[11,2]
+                                1001             1               
+   572 requicitos0[11,3]
+                                 999            -0               
+   573 requicitos0[11,4]
+                                 999            -0               
+   574 requicitos0[11,5]
+                                 999            -0               
+   575 requicitos0[11,6]
+                                1001             1               
+   576 requicitos0[11,7]
+                                 997            -1               
+   577 requicitos0[11,8]
+                                 997            -1               
+   578 requicitos0[11,9]
+                                 999            -0               
+   579 requicitos0[11,10]
+                                1001             1               
+   580 requicitos0[11,11]
+                                1001             1               
+   581 requicitos0[11,12]
+                                 997            -1               
+   582 requicitos0[11,13]
+                                 999            -0               
+   583 requicitos0[11,14]
+                                1001             1               
+   584 requicitos0[11,15]
+                                1001             1               
+   585 requicitos0[11,16]
+                                 997            -1               
+   586 requicitos0[11,17]
+                                 997            -1               
+   587 requicitos0[11,18]
+                                 997            -1               
+   588 requicitos0[11,19]
+                                 991            -4               
+   589 requicitos0[11,20]
+                                1001             1               
+   590 requicitos0[11,21]
+                                 999            -0               
+   591 requicitos0[11,22]
+                                 995            -2               
+   592 requicitos0[11,23]
+                                 999            -0               
+   593 requicitos0[11,24]
+                                 999            -0               
+   594 requicitos0[11,25]
+                                 999            -0               
+   595 requicitos0[11,26]
+                                 999            -0               
+   596 requicitos0[11,27]
+                                 997            -1               
+   597 requicitos0[11,28]
+                                 999            -0               
+   598 requicitos0[11,29]
+                                1001             1               
+   599 requicitos0[11,30]
+                                1001             1               
+   600 requicitos0[11,31]
+                                 997            -1               
+   601 requicitos0[11,32]
+                                 999            -0               
+   602 requicitos0[11,33]
+                                 999            -0               
+   603 requicitos0[12,1]
+                                1001             1               
+   604 requicitos0[12,2]
+                                1001             1               
+   605 requicitos0[12,3]
+                                 999            -0               
+   606 requicitos0[12,4]
+                                 999            -0               
+   607 requicitos0[12,5]
+                                 999            -0               
+   608 requicitos0[12,6]
+                                1001             1               
+   609 requicitos0[12,7]
+                                 997            -1               
+   610 requicitos0[12,8]
+                                 997            -1               
+   611 requicitos0[12,9]
+                                 999            -0               
+   612 requicitos0[12,10]
+                                1001             1               
+   613 requicitos0[12,11]
+                                1001             1               
+   614 requicitos0[12,12]
+                                 997            -1               
+   615 requicitos0[12,13]
+                                 999            -0               
+   616 requicitos0[12,14]
+                                1001             1               
+   617 requicitos0[12,15]
+                                1001             1               
+   618 requicitos0[12,16]
+                                 997            -1               
+   619 requicitos0[12,17]
+                                 997            -1               
+   620 requicitos0[12,18]
+                                 997            -1               
+   621 requicitos0[12,19]
+                                 991            -4               
+   622 requicitos0[12,20]
+                                1001             1               
+   623 requicitos0[12,21]
+                                 999            -0               
+   624 requicitos0[12,22]
+                                 995            -2               
+   625 requicitos0[12,23]
+                                 999            -0               
+   626 requicitos0[12,24]
+                                 999            -0               
+   627 requicitos0[12,25]
+                                 999            -0               
+   628 requicitos0[12,26]
+                                 999            -0               
+   629 requicitos0[12,27]
+                                 997            -1               
+   630 requicitos0[12,28]
+                                 999            -0               
+   631 requicitos0[12,29]
+                                1001             1               
+   632 requicitos0[12,30]
+                                1001             1               
+   633 requicitos0[12,31]
+                                 997            -1               
+   634 requicitos0[12,32]
+                                 999            -0               
+   635 requicitos0[12,33]
+                                 999            -0               
+   636 requicitos0[13,1]
+                                1001             1               
+   637 requicitos0[13,2]
+                                1001             1               
+   638 requicitos0[13,3]
+                                 999            -0               
+   639 requicitos0[13,4]
+                                 999            -0               
+   640 requicitos0[13,5]
+                                 999            -0               
+   641 requicitos0[13,6]
+                                1001             1               
+   642 requicitos0[13,7]
+                                 997            -1               
+   643 requicitos0[13,8]
+                                 997            -1               
+   644 requicitos0[13,9]
+                                 999            -0               
+   645 requicitos0[13,10]
+                                1001             1               
+   646 requicitos0[13,11]
+                                1001             1               
+   647 requicitos0[13,12]
+                                 997            -1               
+   648 requicitos0[13,13]
+                                 999            -0               
+   649 requicitos0[13,14]
+                                1001             1               
+   650 requicitos0[13,15]
+                                1001             1               
+   651 requicitos0[13,16]
+                                 997            -1               
+   652 requicitos0[13,17]
+                                 997            -1               
+   653 requicitos0[13,18]
+                                 997            -1               
+   654 requicitos0[13,19]
+                                 991            -4               
+   655 requicitos0[13,20]
+                                1001             1               
+   656 requicitos0[13,21]
+                                 999            -0               
+   657 requicitos0[13,22]
+                                 995            -2               
+   658 requicitos0[13,23]
+                                 999            -0               
+   659 requicitos0[13,24]
+                                 999            -0               
+   660 requicitos0[13,25]
+                                 999            -0               
+   661 requicitos0[13,26]
+                                 999            -0               
+   662 requicitos0[13,27]
+                                 997            -1               
+   663 requicitos0[13,28]
+                                 999            -0               
+   664 requicitos0[13,29]
+                                1001             1               
+   665 requicitos0[13,30]
+                                1001             1               
+   666 requicitos0[13,31]
+                                 997            -1               
+   667 requicitos0[13,32]
+                                 999            -0               
+   668 requicitos0[13,33]
+                                 999            -0               
+   669 requicitos0[14,1]
+                                1001             1               
+   670 requicitos0[14,2]
+                                1001             1               
+   671 requicitos0[14,3]
+                                 999            -0               
+   672 requicitos0[14,4]
+                                 999            -0               
+   673 requicitos0[14,5]
+                                 999            -0               
+   674 requicitos0[14,6]
+                                1001             1               
+   675 requicitos0[14,7]
+                                 997            -1               
+   676 requicitos0[14,8]
+                                 997            -1               
+   677 requicitos0[14,9]
+                                 999            -0               
+   678 requicitos0[14,10]
+                                1001             1               
+   679 requicitos0[14,11]
+                                1001             1               
+   680 requicitos0[14,12]
+                                 997            -1               
+   681 requicitos0[14,13]
+                                 999            -0               
+   682 requicitos0[14,14]
+                                1001             1               
+   683 requicitos0[14,15]
+                                1001             1               
+   684 requicitos0[14,16]
+                                 997            -1               
+   685 requicitos0[14,17]
+                                 997            -1               
+   686 requicitos0[14,18]
+                                 997            -1               
+   687 requicitos0[14,19]
+                                 991            -4               
+   688 requicitos0[14,20]
+                                1001             1               
+   689 requicitos0[14,21]
+                                 999            -0               
+   690 requicitos0[14,22]
+                                 995            -2               
+   691 requicitos0[14,23]
+                                 999            -0               
+   692 requicitos0[14,24]
+                                 999            -0               
+   693 requicitos0[14,25]
+                                 999            -0               
+   694 requicitos0[14,26]
+                                 999            -0               
+   695 requicitos0[14,27]
+                                 997            -1               
+   696 requicitos0[14,28]
+                                 999            -0               
+   697 requicitos0[14,29]
+                                1001             1               
+   698 requicitos0[14,30]
+                                1001             1               
+   699 requicitos0[14,31]
+                                 997            -1               
+   700 requicitos0[14,32]
+                                 999            -0               
+   701 requicitos0[14,33]
+                                 999            -0               
+   702 requicitos0[15,1]
+                                1001             1               
+   703 requicitos0[15,2]
+                                1001             1               
+   704 requicitos0[15,3]
+                                 999            -0               
+   705 requicitos0[15,4]
+                                 999            -0               
+   706 requicitos0[15,5]
+                                 999            -0               
+   707 requicitos0[15,6]
+                                1001             1               
+   708 requicitos0[15,7]
+                                 997            -1               
+   709 requicitos0[15,8]
+                                 997            -1               
+   710 requicitos0[15,9]
+                                 999            -0               
+   711 requicitos0[15,10]
+                                1001             1               
+   712 requicitos0[15,11]
+                                1001             1               
+   713 requicitos0[15,12]
+                                 997            -1               
+   714 requicitos0[15,13]
+                                 999            -0               
+   715 requicitos0[15,14]
+                                1001             1               
+   716 requicitos0[15,15]
+                                1001             1               
+   717 requicitos0[15,16]
+                                 997            -1               
+   718 requicitos0[15,17]
+                                 997            -1               
+   719 requicitos0[15,18]
+                                 997            -1               
+   720 requicitos0[15,19]
+                                 991            -4               
+   721 requicitos0[15,20]
+                                1001             1               
+   722 requicitos0[15,21]
+                                 999            -0               
+   723 requicitos0[15,22]
+                                 995            -2               
+   724 requicitos0[15,23]
+                                 999            -0               
+   725 requicitos0[15,24]
+                                 999            -0               
+   726 requicitos0[15,25]
+                                 999            -0               
+   727 requicitos0[15,26]
+                                 999            -0               
+   728 requicitos0[15,27]
+                                 997            -1               
+   729 requicitos0[15,28]
+                                 999            -0               
+   730 requicitos0[15,29]
+                                1001             1               
+   731 requicitos0[15,30]
+                                1001             1               
+   732 requicitos0[15,31]
+                                 997            -1               
+   733 requicitos0[15,32]
+                                 999            -0               
+   734 requicitos0[15,33]
+                                 999            -0               
+   735 requicitos3[1,6]
+                                   0                          -0 
+   736 requicitos3[1,7]
+                                  -1                          -0 
+   737 requicitos3[1,8]
+                                  -1                          -0 
+   738 requicitos3[1,9]
+                                  -1                          -0 
+   739 requicitos3[1,10]
+                                  -1                          -0 
+   740 requicitos3[1,11]
+                                  -1                          -0 
+   741 requicitos3[1,12]
+                                  -1                          -0 
+   742 requicitos3[1,13]
+                                  -1                          -0 
+   743 requicitos3[1,14]
+                                  -1                          -0 
+   744 requicitos3[1,15]
+                                  -1                          -0 
+   745 requicitos3[2,6]
+                                   0                          -0 
+   746 requicitos3[2,7]
+                                  -1                          -0 
+   747 requicitos3[2,8]
+                                  -1                          -0 
+   748 requicitos3[2,9]
+                                  -1                          -0 
+   749 requicitos3[2,10]
+                                  -1                          -0 
+   750 requicitos3[2,11]
+                                  -1                          -0 
+   751 requicitos3[2,12]
+                                  -1                          -0 
+   752 requicitos3[2,13]
+                                  -1                          -0 
+   753 requicitos3[2,14]
+                                  -1                          -0 
+   754 requicitos3[2,15]
+                                  -1                          -0 
+   755 requicitos3[3,6]
+                                   0                          -0 
+   756 requicitos3[3,7]
+                                   0                          -0 
+   757 requicitos3[3,8]
+                                  -1                          -0 
+   758 requicitos3[3,9]
+                                  -1                          -0 
+   759 requicitos3[3,10]
+                                  -1                          -0 
+   760 requicitos3[3,11]
+                                  -1                          -0 
+   761 requicitos3[3,12]
+                                  -1                          -0 
+   762 requicitos3[3,13]
+                                  -1                          -0 
+   763 requicitos3[3,14]
+                                  -1                          -0 
+   764 requicitos3[3,15]
+                                  -1                          -0 
+   765 requicitos3[4,6]
+                                   0                          -0 
+   766 requicitos3[4,7]
+                                   0                          -0 
+   767 requicitos3[4,8]
+                                  -1                          -0 
+   768 requicitos3[4,9]
+                                  -1                          -0 
+   769 requicitos3[4,10]
+                                  -1                          -0 
+   770 requicitos3[4,11]
+                                  -1                          -0 
+   771 requicitos3[4,12]
+                                  -1                          -0 
+   772 requicitos3[4,13]
+                                  -1                          -0 
+   773 requicitos3[4,14]
+                                  -1                          -0 
+   774 requicitos3[4,15]
+                                  -1                          -0 
+   775 requicitos3[5,6]
+                                   0                          -0 
+   776 requicitos3[5,7]
+                                   0                          -0 
+   777 requicitos3[5,8]
+                                   0                          -0 
+   778 requicitos3[5,9]
+                                  -1                          -0 
+   779 requicitos3[5,10]
+                                   0                          -0 
+   780 requicitos3[5,11]
+                                  -1                          -0 
+   781 requicitos3[5,12]
+                                  -1                          -0 
+   782 requicitos3[5,13]
+                                  -1                          -0 
+   783 requicitos3[5,14]
+                                  -1                          -0 
+   784 requicitos3[5,15]
+                                  -1                          -0 
+   785 requicitos3[6,6]
+                                  -1                          -0 
+   786 requicitos3[6,7]
+                                   0                          -0 
+   787 requicitos3[6,8]
+                                  -1                          -0 
+   788 requicitos3[6,9]
+                                  -1                          -0 
+   789 requicitos3[6,10]
+                                  -1                          -0 
+   790 requicitos3[6,11]
+                                  -1                          -0 
+   791 requicitos3[6,12]
+                                  -1                          -0 
+   792 requicitos3[6,13]
+                                  -1                          -0 
+   793 requicitos3[6,14]
+                                  -1                          -0 
+   794 requicitos3[6,15]
+                                  -1                          -0 
+   795 requicitos3[7,6]
+                                   0                          -0 
+   796 requicitos3[7,7]
+                                   0                          -0 
+   797 requicitos3[7,8]
+                                   0                          -0 
+   798 requicitos3[7,9]
+                                   0                          -0 
+   799 requicitos3[7,10]
+                                  -1                          -0 
+   800 requicitos3[7,11]
+                                  -1                          -0 
+   801 requicitos3[7,12]
+                                  -1                          -0 
+   802 requicitos3[7,13]
+                                  -1                          -0 
+   803 requicitos3[7,14]
+                                  -1                          -0 
+   804 requicitos3[7,15]
+                                  -1                          -0 
+   805 requicitos3[8,6]
+                                   0                          -0 
+   806 requicitos3[8,7]
+                                   0                          -0 
+   807 requicitos3[8,8]
+                                   0                          -0 
+   808 requicitos3[8,9]
+                                  -1                          -0 
+   809 requicitos3[8,10]
+                                  -1                          -0 
+   810 requicitos3[8,11]
+                                   0                          -0 
+   811 requicitos3[8,12]
+                                  -1                          -0 
+   812 requicitos3[8,13]
+                                  -1                          -0 
+   813 requicitos3[8,14]
+                                  -1                          -0 
+   814 requicitos3[8,15]
+                                  -1                          -0 
+   815 requicitos3[9,6]
+                                   0                          -0 
+   816 requicitos3[9,7]
+                                   0                          -0 
+   817 requicitos3[9,8]
+                                   0                          -0 
+   818 requicitos3[9,9]
+                                  -1                          -0 
+   819 requicitos3[9,10]
+                                  -1                          -0 
+   820 requicitos3[9,11]
+                                  -1                          -0 
+   821 requicitos3[9,12]
+                                  -1                          -0 
+   822 requicitos3[9,13]
+                                  -1                          -0 
+   823 requicitos3[9,14]
+                                  -1                          -0 
+   824 requicitos3[9,15]
+                                  -1                          -0 
+   825 requicitos3[10,6]
+                                   0                          -0 
+   826 requicitos3[10,7]
+                                  -1                          -0 
+   827 requicitos3[10,8]
+                                  -1                          -0 
+   828 requicitos3[10,9]
+                                  -1                          -0 
+   829 requicitos3[10,10]
+                                  -1                          -0 
+   830 requicitos3[10,11]
+                                  -1                          -0 
+   831 requicitos3[10,12]
+                                  -1                          -0 
+   832 requicitos3[10,13]
+                                  -1                          -0 
+   833 requicitos3[10,14]
+                                  -1                          -0 
+   834 requicitos3[10,15]
+                                  -1                          -0 
+   835 requicitos3[11,6]
+                                   0                          -0 
+   836 requicitos3[11,7]
+                                  -1                          -0 
+   837 requicitos3[11,8]
+                                  -1                          -0 
+   838 requicitos3[11,9]
+                                  -1                          -0 
+   839 requicitos3[11,10]
+                                  -1                          -0 
+   840 requicitos3[11,11]
+                                  -1                          -0 
+   841 requicitos3[11,12]
+                                  -1                          -0 
+   842 requicitos3[11,13]
+                                  -1                          -0 
+   843 requicitos3[11,14]
+                                  -1                          -0 
+   844 requicitos3[11,15]
+                                  -1                          -0 
+   845 requicitos3[12,6]
+                                   0                          -0 
+   846 requicitos3[12,7]
+                                   0                          -0 
+   847 requicitos3[12,8]
+                                   0                          -0 
+   848 requicitos3[12,9]
+                                   0                          -0 
+   849 requicitos3[12,10]
+                                  -1                          -0 
+   850 requicitos3[12,11]
+                                  -1                          -0 
+   851 requicitos3[12,12]
+                                  -1                          -0 
+   852 requicitos3[12,13]
+                                  -1                          -0 
+   853 requicitos3[12,14]
+                                  -1                          -0 
+   854 requicitos3[12,15]
+                                  -1                          -0 
+   855 requicitos3[13,6]
+                                   0                          -0 
+   856 requicitos3[13,7]
+                                   0                          -0 
+   857 requicitos3[13,8]
+                                  -1                          -0 
+   858 requicitos3[13,9]
+                                  -1                          -0 
+   859 requicitos3[13,10]
+                                  -1                          -0 
+   860 requicitos3[13,11]
+                                  -1                          -0 
+   861 requicitos3[13,12]
+                                  -1                          -0 
+   862 requicitos3[13,13]
+                                  -1                          -0 
+   863 requicitos3[13,14]
+                                  -1                          -0 
+   864 requicitos3[13,15]
+                                  -1                          -0 
+   865 requicitos3[14,6]
+                                  -1                          -0 
+   866 requicitos3[14,7]
+                                  -1                          -0 
+   867 requicitos3[14,8]
+                                  -1                          -0 
+   868 requicitos3[14,9]
+                                  -1                          -0 
+   869 requicitos3[14,10]
+                                  -1                          -0 
+   870 requicitos3[14,11]
+                                   0                          -0 
+   871 requicitos3[14,12]
+                                  -1                          -0 
+   872 requicitos3[14,13]
+                                  -1                          -0 
+   873 requicitos3[14,14]
+                                  -1                          -0 
+   874 requicitos3[14,15]
+                                  -1                          -0 
+   875 requicitos3[15,6]
+                                  -1                          -0 
+   876 requicitos3[15,7]
+                                  -1                          -0 
+   877 requicitos3[15,8]
+                                  -1                          -0 
+   878 requicitos3[15,9]
+                                  -1                          -0 
+   879 requicitos3[15,10]
+                                   0                          -0 
+   880 requicitos3[15,11]
+                                  -1                          -0 
+   881 requicitos3[15,12]
+                                  -1                          -0 
+   882 requicitos3[15,13]
+                                  -1                          -0 
+   883 requicitos3[15,14]
+                                  -1                          -0 
+   884 requicitos3[15,15]
+                                  -1                          -0 
+   885 requicitos3[16,6]
+                                   0                          -0 
+   886 requicitos3[16,7]
+                                   0                          -0 
+   887 requicitos3[16,8]
+                                  -1                          -0 
+   888 requicitos3[16,9]
+                                  -1                          -0 
+   889 requicitos3[16,10]
+                                  -1                          -0 
+   890 requicitos3[16,11]
+                                  -1                          -0 
+   891 requicitos3[16,12]
+                                  -1                          -0 
+   892 requicitos3[16,13]
+                                  -1                          -0 
+   893 requicitos3[16,14]
+                                  -1                          -0 
+   894 requicitos3[16,15]
+                                  -1                          -0 
+   895 requicitos3[17,6]
+                                   0                          -0 
+   896 requicitos3[17,7]
+                                   0                          -0 
+   897 requicitos3[17,8]
+                                   0                          -0 
+   898 requicitos3[17,9]
+                                  -1                          -0 
+   899 requicitos3[17,10]
+                                  -1                          -0 
+   900 requicitos3[17,11]
+                                  -1                          -0 
+   901 requicitos3[17,12]
+                                  -1                          -0 
+   902 requicitos3[17,13]
+                                  -1                          -0 
+   903 requicitos3[17,14]
+                                  -1                          -0 
+   904 requicitos3[17,15]
+                                  -1                          -0 
+   905 requicitos3[18,6]
+                                   0                          -0 
+   906 requicitos3[18,7]
+                                   0                          -0 
+   907 requicitos3[18,8]
+                                   0                          -0 
+   908 requicitos3[18,9]
+                                   0                          -0 
+   909 requicitos3[18,10]
+                                  -1                          -0 
+   910 requicitos3[18,11]
+                                   0                          -0 
+   911 requicitos3[18,12]
+                                  -1                          -0 
+   912 requicitos3[18,13]
+                                  -1                          -0 
+   913 requicitos3[18,14]
+                                  -1                          -0 
+   914 requicitos3[18,15]
+                                  -1                          -0 
+   915 requicitos3[19,6]
+                                   0                          -0 
+   916 requicitos3[19,7]
+                                   0                          -0 
+   917 requicitos3[19,8]
+                                   0                          -0 
+   918 requicitos3[19,9]
+                                   0                          -0 
+   919 requicitos3[19,10]
+                                   0                          -0 
+   920 requicitos3[19,11]
+                                   0                          -0 
+   921 requicitos3[19,12]
+                                  -1                          -0 
+   922 requicitos3[19,13]
+                                  -1                          -0 
+   923 requicitos3[19,14]
+                                  -1                          -0 
+   924 requicitos3[19,15]
+                                  -1                          -0 
+   925 requicitos3[20,6]
+                                  -1                          -0 
+   926 requicitos3[20,7]
+                                  -1                          -0 
+   927 requicitos3[20,8]
+                                  -1                          -0 
+   928 requicitos3[20,9]
+                                  -1                          -0 
+   929 requicitos3[20,10]
+                                   0                          -0 
+   930 requicitos3[20,11]
+                                  -1                          -0 
+   931 requicitos3[20,12]
+                                  -1                          -0 
+   932 requicitos3[20,13]
+                                  -1                          -0 
+   933 requicitos3[20,14]
+                                  -1                          -0 
+   934 requicitos3[20,15]
+                                  -1                          -0 
+   935 requicitos3[21,6]
+                                   0                          -0 
+   936 requicitos3[21,7]
+                                   0                          -0 
+   937 requicitos3[21,8]
+                                   0                          -0 
+   938 requicitos3[21,9]
+                                   0                          -0 
+   939 requicitos3[21,10]
+                                  -1                          -0 
+   940 requicitos3[21,11]
+                                  -1                          -0 
+   941 requicitos3[21,12]
+                                  -1                          -0 
+   942 requicitos3[21,13]
+                                  -1                          -0 
+   943 requicitos3[21,14]
+                                  -1                          -0 
+   944 requicitos3[21,15]
+                                  -1                          -0 
+   945 requicitos3[22,6]
+                                   0                          -0 
+   946 requicitos3[22,7]
+                                   0                          -0 
+   947 requicitos3[22,8]
+                                   0                          -0 
+   948 requicitos3[22,9]
+                                   0                          -0 
+   949 requicitos3[22,10]
+                                   0                          -0 
+   950 requicitos3[22,11]
+                                   0                          -0 
+   951 requicitos3[22,12]
+                                  -1                          -0 
+   952 requicitos3[22,13]
+                                  -1                          -0 
+   953 requicitos3[22,14]
+                                  -1                          -0 
+   954 requicitos3[22,15]
+                                  -1                          -0 
+   955 requicitos3[23,6]
+                                   0                          -0 
+   956 requicitos3[23,7]
+                                  -1                          -0 
+   957 requicitos3[23,8]
+                                  -1                          -0 
+   958 requicitos3[23,9]
+                                  -1                          -0 
+   959 requicitos3[23,10]
+                                  -1                          -0 
+   960 requicitos3[23,11]
+                                   0                          -0 
+   961 requicitos3[23,12]
+                                  -1                          -0 
+   962 requicitos3[23,13]
+                                  -1                          -0 
+   963 requicitos3[23,14]
+                                  -1                          -0 
+   964 requicitos3[23,15]
+                                  -1                          -0 
+   965 requicitos3[24,6]
+                                   0                          -0 
+   966 requicitos3[24,7]
+                                   0                          -0 
+   967 requicitos3[24,8]
+                                   0                          -0 
+   968 requicitos3[24,9]
+                                  -1                          -0 
+   969 requicitos3[24,10]
+                                   0                          -0 
+   970 requicitos3[24,11]
+                                  -1                          -0 
+   971 requicitos3[24,12]
+                                  -1                          -0 
+   972 requicitos3[24,13]
+                                  -1                          -0 
+   973 requicitos3[24,14]
+                                  -1                          -0 
+   974 requicitos3[24,15]
+                                  -1                          -0 
+   975 requicitos3[25,6]
+                                   0                          -0 
+   976 requicitos3[25,7]
+                                   0                          -0 
+   977 requicitos3[25,8]
+                                   0                          -0 
+   978 requicitos3[25,9]
+                                   0                          -0 
+   979 requicitos3[25,10]
+                                  -1                          -0 
+   980 requicitos3[25,11]
+                                  -1                          -0 
+   981 requicitos3[25,12]
+                                  -1                          -0 
+   982 requicitos3[25,13]
+                                  -1                          -0 
+   983 requicitos3[25,14]
+                                  -1                          -0 
+   984 requicitos3[25,15]
+                                  -1                          -0 
+   985 requicitos3[26,6]
+                                   0                          -0 
+   986 requicitos3[26,7]
+                                   0                          -0 
+   987 requicitos3[26,8]
+                                   0                          -0 
+   988 requicitos3[26,9]
+                                   0                          -0 
+   989 requicitos3[26,10]
+                                  -1                          -0 
+   990 requicitos3[26,11]
+                                  -1                          -0 
+   991 requicitos3[26,12]
+                                  -1                          -0 
+   992 requicitos3[26,13]
+                                  -1                          -0 
+   993 requicitos3[26,14]
+                                  -1                          -0 
+   994 requicitos3[26,15]
+                                  -1                          -0 
+   995 requicitos3[27,6]
+                                   0                          -0 
+   996 requicitos3[27,7]
+                                   0                          -0 
+   997 requicitos3[27,8]
+                                   0                          -0 
+   998 requicitos3[27,9]
+                                  -1                          -0 
+   999 requicitos3[27,10]
+                                  -1                          -0 
+  1000 requicitos3[27,11]
+                                  -1                          -0 
+  1001 requicitos3[27,12]
+                                  -1                          -0 
+  1002 requicitos3[27,13]
+                                  -1                          -0 
+  1003 requicitos3[27,14]
+                                  -1                          -0 
+  1004 requicitos3[27,15]
+                                  -1                          -0 
+  1005 requicitos3[28,6]
+                                   0                          -0 
+  1006 requicitos3[28,7]
+                                  -1                          -0 
+  1007 requicitos3[28,8]
+                                  -1                          -0 
+  1008 requicitos3[28,9]
+                                   0                          -0 
+  1009 requicitos3[28,10]
+                                  -1                          -0 
+  1010 requicitos3[28,11]
+                                  -1                          -0 
+  1011 requicitos3[28,12]
+                                  -1                          -0 
+  1012 requicitos3[28,13]
+                                  -1                          -0 
+  1013 requicitos3[28,14]
+                                  -1                          -0 
+  1014 requicitos3[28,15]
+                                  -1                          -0 
+  1015 requicitos3[29,6]
+                                   0                          -0 
+  1016 requicitos3[29,7]
+                                  -1                          -0 
+  1017 requicitos3[29,8]
+                                  -1                          -0 
+  1018 requicitos3[29,9]
+                                  -1                          -0 
+  1019 requicitos3[29,10]
+                                  -1                          -0 
+  1020 requicitos3[29,11]
+                                  -1                          -0 
+  1021 requicitos3[29,12]
+                                  -1                          -0 
+  1022 requicitos3[29,13]
+                                  -1                          -0 
+  1023 requicitos3[29,14]
+                                  -1                          -0 
+  1024 requicitos3[29,15]
+                                  -1                          -0 
+  1025 requicitos3[30,6]
+                                  -1                          -0 
+  1026 requicitos3[30,7]
+                                  -1                          -0 
+  1027 requicitos3[30,8]
+                                  -1                          -0 
+  1028 requicitos3[30,9]
+                                  -1                          -0 
+  1029 requicitos3[30,10]
+                                   0                          -0 
+  1030 requicitos3[30,11]
+                                  -1                          -0 
+  1031 requicitos3[30,12]
+                                  -1                          -0 
+  1032 requicitos3[30,13]
+                                  -1                          -0 
+  1033 requicitos3[30,14]
+                                  -1                          -0 
+  1034 requicitos3[30,15]
+                                  -1                          -0 
+  1035 requicitos3[31,6]
+                                   0                          -0 
+  1036 requicitos3[31,7]
+                                   0                          -0 
+  1037 requicitos3[31,8]
+                                   0                          -0 
+  1038 requicitos3[31,9]
+                                   0                          -0 
+  1039 requicitos3[31,10]
+                                   0                          -0 
+  1040 requicitos3[31,11]
+                                  -1                          -0 
+  1041 requicitos3[31,12]
+                                  -1                          -0 
+  1042 requicitos3[31,13]
+                                  -1                          -0 
+  1043 requicitos3[31,14]
+                                  -1                          -0 
+  1044 requicitos3[31,15]
+                                  -1                          -0 
+  1045 requicitos3[32,6]
+                                   0                          -0 
+  1046 requicitos3[32,7]
+                                   0                          -0 
+  1047 requicitos3[32,8]
+                                   0                          -0 
+  1048 requicitos3[32,9]
+                                   0                          -0 
+  1049 requicitos3[32,10]
+                                   0                          -0 
+  1050 requicitos3[32,11]
+                                   0                          -0 
+  1051 requicitos3[32,12]
+                                  -1                          -0 
+  1052 requicitos3[32,13]
+                                  -1                          -0 
+  1053 requicitos3[32,14]
+                                  -1                          -0 
+  1054 requicitos3[32,15]
+                                  -1                          -0 
+  1055 requicitos3[33,6]
+                                   0                          -0 
+  1056 requicitos3[33,7]
+                                   0                          -0 
+  1057 requicitos3[33,8]
+                                   0                          -0 
+  1058 requicitos3[33,9]
+                                   0                          -0 
+  1059 requicitos3[33,10]
+                                   0                          -0 
+  1060 requicitos3[33,11]
+                                  -1                          -0 
+  1061 requicitos3[33,12]
+                                  -1                          -0 
+  1062 requicitos3[33,13]
+                                  -1                          -0 
+  1063 requicitos3[33,14]
+                                  -1                          -0 
+  1064 requicitos3[33,15]
+                                  -1                          -0 
+  1065 optiinfe[6]                 1                           1 
+  1066 optiinfe[7]                 1                           1 
+  1067 optiinfe[8]                 0                           1 
+  1068 optiinfe[9]                 0                           1 
+  1069 optiinfe[10]                0                           1 
+  1070 optiinfe[11]                0                           1 
+  1071 optiinfe[12]                0                           1 
+  1072 optiinfe[13]                0                           1 
+  1073 optiinfe[14]                0                           1 
+  1074 optiinfe[15]                0                           1 
+  1075 trabapracti[6]
+                                   0                           1 
+  1076 trabapracti[7]
+                                   0                           1 
+  1077 trabapracti[8]
+                                   0                           1 
+  1078 trabapracti[9]
+                                   0                           1 
+  1079 trabapracti[10]
+                                   1                           1 
+  1080 trabapracti[11]
+                                   1                           1 
+  1081 trabapracti[12]
+                                   0                           1 
+  1082 trabapracti[13]
+                                   0                           1 
+  1083 trabapracti[14]
+                                   0                           1 
+  1084 trabapracti[15]
+                                   0                           1 
+  1085 simuingepro[6]
+                                   0            -0             = 
+  1086 simuingepro[7]
+                                   0            -0             = 
+  1087 simuingepro[8]
+                                   0            -0             = 
+  1088 simuingepro[9]
+                                   0            -0             = 
+  1089 simuingepro[10]
+                                   0            -0             = 
+  1090 simuingepro[11]
+                                   0            -0             = 
+  1091 simuingepro[12]
+                                   0            -0             = 
+  1092 simuingepro[13]
+                                   0            -0             = 
+  1093 simuingepro[14]
+                                   0            -0             = 
+  1094 simuingepro[15]
+                                   0            -0             = 
+  1095 extracredi                  1                           2 
+  1096 extracredi1[6]
+                                 -15                          -0 
+  1097 extracredi1[7]
+                                 -16                          -0 
+  1098 extracredi1[8]
+                                  -9                          -0 
+  1099 extracredi1[9]
+                                 -19                          -0 
+  1100 extracredi1[10]
+                                   0                          -0 
+  1101 extracredi1[11]
+                                 -20                          -0 
+  1102 extracredi1[12]
+                                   0                          -0 
+  1103 extracredi1[13]
+                                   0                          -0 
+  1104 extracredi1[14]
+                                   0                          -0 
+  1105 extracredi1[15]
+                                   0                          -0 
+  1106 maxicredi[6]              -15           -20               
+  1107 maxicredi[7]              -16           -20               
+  1108 maxicredi[8]               -9           -20               
+  1109 maxicredi[9]              -19           -20               
+  1110 maxicredi[10]
+                                 959           -20               
+  1111 maxicredi[11]
+                                 -20           -20               
+  1112 maxicredi[12]
+                                   0           -20               
+  1113 maxicredi[13]
+                                   0           -20               
+  1114 maxicredi[14]
+                                   0           -20               
+  1115 maxicredi[15]
+                                   0           -20               
+  1116 res2[6]                    15                          20 
+  1117 res2[7]                    16                          20 
+  1118 res2[8]                     9                          20 
+  1119 res2[9]                    19                          20 
+  1120 res2[10]                   20                          20 
+  1121 res2[11]                   20                          20 
+  1122 res2[12]                    0                          20 
+  1123 res2[13]                    0                          20 
+  1124 res2[14]                    0                          20 
+  1125 res2[15]                    0                          20 
+  1126 res3[6]                     0                          -0 
+  1127 res3[7]                     0                          -0 
+  1128 res3[8]                     0                          -0 
+  1129 res3[9]                     0                          -0 
+  1130 res3[10]                    0                          -0 
+  1131 res3[11]                   -1                          -0 
+  1132 res3[12]                   -1                          -0 
+  1133 res3[13]                   -1                          -0 
+  1134 res3[14]                   -1                          -0 
+  1135 res3[15]                   -1                          -0 
+  1136 res4[6]                     0                          -0 
+  1137 res4[7]                     0                          -0 
+  1138 res4[8]                     0                          -0 
+  1139 res4[9]                     0                          -0 
+  1140 res4[10]                    0                          -0 
+  1141 res4[11]                   -1                          -0 
+  1142 res4[12]                   -1                          -0 
+  1143 res4[13]                   -1                          -0 
+  1144 res4[14]                   -1                          -0 
+  1145 res4[15]                   -1                          -0 
+  1146 maximo[6]                   5            -0               
+  1147 maximo[7]                   4            -0               
+  1148 maximo[8]                   3            -0               
+  1149 maximo[9]                   2            -0               
+  1150 maximo[10]                  1            -0               
+  1151 maximo[11]                  0            -0               
+  1152 maximo[12]                 11            -0               
+  1153 maximo[13]                 11            -0               
+  1154 maximo[14]                 11            -0               
+  1155 maximo[15]                 11            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,6]       *              1             0             1 
+     2 x[1,7]       *              0             0             1 
+     3 x[1,8]       *              0             0             1 
+     4 x[1,9]       *              0             0             1 
+     5 x[1,10]      *              0             0             1 
+     6 x[1,11]      *              0             0             1 
+     7 x[1,12]      *              0             0             1 
+     8 x[1,13]      *              0             0             1 
+     9 x[1,14]      *              0             0             1 
+    10 x[1,15]      *              0             0             1 
+    11 x[2,6]       *              1             0             1 
+    12 x[2,7]       *              0             0             1 
+    13 x[2,8]       *              0             0             1 
+    14 x[2,9]       *              0             0             1 
+    15 x[2,10]      *              0             0             1 
+    16 x[2,11]      *              0             0             1 
+    17 x[2,12]      *              0             0             1 
+    18 x[2,13]      *              0             0             1 
+    19 x[2,14]      *              0             0             1 
+    20 x[2,15]      *              0             0             1 
+    21 x[3,6]       *              0             0             1 
+    22 x[3,7]       *              1             0             1 
+    23 x[3,8]       *              0             0             1 
+    24 x[3,9]       *              0             0             1 
+    25 x[3,10]      *              0             0             1 
+    26 x[3,11]      *              0             0             1 
+    27 x[3,12]      *              0             0             1 
+    28 x[3,13]      *              0             0             1 
+    29 x[3,14]      *              0             0             1 
+    30 x[3,15]      *              0             0             1 
+    31 x[4,6]       *              0             0             1 
+    32 x[4,7]       *              1             0             1 
+    33 x[4,8]       *              0             0             1 
+    34 x[4,9]       *              0             0             1 
+    35 x[4,10]      *              0             0             1 
+    36 x[4,11]      *              0             0             1 
+    37 x[4,12]      *              0             0             1 
+    38 x[4,13]      *              0             0             1 
+    39 x[4,14]      *              0             0             1 
+    40 x[4,15]      *              0             0             1 
+    41 x[5,6]       *              0             0             1 
+    42 x[5,7]       *              0             0             1 
+    43 x[5,8]       *              0             0             1 
+    44 x[5,9]       *              0             0             1 
+    45 x[5,10]      *              1             0             1 
+    46 x[5,11]      *              0             0             1 
+    47 x[5,12]      *              0             0             1 
+    48 x[5,13]      *              0             0             1 
+    49 x[5,14]      *              0             0             1 
+    50 x[5,15]      *              0             0             1 
+    51 x[6,6]       *              0             0             1 
+    52 x[6,7]       *              1             0             1 
+    53 x[6,8]       *              0             0             1 
+    54 x[6,9]       *              0             0             1 
+    55 x[6,10]      *              0             0             1 
+    56 x[6,11]      *              0             0             1 
+    57 x[6,12]      *              0             0             1 
+    58 x[6,13]      *              0             0             1 
+    59 x[6,14]      *              0             0             1 
+    60 x[6,15]      *              0             0             1 
+    61 x[7,6]       *              0             0             1 
+    62 x[7,7]       *              0             0             1 
+    63 x[7,8]       *              0             0             1 
+    64 x[7,9]       *              1             0             1 
+    65 x[7,10]      *              0             0             1 
+    66 x[7,11]      *              0             0             1 
+    67 x[7,12]      *              0             0             1 
+    68 x[7,13]      *              0             0             1 
+    69 x[7,14]      *              0             0             1 
+    70 x[7,15]      *              0             0             1 
+    71 x[8,6]       *              0             0             1 
+    72 x[8,7]       *              0             0             1 
+    73 x[8,8]       *              0             0             1 
+    74 x[8,9]       *              0             0             1 
+    75 x[8,10]      *              0             0             1 
+    76 x[8,11]      *              1             0             1 
+    77 x[8,12]      *              0             0             1 
+    78 x[8,13]      *              0             0             1 
+    79 x[8,14]      *              0             0             1 
+    80 x[8,15]      *              0             0             1 
+    81 x[9,6]       *              0             0             1 
+    82 x[9,7]       *              0             0             1 
+    83 x[9,8]       *              1             0             1 
+    84 x[9,9]       *              0             0             1 
+    85 x[9,10]      *              0             0             1 
+    86 x[9,11]      *              0             0             1 
+    87 x[9,12]      *              0             0             1 
+    88 x[9,13]      *              0             0             1 
+    89 x[9,14]      *              0             0             1 
+    90 x[9,15]      *              0             0             1 
+    91 x[10,6]      *              1             0             1 
+    92 x[10,7]      *              0             0             1 
+    93 x[10,8]      *              0             0             1 
+    94 x[10,9]      *              0             0             1 
+    95 x[10,10]     *              0             0             1 
+    96 x[10,11]     *              0             0             1 
+    97 x[10,12]     *              0             0             1 
+    98 x[10,13]     *              0             0             1 
+    99 x[10,14]     *              0             0             1 
+   100 x[10,15]     *              0             0             1 
+   101 x[11,6]      *              1             0             1 
+   102 x[11,7]      *              0             0             1 
+   103 x[11,8]      *              0             0             1 
+   104 x[11,9]      *              0             0             1 
+   105 x[11,10]     *              0             0             1 
+   106 x[11,11]     *              0             0             1 
+   107 x[11,12]     *              0             0             1 
+   108 x[11,13]     *              0             0             1 
+   109 x[11,14]     *              0             0             1 
+   110 x[11,15]     *              0             0             1 
+   111 x[12,6]      *              0             0             1 
+   112 x[12,7]      *              0             0             1 
+   113 x[12,8]      *              0             0             1 
+   114 x[12,9]      *              1             0             1 
+   115 x[12,10]     *              0             0             1 
+   116 x[12,11]     *              0             0             1 
+   117 x[12,12]     *              0             0             1 
+   118 x[12,13]     *              0             0             1 
+   119 x[12,14]     *              0             0             1 
+   120 x[12,15]     *              0             0             1 
+   121 x[13,6]      *              0             0             1 
+   122 x[13,7]      *              1             0             1 
+   123 x[13,8]      *              0             0             1 
+   124 x[13,9]      *              0             0             1 
+   125 x[13,10]     *              0             0             1 
+   126 x[13,11]     *              0             0             1 
+   127 x[13,12]     *              0             0             1 
+   128 x[13,13]     *              0             0             1 
+   129 x[13,14]     *              0             0             1 
+   130 x[13,15]     *              0             0             1 
+   131 x[14,6]      *              0             0             1 
+   132 x[14,7]      *              0             0             1 
+   133 x[14,8]      *              0             0             1 
+   134 x[14,9]      *              0             0             1 
+   135 x[14,10]     *              0             0             1 
+   136 x[14,11]     *              1             0             1 
+   137 x[14,12]     *              0             0             1 
+   138 x[14,13]     *              0             0             1 
+   139 x[14,14]     *              0             0             1 
+   140 x[14,15]     *              0             0             1 
+   141 x[15,6]      *              0             0             1 
+   142 x[15,7]      *              0             0             1 
+   143 x[15,8]      *              0             0             1 
+   144 x[15,9]      *              0             0             1 
+   145 x[15,10]     *              1             0             1 
+   146 x[15,11]     *              0             0             1 
+   147 x[15,12]     *              0             0             1 
+   148 x[15,13]     *              0             0             1 
+   149 x[15,14]     *              0             0             1 
+   150 x[15,15]     *              0             0             1 
+   151 x[16,6]      *              0             0             1 
+   152 x[16,7]      *              1             0             1 
+   153 x[16,8]      *              0             0             1 
+   154 x[16,9]      *              0             0             1 
+   155 x[16,10]     *              0             0             1 
+   156 x[16,11]     *              0             0             1 
+   157 x[16,12]     *              0             0             1 
+   158 x[16,13]     *              0             0             1 
+   159 x[16,14]     *              0             0             1 
+   160 x[16,15]     *              0             0             1 
+   161 x[17,6]      *              0             0             1 
+   162 x[17,7]      *              0             0             1 
+   163 x[17,8]      *              1             0             1 
+   164 x[17,9]      *              0             0             1 
+   165 x[17,10]     *              0             0             1 
+   166 x[17,11]     *              0             0             1 
+   167 x[17,12]     *              0             0             1 
+   168 x[17,13]     *              0             0             1 
+   169 x[17,14]     *              0             0             1 
+   170 x[17,15]     *              0             0             1 
+   171 x[18,6]      *              0             0             1 
+   172 x[18,7]      *              0             0             1 
+   173 x[18,8]      *              0             0             1 
+   174 x[18,9]      *              0             0             1 
+   175 x[18,10]     *              0             0             1 
+   176 x[18,11]     *              1             0             1 
+   177 x[18,12]     *              0             0             1 
+   178 x[18,13]     *              0             0             1 
+   179 x[18,14]     *              0             0             1 
+   180 x[18,15]     *              0             0             1 
+   181 x[19,6]      *              0             0             1 
+   182 x[19,7]      *              0             0             1 
+   183 x[19,8]      *              0             0             1 
+   184 x[19,9]      *              0             0             1 
+   185 x[19,10]     *              0             0             1 
+   186 x[19,11]     *              1             0             1 
+   187 x[19,12]     *              0             0             1 
+   188 x[19,13]     *              0             0             1 
+   189 x[19,14]     *              0             0             1 
+   190 x[19,15]     *              0             0             1 
+   191 x[20,6]      *              0             0             1 
+   192 x[20,7]      *              0             0             1 
+   193 x[20,8]      *              0             0             1 
+   194 x[20,9]      *              0             0             1 
+   195 x[20,10]     *              1             0             1 
+   196 x[20,11]     *              0             0             1 
+   197 x[20,12]     *              0             0             1 
+   198 x[20,13]     *              0             0             1 
+   199 x[20,14]     *              0             0             1 
+   200 x[20,15]     *              0             0             1 
+   201 x[21,6]      *              0             0             1 
+   202 x[21,7]      *              0             0             1 
+   203 x[21,8]      *              0             0             1 
+   204 x[21,9]      *              1             0             1 
+   205 x[21,10]     *              0             0             1 
+   206 x[21,11]     *              0             0             1 
+   207 x[21,12]     *              0             0             1 
+   208 x[21,13]     *              0             0             1 
+   209 x[21,14]     *              0             0             1 
+   210 x[21,15]     *              0             0             1 
+   211 x[22,6]      *              0             0             1 
+   212 x[22,7]      *              0             0             1 
+   213 x[22,8]      *              0             0             1 
+   214 x[22,9]      *              0             0             1 
+   215 x[22,10]     *              0             0             1 
+   216 x[22,11]     *              1             0             1 
+   217 x[22,12]     *              0             0             1 
+   218 x[22,13]     *              0             0             1 
+   219 x[22,14]     *              0             0             1 
+   220 x[22,15]     *              0             0             1 
+   221 x[23,6]      *              0             0             1 
+   222 x[23,7]      *              0             0             1 
+   223 x[23,8]      *              0             0             1 
+   224 x[23,9]      *              0             0             1 
+   225 x[23,10]     *              0             0             1 
+   226 x[23,11]     *              1             0             1 
+   227 x[23,12]     *              0             0             1 
+   228 x[23,13]     *              0             0             1 
+   229 x[23,14]     *              0             0             1 
+   230 x[23,15]     *              0             0             1 
+   231 x[24,6]      *              0             0             1 
+   232 x[24,7]      *              0             0             1 
+   233 x[24,8]      *              0             0             1 
+   234 x[24,9]      *              0             0             1 
+   235 x[24,10]     *              1             0             1 
+   236 x[24,11]     *              0             0             1 
+   237 x[24,12]     *              0             0             1 
+   238 x[24,13]     *              0             0             1 
+   239 x[24,14]     *              0             0             1 
+   240 x[24,15]     *              0             0             1 
+   241 x[25,6]      *              0             0             1 
+   242 x[25,7]      *              0             0             1 
+   243 x[25,8]      *              0             0             1 
+   244 x[25,9]      *              1             0             1 
+   245 x[25,10]     *              0             0             1 
+   246 x[25,11]     *              0             0             1 
+   247 x[25,12]     *              0             0             1 
+   248 x[25,13]     *              0             0             1 
+   249 x[25,14]     *              0             0             1 
+   250 x[25,15]     *              0             0             1 
+   251 x[26,6]      *              0             0             1 
+   252 x[26,7]      *              0             0             1 
+   253 x[26,8]      *              0             0             1 
+   254 x[26,9]      *              1             0             1 
+   255 x[26,10]     *              0             0             1 
+   256 x[26,11]     *              0             0             1 
+   257 x[26,12]     *              0             0             1 
+   258 x[26,13]     *              0             0             1 
+   259 x[26,14]     *              0             0             1 
+   260 x[26,15]     *              0             0             1 
+   261 x[27,6]      *              0             0             1 
+   262 x[27,7]      *              0             0             1 
+   263 x[27,8]      *              1             0             1 
+   264 x[27,9]      *              0             0             1 
+   265 x[27,10]     *              0             0             1 
+   266 x[27,11]     *              0             0             1 
+   267 x[27,12]     *              0             0             1 
+   268 x[27,13]     *              0             0             1 
+   269 x[27,14]     *              0             0             1 
+   270 x[27,15]     *              0             0             1 
+   271 x[28,6]      *              0             0             1 
+   272 x[28,7]      *              0             0             1 
+   273 x[28,8]      *              0             0             1 
+   274 x[28,9]      *              1             0             1 
+   275 x[28,10]     *              0             0             1 
+   276 x[28,11]     *              0             0             1 
+   277 x[28,12]     *              0             0             1 
+   278 x[28,13]     *              0             0             1 
+   279 x[28,14]     *              0             0             1 
+   280 x[28,15]     *              0             0             1 
+   281 x[29,6]      *              1             0             1 
+   282 x[29,7]      *              0             0             1 
+   283 x[29,8]      *              0             0             1 
+   284 x[29,9]      *              0             0             1 
+   285 x[29,10]     *              0             0             1 
+   286 x[29,11]     *              0             0             1 
+   287 x[29,12]     *              0             0             1 
+   288 x[29,13]     *              0             0             1 
+   289 x[29,14]     *              0             0             1 
+   290 x[29,15]     *              0             0             1 
+   291 x[30,6]      *              0             0             1 
+   292 x[30,7]      *              0             0             1 
+   293 x[30,8]      *              0             0             1 
+   294 x[30,9]      *              0             0             1 
+   295 x[30,10]     *              1             0             1 
+   296 x[30,11]     *              0             0             1 
+   297 x[30,12]     *              0             0             1 
+   298 x[30,13]     *              0             0             1 
+   299 x[30,14]     *              0             0             1 
+   300 x[30,15]     *              0             0             1 
+   301 x[31,6]      *              0             0             1 
+   302 x[31,7]      *              0             0             1 
+   303 x[31,8]      *              0             0             1 
+   304 x[31,9]      *              0             0             1 
+   305 x[31,10]     *              1             0             1 
+   306 x[31,11]     *              0             0             1 
+   307 x[31,12]     *              0             0             1 
+   308 x[31,13]     *              0             0             1 
+   309 x[31,14]     *              0             0             1 
+   310 x[31,15]     *              0             0             1 
+   311 x[32,6]      *              0             0             1 
+   312 x[32,7]      *              0             0             1 
+   313 x[32,8]      *              0             0             1 
+   314 x[32,9]      *              0             0             1 
+   315 x[32,10]     *              0             0             1 
+   316 x[32,11]     *              1             0             1 
+   317 x[32,12]     *              0             0             1 
+   318 x[32,13]     *              0             0             1 
+   319 x[32,14]     *              0             0             1 
+   320 x[32,15]     *              0             0             1 
+   321 x[33,6]      *              0             0             1 
+   322 x[33,7]      *              0             0             1 
+   323 x[33,8]      *              0             0             1 
+   324 x[33,9]      *              0             0             1 
+   325 x[33,10]     *              1             0             1 
+   326 x[33,11]     *              0             0             1 
+   327 x[33,12]     *              0             0             1 
+   328 x[33,13]     *              0             0             1 
+   329 x[33,14]     *              0             0             1 
+   330 x[33,15]     *              0             0             1 
+   331 w[1,6]       *              1             0             1 
+   332 w[2,6]       *              1             0             1 
+   333 w[3,6]       *              0             0             1 
+   334 w[4,6]       *              0             0             1 
+   335 w[5,6]       *              0             0             1 
+   336 w[6,6]       *              1             0             1 
+   337 w[7,6]       *              0             0             1 
+   338 w[8,6]       *              0             0             1 
+   339 w[9,6]       *              0             0             1 
+   340 w[10,6]      *              1             0             1 
+   341 w[11,6]      *              1             0             1 
+   342 w[12,6]      *              0             0             1 
+   343 w[13,6]      *              0             0             1 
+   344 w[14,6]      *              1             0             1 
+   345 w[15,6]      *              1             0             1 
+   346 w[16,6]      *              0             0             1 
+   347 w[17,6]      *              0             0             1 
+   348 w[18,6]      *              0             0             1 
+   349 w[19,6]      *              0             0             1 
+   350 w[20,6]      *              1             0             1 
+   351 w[21,6]      *              0             0             1 
+   352 w[22,6]      *              0             0             1 
+   353 w[23,6]      *              0             0             1 
+   354 w[24,6]      *              0             0             1 
+   355 w[25,6]      *              0             0             1 
+   356 w[26,6]      *              0             0             1 
+   357 w[27,6]      *              0             0             1 
+   358 w[28,6]      *              0             0             1 
+   359 w[29,6]      *              1             0             1 
+   360 w[30,6]      *              1             0             1 
+   361 w[31,6]      *              0             0             1 
+   362 w[32,6]      *              0             0             1 
+   363 w[33,6]      *              0             0             1 
+   364 w[1,7]       *              1             0             1 
+   365 w[2,7]       *              1             0             1 
+   366 w[3,7]       *              1             0             1 
+   367 w[4,7]       *              1             0             1 
+   368 w[5,7]       *              0             0             1 
+   369 w[6,7]       *              1             0             1 
+   370 w[7,7]       *              0             0             1 
+   371 w[8,7]       *              0             0             1 
+   372 w[9,7]       *              0             0             1 
+   373 w[10,7]      *              1             0             1 
+   374 w[11,7]      *              1             0             1 
+   375 w[12,7]      *              0             0             1 
+   376 w[13,7]      *              1             0             1 
+   377 w[14,7]      *              1             0             1 
+   378 w[15,7]      *              1             0             1 
+   379 w[16,7]      *              1             0             1 
+   380 w[17,7]      *              0             0             1 
+   381 w[18,7]      *              0             0             1 
+   382 w[19,7]      *              0             0             1 
+   383 w[20,7]      *              1             0             1 
+   384 w[21,7]      *              0             0             1 
+   385 w[22,7]      *              0             0             1 
+   386 w[23,7]      *              1             0             1 
+   387 w[24,7]      *              0             0             1 
+   388 w[25,7]      *              0             0             1 
+   389 w[26,7]      *              0             0             1 
+   390 w[27,7]      *              0             0             1 
+   391 w[28,7]      *              1             0             1 
+   392 w[29,7]      *              1             0             1 
+   393 w[30,7]      *              1             0             1 
+   394 w[31,7]      *              0             0             1 
+   395 w[32,7]      *              0             0             1 
+   396 w[33,7]      *              0             0             1 
+   397 w[1,8]       *              1             0             1 
+   398 w[2,8]       *              1             0             1 
+   399 w[3,8]       *              1             0             1 
+   400 w[4,8]       *              1             0             1 
+   401 w[5,8]       *              0             0             1 
+   402 w[6,8]       *              1             0             1 
+   403 w[7,8]       *              0             0             1 
+   404 w[8,8]       *              0             0             1 
+   405 w[9,8]       *              1             0             1 
+   406 w[10,8]      *              1             0             1 
+   407 w[11,8]      *              1             0             1 
+   408 w[12,8]      *              0             0             1 
+   409 w[13,8]      *              1             0             1 
+   410 w[14,8]      *              1             0             1 
+   411 w[15,8]      *              1             0             1 
+   412 w[16,8]      *              1             0             1 
+   413 w[17,8]      *              1             0             1 
+   414 w[18,8]      *              0             0             1 
+   415 w[19,8]      *              0             0             1 
+   416 w[20,8]      *              1             0             1 
+   417 w[21,8]      *              0             0             1 
+   418 w[22,8]      *              0             0             1 
+   419 w[23,8]      *              1             0             1 
+   420 w[24,8]      *              0             0             1 
+   421 w[25,8]      *              0             0             1 
+   422 w[26,8]      *              0             0             1 
+   423 w[27,8]      *              1             0             1 
+   424 w[28,8]      *              1             0             1 
+   425 w[29,8]      *              1             0             1 
+   426 w[30,8]      *              1             0             1 
+   427 w[31,8]      *              0             0             1 
+   428 w[32,8]      *              0             0             1 
+   429 w[33,8]      *              0             0             1 
+   430 w[1,9]       *              1             0             1 
+   431 w[2,9]       *              1             0             1 
+   432 w[3,9]       *              1             0             1 
+   433 w[4,9]       *              1             0             1 
+   434 w[5,9]       *              1             0             1 
+   435 w[6,9]       *              1             0             1 
+   436 w[7,9]       *              1             0             1 
+   437 w[8,9]       *              1             0             1 
+   438 w[9,9]       *              1             0             1 
+   439 w[10,9]      *              1             0             1 
+   440 w[11,9]      *              1             0             1 
+   441 w[12,9]      *              1             0             1 
+   442 w[13,9]      *              1             0             1 
+   443 w[14,9]      *              1             0             1 
+   444 w[15,9]      *              1             0             1 
+   445 w[16,9]      *              1             0             1 
+   446 w[17,9]      *              1             0             1 
+   447 w[18,9]      *              0             0             1 
+   448 w[19,9]      *              0             0             1 
+   449 w[20,9]      *              1             0             1 
+   450 w[21,9]      *              1             0             1 
+   451 w[22,9]      *              0             0             1 
+   452 w[23,9]      *              1             0             1 
+   453 w[24,9]      *              1             0             1 
+   454 w[25,9]      *              1             0             1 
+   455 w[26,9]      *              1             0             1 
+   456 w[27,9]      *              1             0             1 
+   457 w[28,9]      *              1             0             1 
+   458 w[29,9]      *              1             0             1 
+   459 w[30,9]      *              1             0             1 
+   460 w[31,9]      *              0             0             1 
+   461 w[32,9]      *              0             0             1 
+   462 w[33,9]      *              0             0             1 
+   463 w[1,10]      *              1             0             1 
+   464 w[2,10]      *              1             0             1 
+   465 w[3,10]      *              1             0             1 
+   466 w[4,10]      *              1             0             1 
+   467 w[5,10]      *              1             0             1 
+   468 w[6,10]      *              1             0             1 
+   469 w[7,10]      *              1             0             1 
+   470 w[8,10]      *              1             0             1 
+   471 w[9,10]      *              1             0             1 
+   472 w[10,10]     *              1             0             1 
+   473 w[11,10]     *              1             0             1 
+   474 w[12,10]     *              1             0             1 
+   475 w[13,10]     *              1             0             1 
+   476 w[14,10]     *              1             0             1 
+   477 w[15,10]     *              1             0             1 
+   478 w[16,10]     *              1             0             1 
+   479 w[17,10]     *              1             0             1 
+   480 w[18,10]     *              1             0             1 
+   481 w[19,10]     *              0             0             1 
+   482 w[20,10]     *              1             0             1 
+   483 w[21,10]     *              1             0             1 
+   484 w[22,10]     *              0             0             1 
+   485 w[23,10]     *              1             0             1 
+   486 w[24,10]     *              1             0             1 
+   487 w[25,10]     *              1             0             1 
+   488 w[26,10]     *              1             0             1 
+   489 w[27,10]     *              1             0             1 
+   490 w[28,10]     *              1             0             1 
+   491 w[29,10]     *              1             0             1 
+   492 w[30,10]     *              1             0             1 
+   493 w[31,10]     *              1             0             1 
+   494 w[32,10]     *              0             0             1 
+   495 w[33,10]     *              1             0             1 
+   496 w[1,11]      *              1             0             1 
+   497 w[2,11]      *              1             0             1 
+   498 w[3,11]      *              1             0             1 
+   499 w[4,11]      *              1             0             1 
+   500 w[5,11]      *              1             0             1 
+   501 w[6,11]      *              1             0             1 
+   502 w[7,11]      *              1             0             1 
+   503 w[8,11]      *              1             0             1 
+   504 w[9,11]      *              1             0             1 
+   505 w[10,11]     *              1             0             1 
+   506 w[11,11]     *              1             0             1 
+   507 w[12,11]     *              1             0             1 
+   508 w[13,11]     *              1             0             1 
+   509 w[14,11]     *              1             0             1 
+   510 w[15,11]     *              1             0             1 
+   511 w[16,11]     *              1             0             1 
+   512 w[17,11]     *              1             0             1 
+   513 w[18,11]     *              1             0             1 
+   514 w[19,11]     *              1             0             1 
+   515 w[20,11]     *              1             0             1 
+   516 w[21,11]     *              1             0             1 
+   517 w[22,11]     *              1             0             1 
+   518 w[23,11]     *              1             0             1 
+   519 w[24,11]     *              1             0             1 
+   520 w[25,11]     *              1             0             1 
+   521 w[26,11]     *              1             0             1 
+   522 w[27,11]     *              1             0             1 
+   523 w[28,11]     *              1             0             1 
+   524 w[29,11]     *              1             0             1 
+   525 w[30,11]     *              1             0             1 
+   526 w[31,11]     *              1             0             1 
+   527 w[32,11]     *              1             0             1 
+   528 w[33,11]     *              1             0             1 
+   529 w[1,12]      *              1             0             1 
+   530 w[2,12]      *              1             0             1 
+   531 w[3,12]      *              1             0             1 
+   532 w[4,12]      *              1             0             1 
+   533 w[5,12]      *              1             0             1 
+   534 w[6,12]      *              1             0             1 
+   535 w[7,12]      *              1             0             1 
+   536 w[8,12]      *              1             0             1 
+   537 w[9,12]      *              1             0             1 
+   538 w[10,12]     *              1             0             1 
+   539 w[11,12]     *              1             0             1 
+   540 w[12,12]     *              1             0             1 
+   541 w[13,12]     *              1             0             1 
+   542 w[14,12]     *              1             0             1 
+   543 w[15,12]     *              1             0             1 
+   544 w[16,12]     *              1             0             1 
+   545 w[17,12]     *              1             0             1 
+   546 w[18,12]     *              1             0             1 
+   547 w[19,12]     *              1             0             1 
+   548 w[20,12]     *              1             0             1 
+   549 w[21,12]     *              1             0             1 
+   550 w[22,12]     *              1             0             1 
+   551 w[23,12]     *              1             0             1 
+   552 w[24,12]     *              1             0             1 
+   553 w[25,12]     *              1             0             1 
+   554 w[26,12]     *              1             0             1 
+   555 w[27,12]     *              1             0             1 
+   556 w[28,12]     *              1             0             1 
+   557 w[29,12]     *              1             0             1 
+   558 w[30,12]     *              1             0             1 
+   559 w[31,12]     *              1             0             1 
+   560 w[32,12]     *              1             0             1 
+   561 w[33,12]     *              1             0             1 
+   562 w[1,13]      *              1             0             1 
+   563 w[2,13]      *              1             0             1 
+   564 w[3,13]      *              1             0             1 
+   565 w[4,13]      *              1             0             1 
+   566 w[5,13]      *              1             0             1 
+   567 w[6,13]      *              1             0             1 
+   568 w[7,13]      *              1             0             1 
+   569 w[8,13]      *              1             0             1 
+   570 w[9,13]      *              1             0             1 
+   571 w[10,13]     *              1             0             1 
+   572 w[11,13]     *              1             0             1 
+   573 w[12,13]     *              1             0             1 
+   574 w[13,13]     *              1             0             1 
+   575 w[14,13]     *              1             0             1 
+   576 w[15,13]     *              1             0             1 
+   577 w[16,13]     *              1             0             1 
+   578 w[17,13]     *              1             0             1 
+   579 w[18,13]     *              1             0             1 
+   580 w[19,13]     *              1             0             1 
+   581 w[20,13]     *              1             0             1 
+   582 w[21,13]     *              1             0             1 
+   583 w[22,13]     *              1             0             1 
+   584 w[23,13]     *              1             0             1 
+   585 w[24,13]     *              1             0             1 
+   586 w[25,13]     *              1             0             1 
+   587 w[26,13]     *              1             0             1 
+   588 w[27,13]     *              1             0             1 
+   589 w[28,13]     *              1             0             1 
+   590 w[29,13]     *              1             0             1 
+   591 w[30,13]     *              1             0             1 
+   592 w[31,13]     *              1             0             1 
+   593 w[32,13]     *              1             0             1 
+   594 w[33,13]     *              1             0             1 
+   595 w[1,14]      *              1             0             1 
+   596 w[2,14]      *              1             0             1 
+   597 w[3,14]      *              1             0             1 
+   598 w[4,14]      *              1             0             1 
+   599 w[5,14]      *              1             0             1 
+   600 w[6,14]      *              1             0             1 
+   601 w[7,14]      *              1             0             1 
+   602 w[8,14]      *              1             0             1 
+   603 w[9,14]      *              1             0             1 
+   604 w[10,14]     *              1             0             1 
+   605 w[11,14]     *              1             0             1 
+   606 w[12,14]     *              1             0             1 
+   607 w[13,14]     *              1             0             1 
+   608 w[14,14]     *              1             0             1 
+   609 w[15,14]     *              1             0             1 
+   610 w[16,14]     *              1             0             1 
+   611 w[17,14]     *              1             0             1 
+   612 w[18,14]     *              1             0             1 
+   613 w[19,14]     *              1             0             1 
+   614 w[20,14]     *              1             0             1 
+   615 w[21,14]     *              1             0             1 
+   616 w[22,14]     *              1             0             1 
+   617 w[23,14]     *              1             0             1 
+   618 w[24,14]     *              1             0             1 
+   619 w[25,14]     *              1             0             1 
+   620 w[26,14]     *              1             0             1 
+   621 w[27,14]     *              1             0             1 
+   622 w[28,14]     *              1             0             1 
+   623 w[29,14]     *              1             0             1 
+   624 w[30,14]     *              1             0             1 
+   625 w[31,14]     *              1             0             1 
+   626 w[32,14]     *              1             0             1 
+   627 w[33,14]     *              1             0             1 
+   628 w[1,15]      *              1             0             1 
+   629 w[2,15]      *              1             0             1 
+   630 w[3,15]      *              1             0             1 
+   631 w[4,15]      *              1             0             1 
+   632 w[5,15]      *              1             0             1 
+   633 w[6,15]      *              1             0             1 
+   634 w[7,15]      *              1             0             1 
+   635 w[8,15]      *              1             0             1 
+   636 w[9,15]      *              1             0             1 
+   637 w[10,15]     *              1             0             1 
+   638 w[11,15]     *              1             0             1 
+   639 w[12,15]     *              1             0             1 
+   640 w[13,15]     *              1             0             1 
+   641 w[14,15]     *              1             0             1 
+   642 w[15,15]     *              1             0             1 
+   643 w[16,15]     *              1             0             1 
+   644 w[17,15]     *              1             0             1 
+   645 w[18,15]     *              1             0             1 
+   646 w[19,15]     *              1             0             1 
+   647 w[20,15]     *              1             0             1 
+   648 w[21,15]     *              1             0             1 
+   649 w[22,15]     *              1             0             1 
+   650 w[23,15]     *              1             0             1 
+   651 w[24,15]     *              1             0             1 
+   652 w[25,15]     *              1             0             1 
+   653 w[26,15]     *              1             0             1 
+   654 w[27,15]     *              1             0             1 
+   655 w[28,15]     *              1             0             1 
+   656 w[29,15]     *              1             0             1 
+   657 w[30,15]     *              1             0             1 
+   658 w[31,15]     *              1             0             1 
+   659 w[32,15]     *              1             0             1 
+   660 w[33,15]     *              1             0             1 
+   661 y[6]         *              1             0             1 
+   662 y[7]         *              1             0             1 
+   663 y[8]         *              1             0             1 
+   664 y[9]         *              1             0             1 
+   665 y[10]        *              1             0             1 
+   666 y[11]        *              1             0             1 
+   667 y[12]        *              0             0             1 
+   668 y[13]        *              0             0             1 
+   669 y[14]        *              0             0             1 
+   670 y[15]        *              0             0             1 
+   671 e[6]         *              0             0             1 
+   672 e[7]         *              0             0             1 
+   673 e[8]         *              0             0             1 
+   674 e[9]         *              0             0             1 
+   675 e[10]        *              1             0             1 
+   676 e[11]        *              0             0             1 
+   677 e[12]        *              0             0             1 
+   678 e[13]        *              0             0             1 
+   679 e[14]        *              0             0             1 
+   680 e[15]        *              0             0             1 
+   681 z[6]         *              0             0             1 
+   682 z[7]         *              0             0             1 
+   683 z[8]         *              0             0             1 
+   684 z[9]         *              0             0             1 
+   685 z[10]        *              1             0             1 
+   686 z[11]        *              1             0             1 
+   687 z[12]        *              1             0             1 
+   688 z[13]        *              1             0             1 
+   689 z[14]        *              1             0             1 
+   690 z[15]        *              1             0             1 
+   691 max                        11                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 4.44e-16 on row 61
+        max.rel.err = 1.48e-16 on row 61
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
