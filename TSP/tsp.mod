@@ -1,4 +1,4 @@
-/*RUTEO CONTINUO*/
+/*TSP*/
 
 param n, integer;
 
@@ -6,23 +6,22 @@ param n, integer;
 set I:={1..n};
 set R:=I diff {1}; /*El conjunto I sin el elemento inicial*/
 
-/*Parámatros*/
+/*ParÃ¡matros*/
 param Dist{I,I};
 
 /*Variables*/
-var x{I,I},binary;/*Si voy del punto i in I al punto j in I*/
-var u{I}>=1;
+var x{I,I},binary; /*Si voy del punto i in I al punto j in I*/
+var u{I}>=1; /*Variable auxiliar*/
 
 /*Función Objetivo*/
 minimize FO:sum{i in I,j in I}Dist[i,j]*x[i,j];
 
 /*Restricciones*/
-
 s.t. res555{i in I}:sum{j in I}x[i,j]=1;
 s.t. res777{j in I}:sum{i in I}x[i,j]=1;
 s.t. res888{i in I}:x[i,i]=0;
 
-/*La siguiente restricción es la que rompe los subciclos. Eliminarla para notar su funcionalidad. La explicación la hago otro día*/
+/*La siguiente restricción es la que rompe los subciclos. Eliminarla para notar su funcionalidad. La explicaciï¿½n la hago otro dï¿½a*/
 s.t. res788{i in R,j in R:j<>i}:u[i]-u[j]+card(I)*x[i,j]<=card(I) - 1;
 #s.t. res788{i in I,j in I:j<>i and i>1 and j>1}:u[i]-u[j]+card(I)*x[i,j]<=card(I) - 1;
 
